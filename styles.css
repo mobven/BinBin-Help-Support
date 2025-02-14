@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font tanımlamaları */
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    padding: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #323232;
+}
+
+.support-card {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin: 16px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #323232;
+}
+
+.support-icon {
+    margin-right: 16px;
+}
+
+.support-content {
+    flex: 1;
+}
+
+.support-content h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.support-content p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.arrow-icon {
+    color: #999;
+}
+
+.support-nav {
+    padding: 0 16px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-item:last-child {
+    border-bottom: none;
+}
+
+.nav-item span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* Sürüş Rehberi Stilleri */
+.guide-list {
+    padding: 16px;
+}
+
+.guide-item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    color: inherit;
+}
+
+.guide-icon {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+
+.guide-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.guide-content {
+    flex: 1;
+}
+
+.guide-content h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.guide-content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.guide-arrow {
+    margin-left: 16px;
+}
+
+/* Tab Yapısı */
+.tabs {
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    position: relative;
+    background: #F3F9F9;
+    border-radius: 12px;
+    margin: 16px 20px 0 20px;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    color: #323232;
+}
+
+.tab-button.active {
+    color: #323232;
+}
+
+/* Tab slider arka planı */
+.tab-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px 6px;
+}
+
+.tab-slider {
+    position: absolute;
+    width: calc(50% - 6px);
+    height: calc(100% - 10px);
+    background: #00DFF4;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    top: 5px;
+}
+
+/* İkinci tab aktif olduğunda slider'ı kaydır */
+.tab-button:nth-child(2).active ~ .tab-background .tab-slider {
+    transform: translateX(calc(100%));
+}
+
+/* İçerik Alanı */
+.rules-content {
+    padding: 24px 16px;
+    overflow-y: auto;
+    padding-bottom: 80px;
+}
+
+.rules-section {
+    display: none;
+}
+
+.rules-section.active {
+    display: block;
+}
+
+.rule-item {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.rule-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.rule-item h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.rule-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Alt Tab Menüsü */
+.sub-tabs {
+    display: flex;
+    padding: 0;
+    margin-top: 24px;
+    border-bottom: 1px solid #eee;
+    justify-content: space-evenly;
+}
+
+.sub-tab-button {
+    border: none;
+    background: none;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #999;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    min-width: 120px;
+    text-align: center;
+}
+
+.sub-tab-button.active {
+    color: #333;
+}
+
+.sub-tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #00D1FF;
+}
+
+/* Alt Buton */
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 16px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.next-button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    background: #00D1FF;
+    color: #323232;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.next-button::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z' fill='%23323232'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Mod Seçimi Sayfası Stilleri */
+.mode-content {
+    padding: 24px 16px;
+    text-align: left;
+}
+
+.mode-section {
+    display: none;
+}
+
+.mode-section.active {
+    display: block;
+}
+
+.mode-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.mode-section h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+.speed-modes {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.speed-mode {
+    flex: 1;
+    padding: 8px;
+    background: #F5F7F9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.speed {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+}
+
+.mode-info {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.mode-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.mode-tip {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Tab Yapısı - Mod Seçimi Sayfası için */
+.mode-tabs {
+    display: flex;
+    padding: 0;
+    margin-top: 16px;
+    border-bottom: 1px solid #eee;
+    background: white;
+    justify-content: space-evenly;
+}
+
+.mode-tab-button {
+    border: none;
+    background: none;
+    padding: 16px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #999;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    min-width: 120px;
+    text-align: center;
+}
+
+.mode-tab-button.active {
+    color: #333;
+}
+
+.mode-tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #00D1FF;
+}
+
+/* Kullanım Alanları Stilleri */
+.usage-item {
+    margin-bottom: 40px;
+}
+
+.usage-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.usage-item h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.usage-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Harita Kılavuzu Stilleri */
+.map-content {
+    padding: 24px 16px;
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.map-section {
+    display: none;
+}
+
+.map-section.active {
+    display: block;
+}
+
+.map-item {
+    margin-bottom: 40px;
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.map-item h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.map-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Sıkça Sorulan Sorular Stilleri */
+.search-container {
+    padding: 16px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #F5F7F9;
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.search-input {
+    border: none;
+    background: none;
+    flex: 1;
+    font-size: 16px;
+    color: #323232;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+.vehicle-selection {
+    padding: 0 16px;
+}
+
+.vehicle-option {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.vehicle-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.vehicle-option span {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: #323232;
+}
+
+.chevron-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.common-topics {
+    padding: 24px 16px;
+}
+
+.common-topics h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #323232;
+    margin-bottom: 16px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.faq-question span {
+    font-size: 16px;
+    color: #323232;
+    line-height: 1.4;
+} 
