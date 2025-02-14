@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harita Kılavuzu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="driving-guide.html" class="back-button">
+                <img src="images/back-arrow.svg" alt="Geri" width="24" height="24">
+            </a>
+            <h1>Harita Kılavuzu</h1>
+        </header>
+
+        <!-- Tab Yapısı -->
+        <div class="mode-tabs">
+            <button class="mode-tab-button active" data-tab="map">Harita Alanları</button>
+            <button class="mode-tab-button" data-tab="binbin">BinBinler</button>
+        </div>
+
+        <!-- İçerik Alanı -->
+        <div class="map-content">
+            <!-- Harita Alanları -->
+            <div class="map-section active" data-tab="map">
+                <div class="map-item">
+                    <img src="images/no-parking-area.svg" alt="Park Edilemez Alan" class="map-image">
+                    <h2>Park edilemez alan</h2>
+                    <p>Cezai durumlarla karşılaşmamak için aracını park yasağı olmayan yerlere ve kurallara uygun şekilde park et.</p>
+                </div>
+
+                <div class="map-item">
+                    <img src="images/discount-area.svg" alt="İndirimli Park Alanı" class="map-image">
+                    <h2>İndirimli park alanı</h2>
+                    <p>Haritadan çevrendeki indirimli park alanlarını kontrol et, yolculuğunu daha ekonomik hale getir.</p>
+                </div>
+
+                <div class="map-item">
+                    <img src="images/no-service-area.svg" alt="Hizmet Dışı Alanlar" class="map-image">
+                    <h2>Hizmet dışı alanlar</h2>
+                    <p>Cezai bir durumla karşılaşmamak için sürüş esnasında ve yolculuğunu bitirirken haritayı kontrol et ve hizmet dışı alanda olmadığından emin ol.</p>
+                </div>
+            </div>
+
+            <!-- BinBinler -->
+            <div class="map-section" data-tab="binbin">
+                <div class="map-item">
+                    <img src="images/recommended-binbin.svg" alt="Önerilen BinBin" class="map-image">
+                    <h2>Önerilen BinBin</h2>
+                    <p>Cezai durumlarla karşılaşmamak için aracını park yasağı olmayan yerlere ve kurallara uygun şekilde park et.</p>
+                </div>
+
+                <div class="map-item">
+                    <img src="images/discounted-binbin.svg" alt="İndirimli BinBin" class="map-image">
+                    <h2>İndirimli BinBin</h2>
+                    <p>Çevrendeki indirimli scooter ve mopedler lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="map-item">
+                    <img src="images/recommended-discounted-binbin.svg" alt="Önerilen ve İndirimli BinBin" class="map-image">
+                    <h2>Önerilen ve İndirimli BinBin</h2>
+                    <p>Hem sana önerilen hem de indirimli scooter ve mopedler ile lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alt Buton -->
+        <div class="fixed-bottom">
+            <button class="next-button">
+                <span>BinBinler</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="map-guide.js"></script>
+</body>
+</html> 

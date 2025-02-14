@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod Seçimi ve Kullanımı</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="driving-guide.html" class="back-button">
+                <img src="images/back-arrow.svg" alt="Geri" width="24" height="24">
+            </a>
+            <h1>Mod Seçimi ve Kullanımı</h1>
+        </header>
+
+        <!-- Tab Yapısı -->
+        <div class="mode-tabs">
+            <button class="mode-tab-button active" data-tab="mod">Mod Seçimi</button>
+            <button class="mode-tab-button" data-tab="usage">Kullanım Alanları</button>
+        </div>
+
+        <!-- İçerik Alanı -->
+        <div class="mode-content">
+            <div class="mode-section active" data-tab="mod">
+                <img src="images/mode-selection-image.svg" alt="Mod Seçimi" class="mode-image">
+                <h2>Scooter sürüş modunu sürüş öncesi yolculuğuna uygun şekilde ayarla!</h2>
+                
+                <div class="speed-modes">
+                    <div class="speed-mode">
+                        <span class="speed">0-10 km/s</span>
+                    </div>
+                    <div class="speed-mode">
+                        <span class="speed">0-15 km/s</span>
+                    </div>
+                    <div class="speed-mode">
+                        <span class="speed">0-25 km/s</span>
+                    </div>
+                </div>
+
+                <p class="mode-info">Birbirinde 3 sürüş modu bulunur.</p>
+                <p class="mode-description">Scooter direksiyonundaki kapatma tuşuna 2 kez bastığında bu modları görebilirsin.</p>
+                <p class="mode-tip">Her yeni sürüşe başlarken mod rotana, trafik ve hava durumuna göre karar vererek istersen manuel ya da uygulama üzerinden o sürüşe özel değiştirebilirsin.</p>
+            </div>
+            <div class="mode-section" data-tab="usage">
+                <div class="usage-item">
+                    <img src="images/eco-mode.svg" alt="ECO Mod" class="usage-image">
+                    <h2>ECO Mod hangi sürüş için?</h2>
+                    <p>Burada tecrübe, rota, trafik ve hava durumuna göre tercih yapması gerektiğinden bahsedilebilir.</p>
+                </div>
+
+                <div class="usage-item">
+                    <img src="images/drive-mode.svg" alt="Drive Mod" class="usage-image">
+                    <h2>Drive Mod hangi sürüş için?</h2>
+                    <p>Burada tecrübe, rota, trafik ve hava durumuna göre tercih yapması gerektiğinden bahsedilebilir.</p>
+                </div>
+
+                <div class="usage-item">
+                    <img src="images/sport-mode.svg" alt="Sport Mod" class="usage-image">
+                    <h2>Drive Mod hangi sürüş için?</h2>
+                    <p>Burada tecrübe, rota, trafik ve hava durumuna göre tercih yapması gerektiğinden bahsedilebilir.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alt Buton -->
+        <div class="fixed-bottom">
+            <button class="next-button">
+                <span>Kullanım Alanları</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="mode-selection.js"></script>
+</body>
+</html> 

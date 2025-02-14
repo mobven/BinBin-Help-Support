@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapsamlı Sürüş Kuralları</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="driving-guide.html" class="back-button">
+                <img src="images/back-arrow.svg" alt="Geri" width="24" height="24">
+            </a>
+            <h1>Kapsamlı Sürüş Kuralları</h1>
+        </header>
+
+        <!-- Tab Yapısı -->
+        <div class="tabs">
+            <div class="tab-background">
+                <div class="tab-slider"></div>
+            </div>
+            <button class="tab-button active" data-tab="scooter">Scooter</button>
+            <button class="tab-button" data-tab="moped">Moped</button>
+        </div>
+
+        <!-- Alt Tab Menüsü -->
+        <div class="sub-tabs">
+            <button class="sub-tab-button active" data-section="before">Sürüş Öncesi</button>
+            <button class="sub-tab-button" data-section="during">Sürüş Sırası</button>
+            <button class="sub-tab-button" data-section="after">Sürüş Bitimi</button>
+        </div>
+
+        <!-- İçerik Alanı -->
+        <div class="rules-content">
+            <div class="rules-section active" data-section="before">
+                <div class="rule-item">
+                    <img src="images/rule-image-1.svg" alt="Haritada BinBin" class="rule-image">
+                    <h2>Haritada seçtiğin BinBin'i daha kolay bulmak için zil çalabilirsin!</h2>
+                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/rule-image-2.svg" alt="QR Kod" class="rule-image">
+                    <h2>Seçtiğin BinBin ile sürüşe başlamak için QR okut!</h2>
+                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/rule-image-3.svg" alt="Sürüş Modu" class="rule-image">
+                    <h2>Yolculuğuna uygun sürüş modunu ayarlayabilirsin.</h2>
+                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/rule-image-4.svg" alt="Güvenlik Pedalı" class="rule-image">
+                    <h2>Güvenlik pedalını kaldır ve ayağını iterek hızlan!</h2>
+                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/rule-image-5.svg" alt="Gaz ve Fren" class="rule-image">
+                    <h2>Gaz ve freni kontrollü kullanarak sürüşe başla!</h2>
+                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
+                </div>
+            </div>
+            <div class="rules-section" data-section="during">
+                <!-- Sürüş Sırası içeriği -->
+            </div>
+            <div class="rules-section" data-section="after">
+                <!-- Sürüş Bitimi içeriği -->
+            </div>
+        </div>
+
+        <!-- Alt Buton -->
+        <div class="fixed-bottom">
+            <button class="next-button">
+                <span>Sürüş Sırası Kuralları</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="comprehensive-rules.js"></script>
+</body>
+</html> 
