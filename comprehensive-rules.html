@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Kapsamlı Sürüş Kuralları</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <header class="header">
@@ -22,6 +24,7 @@
             </div>
             <button class="tab-button active" data-tab="scooter">Scooter</button>
             <button class="tab-button" data-tab="moped">Moped</button>
+            <button class="tab-button" data-tab="ebike">E-Bike</button>
         </div>
 
         <!-- Alt Tab Menüsü -->
@@ -32,43 +35,229 @@
         </div>
 
         <!-- İçerik Alanı -->
-        <div class="rules-content">
+        <div class="rules-content active" id="scooter-rules">
             <div class="rules-section active" data-section="before">
                 <div class="rule-item">
-                    <img src="images/rule-image-1.svg" alt="Haritada BinBin" class="rule-image">
-                    <h2>Haritada seçtiğin BinBin'i daha kolay bulmak için zil çalabilirsin!</h2>
+                    <img src="images/scooter_rule_before_1.svg" alt="Haritada BinBin" class="rule-image">
+                    <h2>Güvenlik aksesuarları</h2>
+                    <p>Yolculuğa başlamadan önce mutlaka kişisel güvenlik önlemlerini almanı öneriyoruz. Kask, kolluk ve
+                        dizlik kullanımı güvenliğini artırır</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/scooter_rule_before_2.svg" alt="QR Kod" class="rule-image">
+                    <h2>Rota oluşturma</h2>
+                    <p>Sürüşe başlamadan önce gideceğin noktayı haritadan teyit etmeyi unutma! Varış noktan BinBin
+                        hizmet alanı dışında ise rotanı değiştirmelisin.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/scooter_rule_before_3.svg" alt="Sürüş Modu" class="rule-image">
+                    <h2>Son kontroller</h2>
+                    <p>Sürüşten önce telefonun şarjını, cihazın şarj, fren, gaz ve ışıklarını kontrol etmeyi unutma! Tüm
+                        kontrollerden sonra kiralamaya hazırsın.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/scooter_rule_before_4.svg" alt="Güvenlik Pedalı" class="rule-image">
+                    <h2>Mod seçimi</h2>
                     <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
                 </div>
 
                 <div class="rule-item">
-                    <img src="images/rule-image-2.svg" alt="QR Kod" class="rule-image">
-                    <h2>Seçtiğin BinBin ile sürüşe başlamak için QR okut!</h2>
-                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
-                </div>
-
-                <div class="rule-item">
-                    <img src="images/rule-image-3.svg" alt="Sürüş Modu" class="rule-image">
-                    <h2>Yolculuğuna uygun sürüş modunu ayarlayabilirsin.</h2>
-                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
-                </div>
-
-                <div class="rule-item">
-                    <img src="images/rule-image-4.svg" alt="Güvenlik Pedalı" class="rule-image">
-                    <h2>Güvenlik pedalını kaldır ve ayağını iterek hızlan!</h2>
-                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
-                </div>
-
-                <div class="rule-item">
-                    <img src="images/rule-image-5.svg" alt="Gaz ve Fren" class="rule-image">
-                    <h2>Gaz ve freni kontrollü kullanarak sürüşe başla!</h2>
-                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
+                    <img src="images/scooter_rule_before_5.svg" alt="Gaz ve Fren" class="rule-image">
+                    <h2>Haritadan seçtiğin araç ile sürüşü başlatmak için QR kodu okut.</h2>
+                    <p>Telefonun kamerasıyla QR kodu okutabilirsin.</p>
                 </div>
             </div>
             <div class="rules-section" data-section="during">
-                <!-- Sürüş Sırası içeriği -->
+                <div class="rule-item">
+                    <img src="images/scooter_rule_driving_1.svg" alt="Haritada BinBin" class="rule-image">
+                    <h2>BinBin sadece senin</h2>
+                    <p>BinBin’e iki kişi binmenin güvenli olmadığını unutma! Tek kişilik sürüşünün tadını çıkar.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/scooter_rule_driving_2.svg" alt="QR Kod" class="rule-image">
+                    <h2>Doğru yolda yolculuk et</h2>
+                    <p>Trafik kuralları gereği bisiklet yolunda veya akan trafiğin sağında yolculuk etmelisin. 50 km/s
+                        sınırı olan yollarda sürmemelisin.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/scooter_rule_driving_3.svg" alt="Sürüş Modu" class="rule-image">
+                    <h2>Dengeli bir sürüş</h2>
+                    <p>Manevra yaparken işaret vermek dışında tek elle sürüş yapmamalısın. Dengeni bozacak geniş
+                        çantalar ve ağır yüklerle sürüş yapmamalısın.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/scooter_rule_driving_4.svg" alt="Güvenlik Pedalı" class="rule-image">
+                    <h2>Yayalara dikkat</h2>
+                    <p>BinBin kullanırken trafik kurallarını unutma! Yaya geçidinden BinBin’i yanında sürerek geçmeli ve
+                        kaldırımlarda sürmemelisin. </p>
+                </div>
             </div>
             <div class="rules-section" data-section="after">
-                <!-- Sürüş Bitimi içeriği -->
+                <div class="rule-item">
+                    <img src="images/scooter_rule_after_1.svg" alt="Haritada BinBin" class="rule-image">
+                    <h2>BinBin sadece senin</h2>
+                    <p>BinBin’e iki kişi binmenin güvenli olmadığını unutma! Tek kişilik sürüşünün tadını çıkar.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/scooter_rule_after_2.svg" alt="QR Kod" class="rule-image">
+                    <h2>Doğru yolda yolculuk et</h2>
+                    <p>Trafik kuralları gereği bisiklet yolunda veya akan trafiğin sağında yolculuk etmelisin. 50 km/s
+                        sınırı olan yollarda sürmemelisin.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/scooter_rule_after_3.svg" alt="Sürüş Modu" class="rule-image">
+                    <h2>Dengeli bir sürüş</h2>
+                    <p>Manevra yaparken işaret vermek dışında tek elle sürüş yapmamalısın. Dengeni bozacak geniş
+                        çantalar ve ağır yüklerle sürüş yapmamalısın.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- İçerik Alanı -->
+        <div class="rules-content" id="moped-rules">
+            <div class="rules-section active" data-section="before">
+                <div class="rule-item">
+                    <img src="images/moped_rules_before_1.svg" alt="Haritada BinBin" class="rule-image">
+                    <h2>Güvenlik aksesuarları</h2>
+                    <p>Yolculuğa başlamadan önce mutlaka kişisel güvenlik önlemlerini almanı öneriyoruz. Kask, kolluk ve
+                        dizlik kullanımı güvenliğini artırır</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/moped_rules_before_2.svg" alt="QR Kod" class="rule-image">
+                    <h2>Moped ile sürüşe başlamak için QR kodu okut!</h2>
+                    <p>Telefonun kamerasıyla QR kodu okutabilirsin.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/moped_rules_before_3.svg" alt="Sürüş Modu" class="rule-image">
+                    <h2>Kask kutusu</h2>
+                    <p>Kask kutusunun kilidini açmak için sürüş başlat ve kilit aç butonuna tıkla.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/moped_rules_before_4.svg" alt="Güvenlik Pedalı" class="rule-image">
+                    <h2>Kaskını takmayı unutma</h2>
+                    <p>Kutunun üzerindeki düğmeye bastığında kapak açılır. Artık kaskını takabilirsin.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/moped_rules_before_5.svg" alt="Gaz ve Fren" class="rule-image">
+                    <h2>Ayar tuşları sol, araç çalıştırma sağ tarafta.</h2>
+                    <p>Far ayarım, korna ve sinyal tuşlarına sol taraftan ulaşabilir, aracı çalıştırmak için sağ alttaki
+                        kontak tuşuna basabilirsin.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/moped_rules_before_6.svg" alt="Harita" class="rule-image">
+                    <h2>Son kontroller</h2>
+                    <p>Sürüşten önce telefonun şarjını, cihazın şarj, fren, gaz ve ışıklarını kontrol etmeyi unutma! Tüm
+                        kontrollerden sonra sürüşe hazırsın.</p>
+                </div>
+            </div>
+            <div class="rules-section" data-section="during">
+                <div class="rule-item">
+                    <img src="images/moped_rules_during_1.svg" alt="Haritada BinBin" class="rule-image">
+                    <h2>Dengeli bir sürüş</h2>
+                    <p>Manevra yaparken işaret vermek dışında tek elle sürüş yapmamalı, dengeni bozacak geniş çantalar
+                        ve ağır yükler almamalısın.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/moped_rules_during_2.svg" alt="QR Kod" class="rule-image">
+                    <h2>Yayalara dikkat</h2>
+                    <p>Moped kullanırken trafik kurallarını unutma! Yayalara dikkat etmeli ve kaldırımlarda
+                        sürmemelisin.</p>
+                </div>
+            </div>
+            <div class="rules-section" data-section="after">
+                <div class="rule-item">
+                    <img src="images/moped_rules_after_1.svg" alt="Haritada BinBin" class="rule-image">
+                    <h2>Uygun park alanı</h2>
+                    <p>Mopedi otobüs durağı, yürüyüş yolu ve kaldırıma değil; istasyonlara, yola engel olmayacak
+                        direklere ve hizmet alanlarına park etmelisin.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/moped_rules_after_2.svg" alt="QR Kod" class="rule-image">
+                    <h2>Sürüşünü bitirmek için kontak tuşuna basmayı unutma</h2>
+                    <p>Sürüşünü bitirmek için sağ altta yer alan kontak tuşuna basmalısın.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/moped_rules_after_3.svg" alt="Sürüş Modu" class="rule-image">
+                    <h2>Fotoğraf çek ve bitir</h2>
+                    <p>Sürüşü bitirmek için son adım, fotoğraf çekmek! Mopedin tamamını gösteren bir fotoğraf
+                        çekmelisin.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- İçerik Alanı -->
+        <div class="rules-content" id="ebike-rules">
+            <div class="rules-section active" data-section="before">
+                <div class="rule-item">
+                    <img src="images/ebike_rules_before_1.svg" alt="Haritada BinBin" class="rule-image">
+                    <h2>Güvenlik aksesuarları</h2>
+                    <p>Yolculuğa başlamadan önce mutlaka kişisel güvenlik önlemlerini almanı öneriyoruz. Kask, kolluk ve
+                        dizlik kullanımı güvenliğini artırır</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/ebike_rules_before_2.svg" alt="QR Kod" class="rule-image">
+                    <h2>Seçtiğin bisiklet ile sürüşe başlamak için QR kodu okut!</h2>
+                    <p>Telefonunun kamerasıyla QR kodu okutabilirsin.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/ebike_rules_before_3.svg" alt="Sürüş Modu" class="rule-image">
+                    <h2>Son kontroller</h2>
+                    <p>Sürüşten önce telefonun şarjını, cihazın şarj, fren, gaz ve ışıklarını kontrol etmeyi unutma! Tüm
+                        kontrollerden sonra kiralamaya hazırsın.</p>
+                </div>
+            </div>
+            <div class="rules-section" data-section="during">
+                <div class="rule-item">
+                    <img src="images/ebike_rule_during_1.svg" alt="Haritada BinBin" class="rule-image">
+                    <h2>Doğru yolda yolculuk et</h2>
+                    <p>Trafik kuralları gereği bisiklet yolunda veya akan trafiğin sağında yolculuk etmelisin. 50 km/s
+                        hız sınırı olan yollarda sürmemelisin.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/ebike_rule_during_2.svg" alt="Sürüş Modu" class="rule-image">
+                    <h2>Dengeli bir sürüş</h2>
+                    <p>Manevra yaparken işaret vermek dışında tek elle sürüş yapmamalısın. Dengeni bozacak geniş
+                        çantalar ve ağır yüklerle sürüş yapmamalısın.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/ebike_rule_during_3.svg" alt="QR Kod" class="rule-image">
+                    <h2>Yayalara dikkat</h2>
+                    <p>Bisikleti kullanırken trafik kurallarını unutma! Kaldırımlarda sürmemelisin.</p>
+                </div>
+            </div>
+            <div class="rules-section" data-section="after">
+                <div class="rule-item">
+                    <img src="images/ebike_rule_after_1.svg" alt="Haritada BinBin" class="rule-image">
+                    <h2>Uygun park alanı</h2>
+                    <p>Bisikletini otobüs durağı, yürüyüş yolu ve kaldırıma değil; istasyonlara, yola engel olmayacak
+                        direklere ve hizmet alanlarına park etmelisin.</p>
+                </div>
+
+                <div class="rule-item">
+                    <img src="images/ebike_rule_after_2.svg" alt="QR Kod" class="rule-image">
+                    <h2>Fotoğraf çek ve bitir</h2>
+                    <p>Sürüşünü bitirmek için sağ altta yer alan kontak tuşuna basmalısın.</p>
+                </div>
             </div>
         </div>
 
@@ -82,4 +271,5 @@
 
     <script src="comprehensive-rules.js"></script>
 </body>
-</html> 
+
+</html>

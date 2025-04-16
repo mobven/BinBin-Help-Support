@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const subTabs = document.querySelectorAll('.sub-tab-button');
     const sections = document.querySelectorAll('.rules-section');
     const nextButton = document.querySelector('.next-button');
+    const rulesContents = document.querySelectorAll('.rules-content');
 
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
@@ -15,18 +16,27 @@ document.addEventListener('DOMContentLoaded', function() {
             // Tab slider'ı güncelle
             const tabSlider = document.querySelector('.tab-slider');
             const isSecondTab = button === tabButtons[1];
+            const isThirdTab = button === tabButtons[2];
             if (isSecondTab) {
                 tabSlider.style.transform = 'translateX(calc(100%))';
+                tabSlider.style.background = '#15B1FF';
+                nextButton.style.background = '#15B1FF';
+            } else if (isThirdTab) {
+                tabSlider.style.transform = 'translateX(calc(200%))';
+                tabSlider.style.background = '#3DBCC8';
+                nextButton.style.background = '#3DBCC8';
             } else {
                 tabSlider.style.transform = 'translateX(0)';
+                tabSlider.style.background = '#00DFF4';
+                nextButton.style.background = '#00DFF4';
             }
 
-            // İlgili slider'ı göster
+            // İlgili rules-content'i göster
             const targetTab = button.dataset.tab;
-            sliders.forEach(slider => {
-                slider.classList.remove('active');
-                if (slider.id === `${targetTab}-slider`) {
-                    slider.classList.add('active');
+            rulesContents.forEach(content => {
+                content.classList.remove('active');
+                if (content.id === `${targetTab}-rules`) {
+                    content.classList.add('active');
                 }
             });
         });

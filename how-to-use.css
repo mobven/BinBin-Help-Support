@@ -85,17 +85,25 @@ body {
 
 .tab-slider {
     position: absolute;
-    width: calc(50% - 6px);
+    width: calc(33.6% - 6px);
     height: calc(100% - 10px);
     background: #00DFF4;
     border-radius: 8px;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
     top: 5px;
+    left: 6px;
 }
 
 /* İkinci tab aktif olduğunda slider'ı kaydır */
-.tab-button:nth-child(3).active ~ .tab-background .tab-slider {
-    transform: translateX(calc(100%));
+.tab-button[data-tab="moped"].active ~ .tab-background .tab-slider {
+    transform: translateX(100%);
+    background: #15B1FF !important;
+}
+
+/* Üçüncü tab aktif olduğunda slider'ı kaydır */
+.tab-button[data-tab="ebike"].active ~ .tab-background .tab-slider {
+    transform: translateX(200%);
+    background: #3DBCC8 !important;
 }
 
 .slider-container {
@@ -278,7 +286,7 @@ body {
     background-color: #00D1FF;
 }
 
-.slide {
+.slider {
     padding: 24px;
     text-align: left;
     display: none;
@@ -287,8 +295,16 @@ body {
     min-height: 100%;
 }
 
+.slider.active {
+    display: block;
+}
+
 .slide.active {
     display: block;
+}
+
+.slide {
+    display: none;
 }
 
 @keyframes slideIn {
