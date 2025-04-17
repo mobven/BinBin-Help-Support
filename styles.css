@@ -625,4 +625,156 @@ body {
     font-size: 16px;
     color: #323232;
     line-height: 1.4;
+}
+
+/* Filtre Sekmeleri Stilleri (faq-details.html) */
+.filter-tabs {
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+    overflow-x: auto; /* Yatay kaydırma */
+    white-space: nowrap; /* Sekmelerin yan yana kalmasını sağlar */
+    -webkit-overflow-scrolling: touch; /* iOS için yumuşak kaydırma */
+    scrollbar-width: none; /* Firefox için kaydırma çubuğunu gizle */
+}
+
+/* Kaydırma çubuğunu gizle (Chrome, Safari, Edge) */
+.filter-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.filter-tab {
+    padding: 8px 16px;
+    border: 1px solid #eee; 
+    border-radius: 8px;
+    background-color: #f5f7f9;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    flex-shrink: 0; /* Sekmelerin küçülmesini engelle */
+}
+
+.filter-tab.active {
+    background-color: #00D1FF;
+    color: #323232;
+    border-color: #00D1FF;
+}
+
+/* Araç tipine göre aktif sekme renkleri */
+.vehicle-scooter .filter-tab.active {
+    background-color: #00DFF4;
+    border-color: #00DFF4;
+}
+
+.vehicle-moped .filter-tab.active {
+    background-color: #15B1FF;
+    border-color: #15B1FF;
+}
+
+.vehicle-ebike .filter-tab.active {
+    background-color: #3DBCC8;
+    border-color: #3DBCC8;
+}
+
+/* FAQ Detay Listesi Stilleri */
+.faq-list-details {
+    padding: 16px;
+}
+
+.faq-list-details .faq-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.faq-list-details .faq-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.faq-list-details .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    cursor: pointer;
+    margin-bottom: 8px; /* Soru ile cevap arasına boşluk */
+}
+
+.faq-list-details .faq-question span {
+    font-size: 16px;
+    color: #323232;
+    line-height: 1.4;
+    flex: 1;
+}
+
+.faq-list-details .chevron-icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.faq-list-details .faq-answer {
+    padding-left: 0; /* Gerekirse sola hizalama için */
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    /* display: none; JS ile yönetilecek */
+}
+
+.faq-list-details .faq-answer p {
+    margin-bottom: 8px;
+}
+
+.faq-list-details .faq-answer p:last-child {
+    margin-bottom: 0;
+}
+
+/* FAQ Item Active Durumu (ikon dönüşümü için) */
+.faq-list-details .faq-item.active .chevron-icon {
+    transform: rotate(90deg);
+}
+
+/* Ortak Konular Listesi Stilleri (faq.html) */
+.common-topics .faq-list {
+    padding-top: 16px;
+}
+
+.common-topics .faq-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.common-topics .faq-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.common-topics .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.common-topics .faq-question span {
+    font-size: 16px;
+    color: #323232;
+    line-height: 1.4;
+    flex: 1;
+}
+
+.common-topics .chevron-icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.common-topics .faq-item.active .chevron-icon {
+    transform: rotate(90deg);
 } 

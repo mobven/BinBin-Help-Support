@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const vehicleOptions = document.querySelectorAll('.vehicle-option');
+    const scooterOption = document.getElementById('vehicle-scooter');
+    const mopedOption = document.getElementById('vehicle-moped');
+    const ebikeOption = document.getElementById('vehicle-ebike');
     const searchInput = document.querySelector('.search-input');
     const faqList = document.querySelector('.faq-list');
 
@@ -11,13 +13,43 @@ document.addEventListener('DOMContentLoaded', function() {
     // JSON dosyasından soruları yükle
     loadFaqQuestions(langCode, countryCode);
 
-    // Araç seçeneklerine tıklama işlevi
-    vehicleOptions.forEach(option => {
-        option.addEventListener('click', () => {
-            // İlgili araç türüne özel soruları göster/filtrele
-            const vehicleType = option.querySelector('span').textContent.toLowerCase();
-            // Burada filtreleme mantığı eklenebilir
-        });
+    function navigateToDetails(vehicleType) {
+        // Dil ve ülke kodunu da URL'ye ekleyelim (varsa)
+        const urlParams = new URLSearchParams(window.location.search);
+        const langCode = urlParams.get('langCode') || 'TR';
+        const countryCode = urlParams.get('countryCode') || 'TR';
+        window.location.href = `faq-details.html?vehicle=${vehicleType}&langCode=${langCode}&countryCode=${countryCode}`;
+    }
+
+    if (scooterOption) {
+        scooterOption.addEventListener('click', () => navigateToDetails('scooter'));
+    }
+    if (mopedOption) {
+        mopedOption.addEventListener('click', () => navigateToDetails('moped'));
+    }
+    if (ebikeOption) {
+        ebikeOption.addEventListener('click', () => navigateToDetails('ebike'));
+    }
+
+    // Ortak konular için akordiyon işlevi (faq-details.js'deki gibi)
+    const commonFaqItems = document.querySelectorAll('.common-topics .faq-item');
+    commonFaqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        const icon = item.querySelector('.chevron-icon'); // Ortak konularda cevap yok, sadece aç/kapat ikonu
+
+        if (question && icon) {
+             // Başlangıçta active sınıfını kaldır
+            item.classList.remove('active');
+            icon.style.transform = 'rotate(0deg)'; // Başlangıç ikonu
+
+            question.addEventListener('click', () => {
+                // Sadece ikon ve active sınıfını değiştir
+                 item.classList.toggle('active');
+                 const isActive = item.classList.contains('active');
+                 icon.style.transform = isActive ? 'rotate(90deg)' : 'rotate(0deg)';
+                 // Burada cevap olmadığı için display değişikliği yok
+            });
+        }
     });
 
     // Arama işlevi
