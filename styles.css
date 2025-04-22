@@ -77,6 +77,7 @@ body {
     background-color: white;
     border-radius: 12px;
     border: 1px solid #323232;
+    text-decoration: none;
 }
 
 .support-icon {
@@ -91,6 +92,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 4px;
+    color: #323232;
 }
 
 .support-content p {

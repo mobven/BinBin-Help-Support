@@ -10,13 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // FAQ linkini güncelle
     updateFaqLink(langCode, countryCode);
 
-    // Bin Asistan kartına tıklama olayı
-    const binAsistanCard = document.getElementById('binAsistanCard');
-    if (binAsistanCard) {
-        binAsistanCard.addEventListener('click', function() {
-            window.location.href = 'app://zendesk';
-        });
-    }
 });
 
 function updateContentByLanguage(langCode) {
