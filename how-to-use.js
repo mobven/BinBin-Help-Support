@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const sliders = document.querySelectorAll('.slider');
     const nextButton = document.querySelector('.next-button');
     const dots = document.querySelectorAll('.dot');
+    let currentSlideIndex = 0; // Aktif slide indeksini takip etmek için
 
     // Slide geçiş fonksiyonu
     function goToSlide(currentIndex, direction) {
@@ -36,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 sliderContainer.classList.remove('final-slide-active');
                 nextButton.textContent = 'İlerle';
             }
+
+            currentSlideIndex = nextIndex; // Aktif slide indeksini güncelle
         }
     }
 
@@ -65,13 +68,27 @@ document.addEventListener('DOMContentLoaded', function() {
                 nextButton.style.color = '#323232';
             }
 
-            // İlgili slider'ı göster
+            // İlgili slider'ı göster ve aktif slide'ı ayarla
             const targetTab = button.dataset.tab;
-            console.log(targetTab);
             sliders.forEach(slider => {
                 slider.classList.remove('active');
                 if (slider.id === `${targetTab}-slider`) {
                     slider.classList.add('active');
+                    // Tüm slide'ları gizle
+                    const slides = slider.querySelectorAll('.slide');
+                    slides.forEach(slide => slide.classList.remove('active'));
+                    // Aktif slide'ı göster
+                    if (currentSlideIndex < slides.length) {
+                        slides[currentSlideIndex].classList.add('active');
+                        // Dots'ları güncelle
+                        dots.forEach((dot, index) => {
+                            if (index === currentSlideIndex) {
+                                dot.classList.add('active');
+                            } else {
+                                dot.classList.remove('active');
+                            }
+                        });
+                    }
                 }
             });
         });

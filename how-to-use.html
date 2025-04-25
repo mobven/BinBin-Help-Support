@@ -1,297 +1,348 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Nasıl Kullanılır?</title>
     <link rel="stylesheet" href="how-to-use.css">
 </head>
+
 <body>
-<div class="container">
-    <header class="header">
-        <a href="help-support.html" class="back-button">
-            <img src="images/back-arrow.svg" alt="Geri" width="24" height="24">
-        </a>
-        <h1>Nasıl Kullanılır?</h1>
-    </header>
+    <div class="container">
+        <header class="header">
+            <a href="help-support.html" class="back-button">
+                <img src="images/back-arrow.svg" alt="Geri" width="24" height="24">
+            </a>
+            <h1>Nasıl Kullanılır?</h1>
+        </header>
 
-    <div class="tabs">
-        <div class="tab-background">
-            <div class="tab-slider"></div>
+        <div class="tabs">
+            <div class="tab-background">
+                <div class="tab-slider"></div>
+            </div>
+            <button class="tab-button active" data-tab="scooter">Scooter</button>
+            <button class="tab-button" data-tab="moped">Moped</button>
+            <button class="tab-button" data-tab="ebike">E-Bike</button>
         </div>
-        <button class="tab-button active" data-tab="scooter">Scooter</button>
-        <button class="tab-button" data-tab="moped">Moped</button>
-        <button class="tab-button" data-tab="ebike">E-Bike</button>
+
+        <div class="slider-container">
+            <div class="slide-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <div class="slider active" id="scooter-slider">
+                <!-- Slide 1 -->
+                <div class="slide active" data-slide="1">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-scooter.svg" alt="Scooter QR" class="slide-image">
+                        <h2>QR Kodu Okut</h2>
+                        <p>Haritada seçtiğin BinBin ile sürüş başlatmak için QR kodu telefonunun kamerasıyla okut.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide" data-slide="2">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-scooter-2.svg" alt="Scooter Güvenlik" class="slide-image">
+                        <h2>Sürüş Modu Seçimi</h2>
+                        <p>Eco, Drive ve Sport olarak 3 ana sürüş modu bulunmaktadır. Sürüşten önce, kendine uygun sürüş
+                            modunu uygulama üzerinden ayarlayabilirsin.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide" data-slide="3">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-scooter-3.svg" alt="Scooter Kontrol" class="slide-image">
+                        <h2>Sürüşe Başla</h2>
+                        <p>Güvenlik pedalını kaldır ve ayağınla iterek hızlan</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="slide" data-slide="4">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-scooter-4.svg" alt="Scooter Mod" class="slide-image">
+                        <h2>Gaz-Fren Dengesi</h2>
+                        <p>Gaz ve freni kontrollü kullanarak sürüşe başla.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="slide" data-slide="5">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-scooter-5.svg" alt="Bisiklet Yolu" class="slide-image">
+                        <h2>Trafik Kuralları</h2>
+                        <p>Trafik kuralları gereği, bisiklet yolunda veya akan trafiğin sağında yolculuk etmelisin. Yaya
+                            kaldırımında sürmemelisin.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 6 -->
+                <div class="slide" data-slide="6">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-scooter-6.svg" alt="Bisiklet Yolu" class="slide-image">
+                        <h2>Sürüş Bitimi ve Park</h2>
+                        <p>Hizmet bölgemiz içerisindeki alanlara, kurallara uygun şekilde park ederek sürüşünü
+                            sonlandırabilirsin.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 7 -->
+                <div class="slide final-slide" data-slide="7">
+                    <div class="slide-content">
+                        <h2 class="final-title">Sürüşe başlamadan önce diğer güvenlik kurallarını da hatırlatalım</h2>
+                        <div class="safety-rules">
+                            <div class="safety-rule">
+                                <img src="images/helmet-icon.svg" alt="Kask" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>Koruyucu ekipman kullan!</h3>
+                                    <p>Yolculuğa başlamadan önce mutlaka kişisel güvenlik önlemlerini almanı öneriyoruz.
+                                        Kask, kolluk ve dizlik kullanımı güvenliğini arttırır.</p>
+                                </div>
+                            </div>
+                            <div class="safety-rule">
+                                <img src="images/single-rider-icon.svg" alt="Trafik" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>BinBin'i tek kişi kullan!</h3>
+                                    <p>BinBin, tek kişiliktir. Güvenliğin için, BinBin’i her zaman tek başına
+                                        kullanmalısın.</p>
+                                </div>
+                            </div>
+                            <div class="safety-rule">
+                                <img src="images/traffic-icon.svg" alt="Alkol Yasak" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>Trafik kurallarına uy!</h3>
+                                    <p>Trafik kurallarına uyacağına güveniyoruz. Araçlar için geçerli tüm kurallar,
+                                        BinBin’ler için de geçerlidir.</p>
+                                </div>
+                            </div>
+                            <div class="safety-rule">
+                                <img src="images/no-alcohol-icon.svg" alt="Tek Kişi" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>Alkollü sürüş yapmak yasaktır!</h3>
+                                    <p>Alkollüyken BinBin kullanmak, tehlikeli ve yasaktır!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider" id="moped-slider">
+                <!-- Slide 1 -->
+                <div class="slide active" data-slide="1">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-moped.svg" alt="Scooter QR" class="slide-image">
+                        <h2>Moped ile sürüşe başlamak için QR kodu okut!</h2>
+                        <p>Telefonun kamerasıyla QR kodu okutabilirsin.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide" data-slide="2">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-moped-2.svg" alt="Scooter Güvenlik" class="slide-image">
+                        <h2>Kaskını takmayı unutma</h2>
+                        <p>Kutunun üzerindeki düğmeye bastığında kapak açılır. Artık kaskını takabilirsin.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide" data-slide="3">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-moped-3.svg" alt="Scooter Kontrol" class="slide-image">
+                        <h2>Ayar tuşları sol, araç çalıştırma sağ tarafta.</h2>
+                        <p>Far ayarı, korna ve sinyal tuşlarına sol taraftan ulaşabilir, aracı çalıştırmak için sağ
+                            alttaki kontak tuşuna basabilirsin.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="slide" data-slide="4">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-moped-4.svg" alt="Scooter Mod" class="slide-image">
+                        <h2>Yayalara dikkat</h2>
+                        <p>Moped kullanırken trafik kurallarını unutma! Yayalara dikkat etmeli, kaldırımlarda sürmemeli
+                            ve araçlar için geçerli olan tüm kurallara uymalısın.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="slide" data-slide="5">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-moped-5.svg" alt="Bisiklet Yolu" class="slide-image">
+                        <h2>Uygun park alanı</h2>
+                        <p>Mopedi otobüs durağı, yürüyüş yolu ve kaldırıma değil; istasyonlara, yola engel olmayacak
+                            direklere ve hizmet alanlarına park etmelisin.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 6 -->
+                <div class="slide" data-slide="6">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-moped-6.svg" alt="Bisiklet Yolu" class="slide-image">
+                        <h2>Sürüşünü bitirmek için kontak tuşuna basmayı unutma</h2>
+                        <p>Sürüşünü bitirmek için sağ altta yer alan kontak tuşuna basmalısın.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 7 -->
+                <div class="slide final-slide" data-slide="7">
+                    <div class="slide-content">
+                        <h2 class="final-title">Sürüşe başlamadan önce diğer güvenlik kurallarını da hatırlatalım</h2>
+                        <div class="safety-rules">
+                            <div class="safety-rule">
+                                <img src="images/helmet-icon.svg" alt="Kask" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>Koruyucu ekipman kullan!</h3>
+                                    <p>Yolculuğa başlamadan önce mutlaka kişisel güvenlik önlemlerini almanı öneriyoruz.
+                                        Kask, kolluk ve dizlik kullanımı güvenliğini arttırır.</p>
+                                </div>
+                            </div>
+                            <div class="safety-rule">
+                                <img src="images/single-rider-icon.svg" alt="Trafik" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>BinBin'i tek kişi kullan!</h3>
+                                    <p>BinBin, tek kişiliktir. Güvenliğin için, BinBin’i her zaman tek başına
+                                        kullanmalısın.</p>
+                                </div>
+                            </div>
+                            <div class="safety-rule">
+                                <img src="images/traffic-icon.svg" alt="Alkol Yasak" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>Trafik kurallarına uy!</h3>
+                                    <p>Trafik kurallarına uyacağına güveniyoruz. Araçlar için geçerli tüm kurallar,
+                                        BinBin’ler için de geçerlidir.</p>
+                                </div>
+                            </div>
+                            <div class="safety-rule">
+                                <img src="images/no-alcohol-icon.svg" alt="Tek Kişi" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>Alkollü sürüş yapmak yasaktır!</h3>
+                                    <p>Alkollüyken BinBin kullanmak, tehlikeli ve yasaktır!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider" id="ebike-slider">
+                <!-- Slide 1 -->
+                <div class="slide active" data-slide="1">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-ebike.svg" alt="Scooter QR" class="slide-image">
+                        <h2>Seçtiğin bisiklet ile sürüşe başlamak için QR kodu okut!</h2>
+                        <p>Telefonunun kamerasıyla QR kodu okutabilirsin.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide" data-slide="2">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-ebike-2.svg" alt="Scooter Güvenlik" class="slide-image">
+                        <h2>Ayaklığı indir ve yola çık</h2>
+                        <p>Ayaklığı indirdikten sonra pedal çevirmeye başla. Gidon üzerinde sağ ve solda bulunan fren
+                            manetlerini sıkarak yavaşlayabilir ve durabilirsin.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide" data-slide="3">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-ebike-3.svg" alt="Scooter Kontrol" class="slide-image">
+                        <h2>Doğru yolda yolculuk et</h2>
+                        <p>Trafik kuralları gereği bisiklet yolunda veya akan trafiğin sağında yolculuk etmelisin. 50
+                            km/s hız sınırı olan yollarda sürmemelisin.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="slide" data-slide="4">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-ebike-4.svg" alt="Scooter Mod" class="slide-image">
+                        <h2>Yayalara dikkat</h2>
+                        <p>Bisikleti kullanırken trafik kurallarını unutma! Kaldırımlarda sürmemeli ve trafik
+                            kurallarına uymalısın.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="slide" data-slide="5">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-ebike-5.svg" alt="Bisiklet Yolu" class="slide-image">
+                        <h2>Uygun park alanı</h2>
+                        <p>Bisikletini otobüs durağı, yürüyüş yolu ve kaldırıma değil; istasyonlara, yola engel
+                            olmayacak direklere ve hizmet alanlarına park etmelisin. Park ederken bisikletinin dik
+                            durması için ayaklığını orta sehpaya almayı unutma.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 6 -->
+                <div class="slide" data-slide="6">
+                    <div class="slide-content">
+                        <img src="images/how-to-use-ebike-6.svg" alt="Bisiklet Yolu" class="slide-image">
+                        <h2>Fotoğraf çek ve bitir</h2>
+                        <p>Bisikletin dik konumdayken, tamamı görünecek şekilde fotoğrafını çekerek sürüşünü bitir.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 7 -->
+                <div class="slide final-slide" data-slide="7">
+                    <div class="slide-content">
+                        <h2 class="final-title">Sürüşe başlamadan önce diğer güvenlik kurallarını da hatırlatalım</h2>
+                        <div class="safety-rules">
+                            <div class="safety-rule">
+                                <img src="images/helmet-icon.svg" alt="Kask" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>Koruyucu ekipman kullan!</h3>
+                                    <p>Yolculuğa başlamadan önce mutlaka kişisel güvenlik önlemlerini almanı öneriyoruz.
+                                        Kask, kolluk ve dizlik kullanımı güvenliğini arttırır.</p>
+                                </div>
+                            </div>
+                            <div class="safety-rule">
+                                <img src="images/single-rider-icon.svg" alt="Trafik" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>BinBin'i tek kişi kullan!</h3>
+                                    <p>BinBin, tek kişiliktir. Güvenliğin için, BinBin’i her zaman tek başına
+                                        kullanmalısın.</p>
+                                </div>
+                            </div>
+                            <div class="safety-rule">
+                                <img src="images/traffic-icon.svg" alt="Alkol Yasak" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>Trafik kurallarına uy!</h3>
+                                    <p>Trafik kurallarına uyacağına güveniyoruz. Araçlar için geçerli tüm kurallar,
+                                        BinBin’ler için de geçerlidir.</p>
+                                </div>
+                            </div>
+                            <div class="safety-rule">
+                                <img src="images/no-alcohol-icon.svg" alt="Tek Kişi" class="rule-icon">
+                                <div class="rule-content">
+                                    <h3>Alkollü sürüş yapmak yasaktır!</h3>
+                                    <p>Alkollüyken BinBin kullanmak, tehlikeli ve yasaktır!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="slider-container">
-        <div class="slide-dots">
-            <span class="dot active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-        <div class="slider active" id="scooter-slider">
-            <!-- Slide 1 -->
-            <div class="slide active" data-slide="1">
-                <div class="slide-content">
-                    <img src="images/how-to-use-scooter.svg" alt="Scooter QR" class="slide-image">
-                    <h2>Haritada seçtiğin BinBin'le sürüşü başlatmak için QR kodu okut.</h2>
-                    <p>Aracınıza ve yolculuğunuza en uygun arj istasyonunu haritadan seçerek yol tarifi alın!</p>
-                </div>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="slide" data-slide="2">
-                <div class="slide-content">
-                    <img src="images/how-to-use-scooter.svg" alt="Scooter Güvenlik" class="slide-image">
-                    <h2>Güvenlik pedalını kaldır ve ayağını iterek hızlan!</h2>
-                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
-                </div>
-            </div>
-
-            <!-- Slide 3 -->
-            <div class="slide" data-slide="3">
-                <div class="slide-content">
-                    <img src="images/how-to-use-scooter.svg" alt="Scooter Kontrol" class="slide-image">
-                    <h2>Gaz ve freni kontrollü kullanarak sürüşe başla!</h2>
-                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
-                </div>
-            </div>
-
-            <!-- Slide 4 -->
-            <div class="slide" data-slide="4">
-                <div class="slide-content">
-                    <img src="images/how-to-use-scooter.svg" alt="Scooter Mod" class="slide-image">
-                    <h2>Scooter sürüş modunu her sürüş öncesi rotana uygun ayarla!</h2>
-                    <p>BinBin'de 3 sürüş modu bulunur. Scooter direksiyonu üzerindeki kapatma tuşuna 2 kez bastığında bu modları görebilirsin.</p>
-                </div>
-            </div>
-
-            <!-- Slide 5 -->
-            <div class="slide" data-slide="5">
-                <div class="slide-content">
-                    <img src="images/how-to-use-scooter.svg" alt="Bisiklet Yolu" class="slide-image">
-                    <h2>Bisiklet yollarını tercih ederek sürüş gerçekleştirmeni öneririz</h2>
-                    <p>Rotanda bisiklet yolu bulunuyorsa sürüş güvenliği için bu yolu kullanabilirsin.</p>
-                </div>
-            </div>
-
-            <!-- Slide 6 -->
-            <div class="slide final-slide" data-slide="6">
-                <div class="slide-content">
-                    <h2 class="final-title">Son olarak, güvenlik kurallarını tekrar hatırlatalım</h2>
-                    <div class="safety-rules">
-                        <div class="safety-rule">
-                            <img src="images/helmet-icon.svg" alt="Kask" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>Kişisel kaskını kullan!</h3>
-                                <p>Sürüşlerini kask kullanımı ile daha güvenli gerçekleştirebilirsin.</p>
-                            </div>
-                        </div>
-                        <div class="safety-rule">
-                            <img src="images/traffic-icon.svg" alt="Trafik" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>Trafik kurallarına uy!</h3>
-                                <p>Lorem ipsum dolor sit amet and lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="safety-rule">
-                            <img src="images/no-alcohol-icon.svg" alt="Alkol Yasak" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>Alkollü sürmek yasaktır!</h3>
-                                <p>Lorem ipsum dolor sit amet and lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="safety-rule">
-                            <img src="images/single-rider-icon.svg" alt="Tek Kişi" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>BinBin'i tek kişi kullan!</h3>
-                                <p>Lorem ipsum dolor sit amet and lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="slider" id="moped-slider">
-            <!-- Slide 1 -->
-            <div class="slide active" data-slide="1">
-                <div class="slide-content">
-                    <img src="images/how-to-use-moped.svg" alt="Scooter QR" class="slide-image">
-                    <h2>Haritada seçtiğin BinBin'le sürüşü başlatmak için QR kodu okut.</h2>
-                    <p>Aracınıza ve yolculuğunuza en uygun arj istasyonunu haritadan seçerek yol tarifi alın!</p>
-                </div>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="slide" data-slide="2">
-                <div class="slide-content">
-                    <img src="images/how-to-use-moped.svg" alt="Scooter Güvenlik" class="slide-image">
-                    <h2>Güvenlik pedalını kaldır ve ayağını iterek hızlan!</h2>
-                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
-                </div>
-            </div>
-
-            <!-- Slide 3 -->
-            <div class="slide" data-slide="3">
-                <div class="slide-content">
-                    <img src="images/how-to-use-moped.svg" alt="Scooter Kontrol" class="slide-image">
-                    <h2>Gaz ve freni kontrollü kullanarak sürüşe başla!</h2>
-                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
-                </div>
-            </div>
-
-            <!-- Slide 4 -->
-            <div class="slide" data-slide="4">
-                <div class="slide-content">
-                    <img src="images/how-to-use-moped.svg" alt="Scooter Mod" class="slide-image">
-                    <h2>Scooter sürüş modunu her sürüş öncesi rotana uygun ayarla!</h2>
-                    <p>BinBin'de 3 sürüş modu bulunur. Scooter direksiyonu üzerindeki kapatma tuşuna 2 kez bastığında bu modları görebilirsin.</p>
-                </div>
-            </div>
-
-            <!-- Slide 5 -->
-            <div class="slide" data-slide="5">
-                <div class="slide-content">
-                    <img src="images/how-to-use-moped.svg" alt="Bisiklet Yolu" class="slide-image">
-                    <h2>Bisiklet yollarını tercih ederek sürüş gerçekleştirmeni öneririz</h2>
-                    <p>Rotanda bisiklet yolu bulunuyorsa sürüş güvenliği için bu yolu kullanabilirsin.</p>
-                </div>
-            </div>
-
-            <!-- Slide 6 -->
-            <div class="slide final-slide" data-slide="6">
-                <div class="slide-content">
-                    <h2 class="final-title">Son olarak, güvenlik kurallarını tekrar hatırlatalım</h2>
-                    <div class="safety-rules">
-                        <div class="safety-rule">
-                            <img src="images/helmet-icon.svg" alt="Kask" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>Kişisel kaskını kullan!</h3>
-                                <p>Sürüşlerini kask kullanımı ile daha güvenli gerçekleştirebilirsin.</p>
-                            </div>
-                        </div>
-                        <div class="safety-rule">
-                            <img src="images/traffic-icon.svg" alt="Trafik" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>Trafik kurallarına uy!</h3>
-                                <p>Lorem ipsum dolor sit amet and lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="safety-rule">
-                            <img src="images/no-alcohol-icon.svg" alt="Alkol Yasak" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>Alkollü sürmek yasaktır!</h3>
-                                <p>Lorem ipsum dolor sit amet and lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="safety-rule">
-                            <img src="images/single-rider-icon.svg" alt="Tek Kişi" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>BinBin'i tek kişi kullan!</h3>
-                                <p>Lorem ipsum dolor sit amet and lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="slider" id="ebike-slider">
-            <!-- Slide 1 -->
-            <div class="slide active" data-slide="1">
-                <div class="slide-content">
-                    <img src="images/how-to-use-ebike.svg" alt="Scooter QR" class="slide-image">
-                    <h2>Haritada seçtiğin BinBin'le sürüşü başlatmak için QR kodu okut.</h2>
-                    <p>Aracınıza ve yolculuğunuza en uygun arj istasyonunu haritadan seçerek yol tarifi alın!</p>
-                </div>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="slide" data-slide="2">
-                <div class="slide-content">
-                    <img src="images/how-to-use-ebike.svg" alt="Scooter Güvenlik" class="slide-image">
-                    <h2>Güvenlik pedalını kaldır ve ayağını iterek hızlan!</h2>
-                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
-                </div>
-            </div>
-
-            <!-- Slide 3 -->
-            <div class="slide" data-slide="3">
-                <div class="slide-content">
-                    <img src="images/how-to-use-ebike.svg" alt="Scooter Kontrol" class="slide-image">
-                    <h2>Gaz ve freni kontrollü kullanarak sürüşe başla!</h2>
-                    <p>Sürüşe başlamak için seçtiğiniz BinBin'in kodunu telefon kamerasıyla okutun.</p>
-                </div>
-            </div>
-
-            <!-- Slide 4 -->
-            <div class="slide" data-slide="4">
-                <div class="slide-content">
-                    <img src="images/how-to-use-ebike.svg" alt="Scooter Mod" class="slide-image">
-                    <h2>Scooter sürüş modunu her sürüş öncesi rotana uygun ayarla!</h2>
-                    <p>BinBin'de 3 sürüş modu bulunur. Scooter direksiyonu üzerindeki kapatma tuşuna 2 kez bastığında bu modları görebilirsin.</p>
-                </div>
-            </div>
-
-            <!-- Slide 5 -->
-            <div class="slide" data-slide="5">
-                <div class="slide-content">
-                    <img src="images/how-to-use-ebike.svg" alt="Bisiklet Yolu" class="slide-image">
-                    <h2>Bisiklet yollarını tercih ederek sürüş gerçekleştirmeni öneririz</h2>
-                    <p>Rotanda bisiklet yolu bulunuyorsa sürüş güvenliği için bu yolu kullanabilirsin.</p>
-                </div>
-            </div>
-
-            <!-- Slide 6 -->
-            <div class="slide final-slide" data-slide="6">
-                <div class="slide-content">
-                    <h2 class="final-title">Son olarak, güvenlik kurallarını tekrar hatırlatalım</h2>
-                    <div class="safety-rules">
-                        <div class="safety-rule">
-                            <img src="images/helmet-icon.svg" alt="Kask" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>Kişisel kaskını kullan!</h3>
-                                <p>Sürüşlerini kask kullanımı ile daha güvenli gerçekleştirebilirsin.</p>
-                            </div>
-                        </div>
-                        <div class="safety-rule">
-                            <img src="images/traffic-icon.svg" alt="Trafik" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>Trafik kurallarına uy!</h3>
-                                <p>Lorem ipsum dolor sit amet and lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="safety-rule">
-                            <img src="images/no-alcohol-icon.svg" alt="Alkol Yasak" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>Alkollü sürmek yasaktır!</h3>
-                                <p>Lorem ipsum dolor sit amet and lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="safety-rule">
-                            <img src="images/single-rider-icon.svg" alt="Tek Kişi" class="rule-icon">
-                            <div class="rule-content">
-                                <h3>BinBin'i tek kişi kullan!</h3>
-                                <p>Lorem ipsum dolor sit amet and lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Sabit alt kısım -->
+    <div class="fixed-bottom">
+        <button class="next-button">İlerle</button>
     </div>
-</div>
 
-<!-- Sabit alt kısım -->
-<div class="fixed-bottom">
-    <button class="next-button">İlerle</button>
-</div>
-
-<script src="how-to-use.js"></script>
+    <script src="how-to-use.js"></script>
 </body>
+
 </html>
