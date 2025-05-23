@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+
+# Eğer dosya veya dizin mevcut değilse
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Tüm istekleri index.html'e yönlendir
+RewriteRule ^(.*)$ $1.html [L]
+
+# HTML dosyalarına doğrudan erişime izin ver
+<FilesMatch "\.html$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch> 
