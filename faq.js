@@ -1,8 +1,49 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    // Dil kodunu al
+    const languageCode = window.currentLanguage || 'TR';
+    
+    // JSON dosyasını yükle
+    const response = await fetch('faq.json');
+    const data = await response.json();
+
+    // Sayfa başlığını güncelle
+    document.title = data.title[languageCode];
+    document.querySelector('.header h1').textContent = data.title[languageCode];
+
+    // Arama kutusu placeholder'ını güncelle
+    const searchInput = document.querySelector('.search-input');
+    if (searchInput) {
+        searchInput.placeholder = data['search-placeholder'][languageCode];
+    }
+
+    // Ortak konular başlığını güncelle
+    const commonTopicsTitle = document.querySelector('.common-topics h2');
+    if (commonTopicsTitle) {
+        commonTopicsTitle.textContent = data['common-topics'][languageCode];
+    }
+
+    // Dil değişikliğini dinle
+    window.addEventListener('languageChanged', function() {
+        const newLanguageCode = window.currentLanguage;
+        
+        // Sayfa başlığını güncelle
+        document.title = data.title[newLanguageCode];
+        document.querySelector('.header h1').textContent = data.title[newLanguageCode];
+
+        // Arama kutusu placeholder'ını güncelle
+        if (searchInput) {
+            searchInput.placeholder = data['search-placeholder'][newLanguageCode];
+        }
+
+        // Ortak konular başlığını güncelle
+        if (commonTopicsTitle) {
+            commonTopicsTitle.textContent = data['common-topics'][newLanguageCode];
+        }
+    });
+
     const scooterOption = document.getElementById('vehicle-scooter');
     const mopedOption = document.getElementById('vehicle-moped');
     const ebikeOption = document.getElementById('vehicle-ebike');
-    const searchInput = document.querySelector('.search-input');
     const faqList = document.querySelector('.faq-list');
 
     // URL'den dil ve ülke kodunu al

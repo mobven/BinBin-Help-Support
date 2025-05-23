@@ -2,31 +2,73 @@
   "type": [
     {
       "id": 1,
-      "title": "BinPass ve Ödeme"
+      "title (TR)": "BinPass ve Ödeme",
+      "title (ENG)": "BinPass and Payment",
+      "title (BG)": "BinPass и плащане",
+      "title (BS)": "BinPass i plaćanje",
+      "title (AZ)": "BinPass və ödəmə",
+      "title (MK)": "BinPass и плаќање",
+      "title (ARN)": "BinPass ve Ödeme"
     },
     {
       "id": 2,
-      "title": "Hesap ve Kişisel Detaylar"
+      "title (TR)": "Hesap ve Kişisel Detaylar",
+      "title (ENG)": "Account and Personal Details",
+      "title (BG)": "Акаунт и лични податоци",
+      "title (BS)": "Račun i lični podaci",
+      "title (AZ)": "Hesab və şəxsi məlumatlar",
+      "title (MK)": "Акаунт и лични податоци",
+      "title (ARN)": "Hesap ve Kişisel Detaylar"
     },
     {
       "id": 3,
-      "title": "Kampanyalar"
+      "title (TR)": "Kampanyalar",
+      "title (ENG)": "Campaigns",
+      "title (BG)": "Кампании",
+      "title (BS)": "Кампање",
+      "title (AZ)": "Кампании",
+      "title (MK)": "Кампании",
+      "title (ARN)": "Kampanyalar"
     },
     {
       "id": 4,
-      "title": "Sürüş Başlatma"
+      "title (TR)": "Sürüş Başlatma",
+      "title (ENG)": "Starting the Ride",
+      "title (BG)": "Започване на водната",
+      "title (BS)": "Početak vožnje",
+      "title (AZ)": "Вожд бастамасы",
+      "title (MK)": "Започнување на вожд",
+      "title (ARN)": "Sürüş Başlatma"
     },
     {
       "id": 5,
-      "title": "Sürüş Sırası"
+      "title (TR)": "Sürüş Sırası",
+      "title (ENG)": "Riding",
+      "title (BG)": "Водна",
+      "title (BS)": "Vožnja",
+      "title (AZ)": "Вожд",
+      "title (MK)": "Вожд",
+      "title (ARN)": "Sürüş Sırası"
     },
     {
       "id": 6,
-      "title": "Sürüş Sonu"
+      "title (TR)": "Sürüş Sonu",
+      "title (ENG)": "Ending the Ride",
+      "title (BG)": "Завршаване на водната",
+      "title (BS)": "Završavanje vožnje",
+      "title (AZ)": "Вожд сов",
+      "title (MK)": "Заврши вожд",
+      "title (ARN)": "Sürüş Sonu"
     },
     {
       "id": 7,
-      "title": "Uygulama"
+      "title (TR)": "Uygulama",
+      "title (ENG)": "App",
+      "title (BG)": "Апликација",
+      "title (BS)": "Апликација",
+      "title (AZ)": "Апликација",
+      "title (MK)": "Апликација",
+      "title (ARN)": "Uygulama"
     }
   ],
   "faq": [

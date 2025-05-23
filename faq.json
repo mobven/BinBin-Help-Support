@@ -1,0 +1,38 @@
+{
+    "title": {
+        "TR": "Sıkça Sorulan Sorular",
+        "ENG": "Frequently Asked Questions",
+        "BG": "Често задавани въпроси",
+        "BS": "Često postavljena pitanja",
+        "RU": "Часто задаваемые вопросы",
+        "MK": "Често поставувани прашања",
+        "ARN": "Često postavljena pitanja"
+    },
+    "search-placeholder": {
+        "TR": "Sorularda ara...",
+        "ENG": "Search in questions",
+        "BG": "Търсене в въпроси",
+        "BS": "Pretraži u pitanjima",
+        "RU": "Поиск в вопросах",
+        "MK": "Пребарување во прашања",
+        "ARN": "Pretraži u pitanjima"
+    },
+    "common-topics": {
+        "TR": "Ortak Konular",
+        "ENG": "Common Topics",
+        "BG": "Често задавани въпроси",
+        "BS": "Često postavljena pitanja",
+        "RU": "Часто задаваемые вопросы",
+        "MK": "Често поставувани прашања",
+        "ARN": "Često postavljena pitanja"
+    },
+    "all": {
+        "TR": "Tümü",
+        "ENG": "All",
+        "BG": "Всички",
+        "BS": "Sve",
+        "RU": "Все",
+        "MK": "Сите",
+        "ARN": "Sve"
+    }
+}

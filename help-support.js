@@ -1,46 +1,46 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // URL'den dil ve ülke kodunu al
-    const urlParams = new URLSearchParams(window.location.search);
-    const langCode = urlParams.get('langCode') || 'TR'; // Varsayılan olarak 'TR'
-    const countryCode = urlParams.get('countryCode') || 'TR'; // Varsayılan olarak 'TR'
-
-    // Dil ve ülke koduna göre içeriği güncelle
-    updateContentByLanguage(langCode);
-    
-    // FAQ linkini güncelle
-    updateFaqLink(langCode, countryCode);
-
-});
-
-function updateContentByLanguage(langCode) {
-    // Dil koduna göre içerik güncelleme
-    const titleElement = document.querySelector('.header h1');
-    const supportTitle = document.querySelector('.support-content h2');
-    const supportDescription = document.querySelector('.support-content p');
-
-    switch(langCode.toUpperCase()) {
-        case 'TR':
-            titleElement.textContent = 'Yardım & Destek';
-            supportTitle.textContent = 'BinAsistan';
-            supportDescription.textContent = 'Soruların için BinAsistan çok yakında burada!';
-            break;
-        case 'EN':
-            titleElement.textContent = 'Help & Support';
-            supportTitle.textContent = 'BinAssistant';
-            supportDescription.textContent = 'BinAssistant will be here soon for your questions!';
-            break;
-        case 'ARN':
-            titleElement.textContent = 'Ndihmë & Mbështetje';
-            supportTitle.textContent = 'BinAsistent';
-            supportDescription.textContent = 'BinAsistent do të jetë këtu së shpejti për pyetjet tuaja!';
-            break;
-        // Diğer diller için case'ler eklenebilir
-        default:
-            titleElement.textContent = 'Yardım & Destek';
-            supportTitle.textContent = 'BinAsistan';
-            supportDescription.textContent = 'Soruların için BinAsistan çok yakında burada!';
+document.addEventListener('DOMContentLoaded', async function() {
+    try {
+        // JSON dosyasını yükle
+        const response = await fetch('help_support.json');
+        const data = await response.json();
+        
+        // Mevcut dil kodunu al
+        const languageCode = window.currentLanguage;
+        
+        // Sayfa başlığını güncelle
+        document.title = data.title[languageCode];
+        document.querySelector('.header h1').textContent = data.title[languageCode];
+        
+        // BinAsistan başlığını güncelle
+        const binAsistanTitle = document.querySelector('#binAsistanCard h2');
+        if (binAsistanTitle) {
+            binAsistanTitle.textContent = data.assistant[`title (${languageCode})`];
+        }
+        
+        // Nav item başlıklarını güncelle
+        const navItems = document.querySelectorAll('.nav-item span');
+        navItems.forEach((item, index) => {
+            let translationKey;
+            switch(index) {
+                case 0:
+                    translationKey = 'how-to-use';
+                    break;
+                case 1:
+                    translationKey = 'driving-guide';
+                    break;
+                case 2:
+                    translationKey = 'faq';
+                    break;
+            }
+            
+            if (translationKey && data[translationKey]) {
+                item.textContent = data[translationKey][`title (${languageCode})`];
+            }
+        });
+    } catch (error) {
+        console.error('Dil dosyası yüklenirken hata oluştu:', error);
     }
-}
+});
 
 function updateFaqLink(langCode, countryCode) {
     const faqLink = document.getElementById('faqLink');

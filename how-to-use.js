@@ -1,4 +1,101 @@
+// Sayfa içeriğini güncelleme fonksiyonu
+function updateContent() {
+    // Mevcut dil kodunu al
+    const languageCode = window.currentLanguage || 'TR';
+    
+    // JSON dosyasını yükle
+    fetch('how_to_use.json')
+        .then(response => response.json())
+        .then(data => {
+            // Sayfa başlığını güncelle
+            document.title = data.title[languageCode];
+            document.querySelector('.header h1').textContent = data.title[languageCode];
+
+            // Scooter slider içeriğini güncelle
+            const scooterSlider = document.getElementById('scooter-slider');
+            if (scooterSlider && data.scooter) {
+                const slides = scooterSlider.querySelectorAll('.slide');
+                slides.forEach((slide, index) => {
+                    if (data.scooter[index]) {
+                        const title = slide.querySelector('h2');
+                        const description = slide.querySelector('p');
+                        if (title) title.textContent = data.scooter[index]['title (' + languageCode + ')'];
+                        if (description) description.textContent = data.scooter[index]['description (' + languageCode + ')'];
+                    }
+                });
+            }
+
+            // Moped slider içeriğini güncelle
+            const mopedSlider = document.getElementById('moped-slider');
+            if (mopedSlider && data.moped) {
+                const slides = mopedSlider.querySelectorAll('.slide');
+                slides.forEach((slide, index) => {
+                    if (data.moped[index]) {
+                        const title = slide.querySelector('h2');
+                        const description = slide.querySelector('p');
+                        if (title) title.textContent = data.moped[index]['title (' + languageCode + ')'];
+                        if (description) description.textContent = data.moped[index]['description (' + languageCode + ')'];
+                    }
+                });
+            }
+
+            // E-Bike slider içeriğini güncelle
+            const ebikeSlider = document.getElementById('ebike-slider');
+            if (ebikeSlider && data.ebike) {
+                const slides = ebikeSlider.querySelectorAll('.slide');
+                slides.forEach((slide, index) => {
+                    if (data.ebike[index]) {
+                        const title = slide.querySelector('h2');
+                        const description = slide.querySelector('p');
+                        if (title) title.textContent = data.ebike[index]['title (' + languageCode + ')'];
+                        if (description) description.textContent = data.ebike[index]['description (' + languageCode + ')'];
+                    }
+                });
+            }
+
+            // Son slide içeriğini güncelle (tüm slider'lar için)
+            const finalSlides = document.querySelectorAll('.final-slide');
+            finalSlides.forEach(slide => {
+                const finalTitle = slide.querySelector('.final-title');
+                if (finalTitle) {
+                    finalTitle.textContent = data.lastslide['title (' + languageCode + ')'];
+                }
+
+                const safetyRules = slide.querySelectorAll('.safety-rule');
+                safetyRules.forEach((rule, index) => {
+                    if (data.lastslide.rules[index]) {
+                        const ruleTitle = rule.querySelector('h3');
+                        const ruleDescription = rule.querySelector('p');
+                        if (ruleTitle) ruleTitle.textContent = data.lastslide.rules[index]['title (' + languageCode + ')'];
+                        if (ruleDescription) ruleDescription.textContent = data.lastslide.rules[index]['description (' + languageCode + ')'];
+                    }
+                });
+            });
+
+            // İlerle butonunu güncelle
+            const nextButton = document.querySelector('.next-button');
+            if (nextButton) {
+                const activeSlider = document.querySelector('.slider.active');
+                const slides = activeSlider.querySelectorAll('.slide');
+                const currentIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
+                const isLastSlide = currentIndex === slides.length - 1;
+                
+                // Son slide'da "Tamam", diğerlerinde "İlerle" göster
+                nextButton.textContent = isLastSlide ? 
+                    data['next-button'][1]['title (' + languageCode + ')'] : 
+                    data['next-button'][0]['title (' + languageCode + ')'];
+            }
+        })
+        .catch(error => {
+            console.error('Dil dosyası yüklenirken hata oluştu:', error);
+        });
+}
+
+// Sayfa yüklendiğinde
 document.addEventListener('DOMContentLoaded', function() {
+    // İlk içerik güncellemesi
+    updateContent();
+
     // Tab değiştirme işlevi
     const tabButtons = document.querySelectorAll('.tab-button');
     const sliders = document.querySelectorAll('.slider');
@@ -31,11 +128,23 @@ document.addEventListener('DOMContentLoaded', function() {
             if (isLastSlide) {
                 fixedBottom.classList.add('final-slide-active');
                 sliderContainer.classList.add('final-slide-active');
-                nextButton.textContent = 'Tamam';
+                // JSON'dan "Tamam" metnini al
+                fetch('how_to_use.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        const languageCode = window.currentLanguage || 'TR';
+                        nextButton.textContent = data['next-button'][1]['title (' + languageCode + ')'];
+                    });
             } else {
                 fixedBottom.classList.remove('final-slide-active');
                 sliderContainer.classList.remove('final-slide-active');
-                nextButton.textContent = 'İlerle';
+                // JSON'dan "İlerle" metnini al
+                fetch('how_to_use.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        const languageCode = window.currentLanguage || 'TR';
+                        nextButton.textContent = data['next-button'][0]['title (' + languageCode + ')'];
+                    });
             }
 
             currentSlideIndex = nextIndex; // Aktif slide indeksini güncelle
@@ -140,8 +249,11 @@ document.addEventListener('DOMContentLoaded', function() {
             slide.classList.contains('active')
         );
 
-        // Eğer buton "Tamam" ise ve son slide'daysa ana sayfaya yönlendir
-        if (nextButton.textContent === 'Tamam') {
+        // Son slide kontrolü
+        const isLastSlide = currentIndex === slides.length - 1;
+        
+        // Eğer son slide'daysa ana sayfaya yönlendir
+        if (isLastSlide) {
             window.location.href = 'help-support.html';
             return;
         }
