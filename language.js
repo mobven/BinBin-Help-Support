@@ -31,7 +31,6 @@ document.addEventListener('click', function(e) {
         const link = e.target.tagName === 'A' ? e.target : e.target.closest('a');
         const href = link.getAttribute('href');
         
-        
         // Eğer href bir URL ise ve langCode parametresi yoksa ekle
         if (href && !href.startsWith('app://') && !href.startsWith('#')) {
             try {
