@@ -31,10 +31,11 @@ document.addEventListener('click', function(e) {
         const link = e.target.tagName === 'A' ? e.target : e.target.closest('a');
         const href = link.getAttribute('href');
         
+        
         // Eğer href bir URL ise ve langCode parametresi yoksa ekle
         if (href && !href.startsWith('app://') && !href.startsWith('#')) {
             try {
-                const url = new URL(href, window.location.origin);
+                const url = new URL(href, window.location.href);
                 // Mevcut dil kodunu al
                 const currentLangCode = window.currentLanguage;
                 // URL'ye dil kodunu ekle
@@ -52,6 +53,7 @@ document.addEventListener('click', function(e) {
 // Sayfa yüklendiğinde dil kodunu kontrol et ve güncelle
 window.addEventListener('load', function() {
     const currentUrl = new URL(window.location.href);
+    console.log('Current URL:', currentUrl.href);
     const urlLangCode = currentUrl.searchParams.get('langCode');
     
     if (urlLangCode && urlLangCode !== window.currentLanguage) {
