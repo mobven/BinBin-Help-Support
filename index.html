@@ -30,19 +30,19 @@
     </a>
 
     <nav class="support-nav">
-        <a href="./how-to-use.html?langCode=TR" class="nav-item">
+        <a id="howToUseLink" class="nav-item">
             <span>Nasıl Kullanılır</span>
             <svg width="24" height="24" viewBox="0 0 24 24">
                 <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
             </svg>
         </a>
-        <a href="./driving-guide.html?langCode=TR" class="nav-item">
+        <a id="drivingManageLink" class="nav-item">
             <span>Sürüş Rehberi</span>
             <svg width="24" height="24" viewBox="0 0 24 24">
                 <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
             </svg>
         </a>
-        <a href="./faq.html?langCode=TR" class="nav-item" id="faqLink">
+        <a class="nav-item" id="faqLink">
             <span>Sıkça Sorulan Sorular</span>
             <svg width="24" height="24" viewBox="0 0 24 24">
                 <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
@@ -53,5 +53,15 @@
 
 <script src="language.js"></script>
 <script src="help-support.js"></script>
+
+<script>
+  const basePath = window.location.hostname === "mobven.github.io"
+    ? "/BinBin-Help-Support/"
+    : "/";
+
+        document.getElementById("howToUseLink").href = basePath + "how-to-use.html?langCode=TR";
+    document.getElementById("drivingManageLink").href = basePath + "driving-guide.html?langCode=TR";
+    document.getElementById("faqLink").href = basePath + "faq.html?langCode=TR";
+</script>
 </body>
 </html>
