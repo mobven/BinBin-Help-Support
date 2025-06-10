@@ -59,4 +59,4 @@ window.addEventListener('load', function() {
         window.currentLanguage = urlLangCode;
         triggerLanguageChange();
     }
-}); 
+});
