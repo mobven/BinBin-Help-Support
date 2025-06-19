@@ -1,67 +1,67 @@
 {
     "title": {
         "TR": "Kapsamlı Sürüş Kuralları",
-        "ENG": "Comprehensive Riding Rules",
+        "EN": "Comprehensive Riding Rules",
         "BG": "Полнетни правила за водене",
         "BS": "Pune kompletne pravila za vožnju",
         "RU": "Полные правила для вождения",
         "MK": "Полнетни правила за вожд",
-        "ARN": "Pune pravila za vožnju"
+        "SQ": "Pune pravila za vožnju"
     },
     "before": {
         "TR": "Sürüş Öncesi",
-        "ENG": "Before the Ride",
+        "EN": "Before the Ride",
         "BG": "Преди водната",
         "BS": "Prije vožnje",
         "RU": "Перед вождением",
         "MK": "Пред вожд",
-        "ARN": "Prije vožnje"
+        "SQ": "Prije vožnje"
     },
     "during": {
         "TR": "Sürüş Sırası",
-        "ENG": "During the Ride",
+        "EN": "During the Ride",
         "BG": "Водна",
         "BS": "Vožnja",
         "RU": "Вождение",
         "MK": "Вожд",
-        "ARN": "Vožnja"
+        "SQ": "Vožnja"
     },
     "after": {
         "TR": "Sürüş Bitimi",
-        "ENG": "Ending the Ride",
+        "EN": "Ending the Ride",
         "BG": "Завршаване на водната",
         "BS": "Završavanje vožnje",
         "RU": "Завершение поездки",
         "MK": "Заврши вожд",
-        "ARN": "Završavanje vožnje"
+        "SQ": "Završavanje vožnje"
     },
     "button": [
         {
             "TR": "Sürüş Sırası Kuralları",
-            "ENG": "Riding Rules",
+            "EN": "Riding Rules",
             "BG": "Правила за водене",
             "BS": "Pravila za vožnju",
             "RU": "Правила для вождения",
             "MK": "Правила за вожд",
-            "ARN": "Pravila za vožnju"
+            "SQ": "Pravila za vožnju"
         },
         {
             "TR": "Sürüş Bitimi Kuralları",
-            "ENG": "Ending the Ride Rules",
+            "EN": "Ending the Ride Rules",
             "BG": "Правила за завршаване на водната",
             "BS": "Pravila za završavanje vožnje",
             "RU": "Правила для завершения поездки",
             "MK": "Правила за заврши вожд",
-            "ARN": "Pravila za završavanje vožnje"
+            "SQ": "Pravila za završavanje vožnje"
         },
         {
             "TR": "Tamam",
-            "ENG": "Finish",
+            "EN": "Finish",
             "BG": "Готово",
             "BS": "Završi",
             "RU": "Завершить",
             "MK": "Заврши",
-            "ARN": "Заврши"
+            "SQ": "Заврши"
         }
     ]
 }

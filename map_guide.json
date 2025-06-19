@@ -1,31 +1,31 @@
 {
     "title": {
         "TR": "Harita Kılavuzu",
-        "ENG": "Map Guide",
+        "EN": "Map Guide",
         "BG": "Картографическо ръководство",
         "BS": "Vodič za kartu",
         "RU": "Руководство по карте",
         "MK": "Водич за картата",
-        "ARN": "Udhëzuesi i kartës"
+        "SQ": "Udhëzuesi i kartës"
     },
     "tab-buttons": [
         {
             "TR": "Harita Alanları",
-            "ENG": "Map Areas",
+            "EN": "Map Areas",
             "BG": "Картографски области",
             "BS": "Kartografske zone",
             "RU": "Картографические зоны",
             "MK": "Картографски области",
-            "ARN": "Kartografske zone"
+            "SQ": "Kartografske zone"
         },
         {
             "TR": "BinBinler",
-            "ENG": "BinBins",
+            "EN": "BinBins",
             "BG": "БинБин",
             "BS": "BinBin",
             "RU": "БинБин",
             "MK": "БинБин",
-            "ARN": "BinBin"
+            "SQ": "BinBin"
         }
     ],
     "tabs": [
@@ -33,8 +33,8 @@
             "no-parking-area": {
                 "title (TR)": "Park edilemez alan",
                 "description (TR)": "Cezai durumlarla karşılaşmamak için aracını park yasağı olmayan yerlere ve kurallara uygun şekilde park et.",
-                "title (ENG)": "No parking area",
-                "description (ENG)": "Park your scooter in areas that are not prohibited and follow the rules to avoid legal issues.",
+                "title (EN)": "No parking area",
+                "description (EN)": "Park your scooter in areas that are not prohibited and follow the rules to avoid legal issues.",
                 "title (BG)": "Недозволен район",
                 "description (BG)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата.",
                 "title (BS)": "Ne dopuštena zona",
@@ -43,14 +43,14 @@
                 "description (RU)": "Чтобы избежать правовых проблем, паркируйте мопед в районах, которые не запрещены, и следуйте правилам.",
                 "title (MK)": "Недозволен район",
                 "description (MK)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата.",
-                "title (ARN)": "Недозволен район",
-                "description (ARN)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата."
+                "title (SQ)": "Недозволен район",
+                "description (SQ)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата."
             },
             "discount-area": {
                 "title (TR)": "İndirimli park alanı",
                 "description (TR)": "Haritadan çevrendeki indirimli park alanlarını kontrol et, yolculuğunu daha ekonomik hale getir.",
-                "title (ENG)": "Discounted parking area",
-                "description (ENG)": "Check the discounted parking areas around the map, make your journey more economical.",
+                "title (EN)": "Discounted parking area",
+                "description (EN)": "Check the discounted parking areas around the map, make your journey more economical.",
                 "title (BG)": "Пониска зона",
                 "description (BG)": "Проверете пониските паркинг зони около картата, направете вашето пътуване по-економно.",
                 "title (BS)": "Popustna zona",
@@ -59,13 +59,13 @@
                 "description (RU)": "Проверьте пониские паркинг зоны вокруг карты, сделайте ваше путешествие более экономичным.",
                 "title (MK)": "Пониска зона",
                 "description (MK)": "Проверете пониските паркинг зони околу картата, направете вашето вожње по-економски.",
-                "title (ARN)": "Недозволен район"
+                "title (SQ)": "Недозволен район"
             },
             "no-service-area": {
                 "title (TR)": "Hizmet dışı alanlar",
                 "description (TR)": "Cezai bir durumla karşılaşmamak için sürüş esnasında ve yolculuğunu bitirirken haritayı kontrol et ve hizmet dışı alanda olmadığından emin ol.",
-                "title (ENG)": "No service area",
-                "description (ENG)": "Check the map while riding and make sure you are not in a service area to avoid legal issues.",
+                "title (EN)": "No service area",
+                "description (EN)": "Check the map while riding and make sure you are not in a service area to avoid legal issues.",
                 "title (BG)": "Недозволен район",
                 "description (BG)": "Проверете картата, докато водите, и се уверете, че не сте в зона за обслужване, за да избегнете правовни проблеми.",
                 "title (BS)": "Ne servisna zona",
@@ -74,16 +74,16 @@
                 "description (RU)": "Проверьте карту во время вождения и убедитесь, что вы не находитесь в зоне обслуживания, чтобы избежать правовых проблем.",
                 "title (MK)": "Недозволен район",
                 "description (MK)": "Проверете картата во време на вожње и се уверете дека не сте во зона за услуга, за да избегнете правовни проблеми.",
-                "title (ARN)": "Недозволен район",
-                "description (ARN)": "Проверете картата, докато водите, и се уверете, че не сте в зона за обслужване, за да избегнете правовни проблеми."
+                "title (SQ)": "Недозволен район",
+                "description (SQ)": "Проверете картата, докато водите, и се уверете, че не сте в зона за обслужване, за да избегнете правовни проблеми."
             }
         },
         {
             "recommended-binbin": {
                 "title (TR)": "Önerilen BinBin",
                 "description (TR)": "Cezai durumlarla karşılaşmamak için aracını park yasağı olmayan yerlere ve kurallara uygun şekilde park et.",
-                "title (ENG)": "Recommended BinBin",
-                "description (ENG)": "Park your scooter in areas that are not prohibited and follow the rules to avoid legal issues.",
+                "title (EN)": "Recommended BinBin",
+                "description (EN)": "Park your scooter in areas that are not prohibited and follow the rules to avoid legal issues.",
                 "title (BG)": "Недозволен район",
                 "description (BG)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата.",
                 "title (BS)": "Preporučeni BinBin",
@@ -92,14 +92,14 @@
                 "description (RU)": "Чтобы избежать правовых проблем, паркируйте мопед в районах, которые не запрещены, и следуйте правилам.",
                 "title (MK)": "Недозволен район",
                 "description (MK)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата.",
-                "title (ARN)": "Недозволен район",
-                "description (ARN)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата."
+                "title (SQ)": "Недозволен район",
+                "description (SQ)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата."
             },
             "discounted-binbin": {
                 "title (TR)": "İndirimli BinBin",
                 "description (TR)": "Çevrendeki indirimli scooter ve mopedler lorem ipsum dolor sit amet consectetur adipisicing elit.",
-                "title (ENG)": "Discounted BinBin",
-                "description (ENG)": "Check the discounted scooters and mopeds around you, make your journey more economical.",
+                "title (EN)": "Discounted BinBin",
+                "description (EN)": "Check the discounted scooters and mopeds around you, make your journey more economical.",
                 "title (BG)": "Недозволен район",
                 "description (BG)": "Проверете пониските мопеди и скутери около вас, направете вашето пътуване по-економно.",
                 "title (BS)": "Popustni BinBin",
@@ -108,14 +108,14 @@
                 "description (RU)": "Проверьте пониские мопеды и скутеры вокруг вас, сделайте ваше путешествие более экономичным.",
                 "title (MK)": "Недозволен район",
                 "description (MK)": "Проверете пониските мопеди и скутери околу вас, направете вашето вожње по-економски.",
-                "title (ARN)": "Недозволен район",
-                "description (ARN)": "Проверете пониските мопеди и скутери околу вас, направете вашето вожње по-економски."
+                "title (SQ)": "Недозволен район",
+                "description (SQ)": "Проверете пониските мопеди и скутери околу вас, направете вашето вожње по-економски."
             },
             "recommended-discounted-binbin": {
                 "title (TR)": "Önerilen ve İndirimli BinBin",
                 "description (TR)": "Hem sana önerilen hem de indirimli scooter ve mopedler ile lorem ipsum dolor sit amet lorem ipsum dolor sit amet.",
-                "title (ENG)": "Recommended and Discounted BinBin",
-                "description (ENG)": "With both recommended and discounted scooters and mopeds, lorem ipsum dolor sit amet lorem ipsum dolor sit amet.",
+                "title (EN)": "Recommended and Discounted BinBin",
+                "description (EN)": "With both recommended and discounted scooters and mopeds, lorem ipsum dolor sit amet lorem ipsum dolor sit amet.",
                 "title (BG)": "Недозволен район",
                 "description (BG)": "Проверете пониските мопеди и скутери около вас, направете вашето пътуване по-економно.",
                 "title (BS)": "Preporučeni i popustni BinBin",
@@ -124,8 +124,8 @@
                 "description (RU)": "Проверьте пониские мопеды и скутеры вокруг вас, сделайте ваше путешествие более экономичным.",
                 "title (MK)": "Недозволен район",
                 "description (MK)": "Проверете пониските мопеди и скутери околу вас, направете вашето вожње по-економски.",
-                "title (ARN)": "Недозволен район",
-                "description (ARN)": "Проверете пониските мопеди и скутери околу вас, направете вашето вожње по-економски."
+                "title (SQ)": "Недозволен район",
+                "description (SQ)": "Проверете пониските мопеди и скутери околу вас, направете вашето вожње по-економски."
             }
         }
     ]

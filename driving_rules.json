@@ -1,19 +1,19 @@
 {
     "title": {
         "TR": "Sürüş Rehberi",
-        "ENG": "Driving Rules",
+        "EN": "Driving Rules",
         "BG": "Правила за управление",
         "BS": "Pravila za vožnju",
         "RU": "Правила управления",
         "MK": "Правила за вожња",
-        "ARN": "Reglas de conducción"
+        "SQ": "Reglas de conducción"
     },
     "guide": [
         {
             "title (TR)": "Kapsamlı Sürüş Kuralları",
             "description (TR)": "Sürüş öncesinde, esnasında ve bitiminde dikkat etmen gerekenleri incele.",
-            "title (ENG)": "Comprehensive Driving Rules",
-            "description (ENG)": "Check the things you need to pay attention to before, during, and after the ride.",
+            "title (EN)": "Comprehensive Driving Rules",
+            "description (EN)": "Check the things you need to pay attention to before, during, and after the ride.",
             "title (BG)": "Подробни правила за управление",
             "description (BG)": "Прегледайте тези, които трябва да внимавате преди, по време и след водене на автомобила.",
             "title (BS)": "Detaljne pravila za vožnju",
@@ -22,14 +22,14 @@
             "description (RU)": "Проверьте все, что вам нужно обратить внимание перед, во время и после поездки.",
             "title (MK)": "Подробни правила за вожња",
             "description (MK)": "Проверете ги сите, што треба да внимавате пред, во време и по вожњата.",
-            "title (ARN)": "Regulë të zgjeruara të drejtëzimit",
-            "description (ARN)": "Kontrolloni gjithçka që duhet të kujdeseni përpara, gjatë dhe pas udhëtimit."
+            "title (SQ)": "Regulë të zgjeruara të drejtëzimit",
+            "description (SQ)": "Kontrolloni gjithçka që duhet të kujdeseni përpara, gjatë dhe pas udhëtimit."
         },
         {
             "title (TR)": "Mod Seçimi ve Kullanım Alanı",
             "description (TR)": "Scooter sürüş modunu istersen her sürüş öncesi yolculuğuna uygun şekilde ayarla.",
-            "title (ENG)": "Mode Selection and Usage Area",
-            "description (ENG)": "If you want to ride the scooter, set it to the mode that suits your journey before each ride.",
+            "title (EN)": "Mode Selection and Usage Area",
+            "description (EN)": "If you want to ride the scooter, set it to the mode that suits your journey before each ride.",
             "title (BG)": "Избор на режим и област на използване",
             "description (BG)": "Ако искаш да возиш мопеда, задай режима, който ти е подходящ за пътуването преди всяко водене.",
             "title (BS)": "Izbor moda i područja upotrebe",
@@ -38,14 +38,14 @@
             "description (RU)": "Если хотите ездить на мопеде, установите режим, который подходит для вашего путешествия перед каждым вождением.",
             "title (MK)": "Избор на режим и област на употреба",
             "description (MK)": "Ако сакаш да возиш мопед, постави го на режим кој ти одговара за вожњата пред секое вожње.",
-            "title (ARN)": "Seleksionimi i modit dhe zonës së përdorimit",
-            "description (ARN)": "Nëse dëshironi të vozoni mopedin, vendosni në modin që ju përputhet për udhëtimin para çdo udhëtimi."
+            "title (SQ)": "Seleksionimi i modit dhe zonës së përdorimit",
+            "description (SQ)": "Nëse dëshironi të vozoni mopedin, vendosni në modin që ju përputhet për udhëtimin para çdo udhëtimi."
         },
         {
             "title (TR)": "Harita Kılavuzu",
             "description (TR)": "Park alanları ve BinBin araçlarıyla ilgili bilmen gerekenleri incele.",
-            "title (ENG)": "Map Guide",
-            "description (ENG)": "Check the things you need to know about parking areas and BinBin vehicles.",
+            "title (EN)": "Map Guide",
+            "description (EN)": "Check the things you need to know about parking areas and BinBin vehicles.",
             "title (BG)": "Карта водач",
             "description (BG)": "Прегледайте тези, които трябва да знаете за паркинг местата и мопедите BinBin.",
             "title (BS)": "Vodič za kartu",
@@ -54,8 +54,8 @@
             "description (RU)": "Проверьте все, что вам нужно знать о парковках и BinBin автомобилях.",
             "title (MK)": "Водич за мапа",
             "description (MK)": "Проверете ги сите, што треба да знаете за паркинзите и мопедите BinBin.",
-            "title (ARN)": "Udhëzues i Hartës",
-            "description (ARN)": "Pogledajte ove, koje trebate znati o parkirnim mjestima i mopedima BinBin."
+            "title (SQ)": "Udhëzues i Hartës",
+            "description (SQ)": "Pogledajte ove, koje trebate znati o parkirnim mjestima i mopedima BinBin."
         }
     ]
 }

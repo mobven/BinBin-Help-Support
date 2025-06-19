@@ -3,8 +3,8 @@
         {
             "title (TR)": "Güvenlik aksesuarları",
             "description (TR)": "Yolculuğa başlamadan önce mutlaka kişisel güvenlik önlemlerini almanı öneriyoruz. Kask, kolluk ve dizlik kullanımı güvenliğini artırır.",
-            "title (ENG)": "Safety accessories",
-            "description (ENG)": "Before starting your journey, we highly recommend taking personal safety precautions. Using a helmet, elbow pads, and knee pads increases your safety.",
+            "title (EN)": "Safety accessories",
+            "description (EN)": "Before starting your journey, we highly recommend taking personal safety precautions. Using a helmet, elbow pads, and knee pads increases your safety.",
             "title (BG)": "Аксесоари за безопасност",
             "description (BG)": "Препоръчваме ви преди пътуване да вземете лични мерки за безопасност. Използването на каска, лакти и коленни щитки повишава безопасността ви.",
             "title (BS)": "Sigurnosni pribor",
@@ -13,15 +13,15 @@
             "description (RU)": "Перед началом поездки обязательно примите меры личной безопасности. Использование шлема, налокотников и наколенников повышает вашу безопасность.",
             "title (MK)": "Аксесоари за безбедност",
             "description (MK)": "Пред патување, препорачуваме да ги преземете личните безбедносни мерки. Користењето на кацига, лактници и коленачи ја зголемува вашата безбедност.",
-            "title (ARN)": "Aksesorë sigurie",
-            "description (ARN)": "Para se të nisur udhëtimin, ju rekomandojmë të merrni masa sigurie personale. Përdorimi i kaskesës, mbrojtësve të bërrylit dhe gjurit rrit sigurinë tuaj."
+            "title (SQ)": "Aksesorë sigurie",
+            "description (SQ)": "Para se të nisur udhëtimin, ju rekomandojmë të merrni masa sigurie personale. Përdorimi i kaskesës, mbrojtësve të bërrylit dhe gjurit rrit sigurinë tuaj."
             
         },
         {
             "title (TR)": "Rota oluşturma",
             "description (TR)": "Sürüşe başlamadan önce gideceğin noktayı haritadan teyit etmeyi unutma! Varış noktan BinBin hizmet alanı dışında ise rotanı değiştirmelisin.",
-            "title (ENG)": "Route planning",
-            "description (ENG)": "Don't forget to confirm your destination on the map before starting your ride! If your destination is outside the BinBin service area, you should change your route.",
+            "title (EN)": "Route planning",
+            "description (EN)": "Don't forget to confirm your destination on the map before starting your ride! If your destination is outside the BinBin service area, you should change your route.",
             "title (BG)": "Планиране на маршрут",
             "description (BG)": "Не забравяйте да потвърдите дестинацията си на картата преди да тръгнете! Ако дестинацията ви е извън зоната на обслужване на BinBin, трябва да промените маршрута си.",
             "title (BS)": "Planiranje rute",
@@ -30,14 +30,14 @@
             "description (RU)": "Не забудьте подтвердить пункт назначения на карте перед началом поездки! Если ваш пункт назначения находится вне зоны обслуживания BinBin, измените маршрут.",
             "title (MK)": "Планирање на рута",
             "description (MK)": "Не заборавајте да ја потврдите дестинацијата на мапата пред да започнете со возењето! Ако вашата дестинација е надвор од услужната зона на BinBin, треба да ја смените рутата.",
-            "title (ARN)": "Planifikimi i rrugës",
-            "description (ARN)": "Mos harroni të konfirmoni destinacionin në hartë para se të nisni! Nëse destinacioni juaj është jashtë zonës së shërbimit BinBin, duhet të ndryshoni rrugën."
+            "title (SQ)": "Planifikimi i rrugës",
+            "description (SQ)": "Mos harroni të konfirmoni destinacionin në hartë para se të nisni! Nëse destinacioni juaj është jashtë zonës së shërbimit BinBin, duhet të ndryshoni rrugën."
         },
         {
             "title (TR)": "Son kontroller",
             "description (TR)": "Sürüşten önce telefonun şarjını, cihazın şarjı, fren, gaz ve ışıklarını kontrol etmeyi unutma! Tüm kontrollerden sonra kiralamaya hazırsın.",
-            "title (ENG)": "Final checks",
-            "description (ENG)": "Don't forget to check your phone's battery, device charge, brakes, throttle, and lights before riding! After all checks, you're ready to rent.",
+            "title (EN)": "Final checks",
+            "description (EN)": "Don't forget to check your phone's battery, device charge, brakes, throttle, and lights before riding! After all checks, you're ready to rent.",
             "title (BG)": "Последни проверки",
             "description (BG)": "Не забравяйте да проверите заряда на телефона си, заряда на устройството, спирачките, газта и светлините преди каране! След всички проверки сте готови за наемане.",
             "title (BS)": "Završne provjere",
@@ -46,14 +46,14 @@
             "description (RU)": "Перед поездкой не забудьте проверить заряд телефона, заряд устройства, тормоза, газ и фары! После всех проверок вы готовы к аренде.",
             "title (MK)": "Крајни проверки",
             "description (MK)": "Не заборавајте да ја проверите батеријата на телефонот, полнењето на уредот, кочниците, гасот и светлата пред возење! По сите проверки, спремни сте за изнајмување.",
-            "title (ARN)": "Kontrollet përfundimtare",
-            "description (ARN)": "Mos harroni të kontrolloni baterinë e telefonit, ngarkimin e pajisjes, frenat, gazin dhe dritat para se të nisni! Pas të gjitha kontrollave, jeni gati për me qira."
+            "title (SQ)": "Kontrollet përfundimtare",
+            "description (SQ)": "Mos harroni të kontrolloni baterinë e telefonit, ngarkimin e pajisjes, frenat, gazin dhe dritat para se të nisni! Pas të gjitha kontrollave, jeni gati për me qira."
         },
         {
             "title (TR)": "Mod seçimi",
             "description (TR)": "Cihazın sürüş modunu, mobil uygulamamız üzerinden değiştirebilirsin. Modunu ve rotanı göre eco, drive ve sport modlarından birini seçerek sürüşe başlayabilirsin.",
-            "title (ENG)": "Mode selection",
-            "description (ENG)": "You can change the driving mode of the device via our mobile app. Depending on your mode and route, you can start driving by selecting one of the eco, drive, or sport modes.",
+            "title (EN)": "Mode selection",
+            "description (EN)": "You can change the driving mode of the device via our mobile app. Depending on your mode and route, you can start driving by selecting one of the eco, drive, or sport modes.",
             "title (BG)": "Избор на режим",
             "description (BG)": "Можете да промените режима на шофиране на устройството чрез нашето мобилно приложение. В зависимост от вашия режим и маршрут, можете да започнете шофиране, като изберете един от режимите eco, drive или sport.",
             "title (BS)": "Odabir moda",
@@ -62,14 +62,14 @@
             "description (RU)": "Вы можете изменить режим вождения устройства через наше мобильное приложение. В зависимости от вашего режима и маршрута вы можете начать движение, выбрав один из режимов: eco, drive или sport.",
             "title (MK)": "Избор на режим",
             "description (MK)": "Можете да го промените режимот на возење на уредот преку нашата мобилна апликација. Во зависност од вашиот режим и рута, можете да започнете со возење со избор на еден од режимите eco, drive или sport.",
-            "title (ARN)": "Zgjedhja e modalitetit",
-            "description (ARN)": "Ju mund ta ndryshoni modalitetin e vozitjes së pajisjes përmes aplikacionit tonë mobil. Në varësi të modalitetit dhe rrugës tuaj, mund të filloni vozitjen duke zgjedhur një nga modalitetet eco, drive ose sport."
+            "title (SQ)": "Zgjedhja e modalitetit",
+            "description (SQ)": "Ju mund ta ndryshoni modalitetin e vozitjes së pajisjes përmes aplikacionit tonë mobil. Në varësi të modalitetit dhe rrugës tuaj, mund të filloni vozitjen duke zgjedhur një nga modalitetet eco, drive ose sport."
         },
         {
             "title (TR)": "Haritadan seçtiğin araç ile sürüşü başlatmak için QR kodu okut.",
             "description (TR)": "Telefonun kamerasıyla QR kodu okutabilirsin. Sürüşe başlamak için ayağınla iterek hızlan.",
-            "title (ENG)": "Scan the QR code to start the ride with the vehicle you selected on the map.",
-            "description (ENG)": "You can scan the QR code with your phone's camera. Complete this step to start the ride.",
+            "title (EN)": "Scan the QR code to start the ride with the vehicle you selected on the map.",
+            "description (EN)": "You can scan the QR code with your phone's camera. Complete this step to start the ride.",
             "title (BG)": "Сканирайте QR кода, за да започнете шофирането с избраното превозно средство на картата.",
             "description (BG)": "Можете да сканирате QR кода с камерата на телефона си. Завършете тази стъпка, за да започнете шофирането.",
             "title (BS)": "Skenirajte QR kod da biste započeli vožnju s odabranim vozilom na karti.",
@@ -78,16 +78,16 @@
             "description (RU)": "Вы можете отсканировать QR-код камерой телефона. Завершите этот шаг, чтобы начать поездку.",
             "title (MK)": "Скенирајте го QR кодот за да започнете со возење со избраното возило на мапата.",
             "description (MK)": "Можете да го скенирате QR кодот со камерата на вашиот телефон. Завршете го овој чекор за да започнете со возење.",
-            "title (ARN)": "Skanoni kodin QR për të filluar udhëtimin me automjetin që keni zgjedhur në hartë.",
-            "description (ARN)": "Ju mund ta skanoni kodin QR me kamerën e telefonit tuaj. Përfundoni këtë hap për të filluar udhëtimin."
+            "title (SQ)": "Skanoni kodin QR për të filluar udhëtimin me automjetin që keni zgjedhur në hartë.",
+            "description (SQ)": "Ju mund ta skanoni kodin QR me kamerën e telefonit tuaj. Përfundoni këtë hap për të filluar udhëtimin."
         }
     ],
     "during": [
         {
             "title (TR)": "BinBin sadece senin",
             "description (TR)": "BinBin'le iki kişi binmenin güvenli olmadığını unutma! Tek kişilik sürüşünün tadını çıkar.",
-            "title (ENG)": "BinBin is for you only",
-            "description (ENG)": "Remember that riding with two people on a BinBin is not safe! Enjoy your solo ride.",
+            "title (EN)": "BinBin is for you only",
+            "description (EN)": "Remember that riding with two people on a BinBin is not safe! Enjoy your solo ride.",
             "title (BG)": "BinBin е само за теб",
             "description (BG)": "Не забравяйте, че карането с двама души на BinBin не е безопасно! Наслаждавайте се на самостоятелното шофиране.",
             "title (BS)": "BinBin je samo za tebe",
@@ -96,14 +96,14 @@
             "description (RU)": "Помните, что ездить вдвоем на BinBin небезопасно! Наслаждайтесь поездкой в одиночку.",
             "title (MK)": "BinBin е само за тебе",
             "description (MK)": "Запомни дека возењето со двајца на BinBin не е безбедно! Уживај во возењето сам.",
-            "title (ARN)": "BinBin është vetëm për ty",
-            "description (ARN)": "Mos harroni se të hipurit dy persona në një BinBin nuk është i sigurt! Shijoni vozitjen vetëm."
+            "title (SQ)": "BinBin është vetëm për ty",
+            "description (SQ)": "Mos harroni se të hipurit dy persona në një BinBin nuk është i sigurt! Shijoni vozitjen vetëm."
         },
         {
             "title (TR)": "Doğru yolda yolculuk et",
             "description (TR)": "Trafik kuralları gereği bisiklet yolunda veya akan trafiğin sağında yolculuk etmelisin. 50 km/s sınırı olan yollarda sürülmemelisin.",
-            "title (ENG)": "Ride on the correct path",
-            "description (ENG)": "According to traffic rules, you must ride in the bike lane or on the right side of moving traffic. You should not ride on roads with a 50 km/h speed limit.",
+            "title (EN)": "Ride on the correct path",
+            "description (EN)": "According to traffic rules, you must ride in the bike lane or on the right side of moving traffic. You should not ride on roads with a 50 km/h speed limit.",
             "title (BG)": "Пътувайте по правилния път",
             "description (BG)": "Според правилата за движение трябва да карате по велоалеята или в дясната страна на движещия се трафик. Не трябва да карате по пътища с ограничение от 50 км/ч.",
             "title (BS)": "Vozite pravim putem",
@@ -112,14 +112,14 @@
             "description (RU)": "Согласно правилам дорожного движения, вы должны ехать по велодорожке или по правой стороне движения. Вам не следует ездить по дорогам с ограничением скорости 50 км/ч.",
             "title (MK)": "Возете по вистинскиот пат",
             "description (MK)": "Според сообраќајните правила, треба да возите на велосипедската патека или на десната страна од сообраќајот. Не треба да возите на патишта со ограничување од 50 км/ч.",
-            "title (ARN)": "Vozni në rrugën e duhur",
-            "description (ARN)": "Sipas rregullave të trafikut, duhet të vozoni në pistën e biçikletave ose në anën e djathtë të trafikut. Nuk duhet të vozoni në rrugë me kufizim shpejtësie 50 km/h."
+            "title (SQ)": "Vozni në rrugën e duhur",
+            "description (SQ)": "Sipas rregullave të trafikut, duhet të vozoni në pistën e biçikletave ose në anën e djathtë të trafikut. Nuk duhet të vozoni në rrugë me kufizim shpejtësie 50 km/h."
         },
         {
             "title (TR)": "Dengeli bir sürüş",
             "description (TR)": "Manevra yaparken işaret vermek dışında tek elle sürüş yapmamalısın. Dengeni bozacak geniş çantalar ve ağır yüklerle sürüş yapmamalısın.",
-            "title (ENG)": "A balanced ride",
-            "description (ENG)": "You should not ride with one hand except when signaling. You should not ride with bulky bags or heavy loads that could affect your balance.",
+            "title (EN)": "A balanced ride",
+            "description (EN)": "You should not ride with one hand except when signaling. You should not ride with bulky bags or heavy loads that could affect your balance.",
             "title (BG)": "Балансирано шофиране",
             "description (BG)": "Не трябва да карате с една ръка, освен когато подавате сигнал. Не трябва да карате с обемисти чанти или тежки товари, които могат да засегнат баланса ви.",
             "title (BS)": "Uravnotežena vožnja",
@@ -128,14 +128,14 @@
             "description (RU)": "Вам не следует ездить одной рукой, кроме как при подаче сигнала. Вам не следует ездить с громоздкими сумками или тяжелыми грузами, которые могут нарушить равновесие.",
             "title (MK)": "Избалансирано возење",
             "description (MK)": "Не треба да возите со една рака освен кога давате сигнал. Не треба да возите со големи торби или тешки товари што можат да влијаат на вашата рамнотежа.",
-            "title (ARN)": "Një vozitje e balancuar",
-            "description (ARN)": "Nuk duhet të vozni me një dorë, përveç kur jepni sinjal. Nuk duhet të vozni me çanta të mëdha ose ngarkesa të rënda që mund të ndërpresin ekuilibrin tuaj."
+            "title (SQ)": "Një vozitje e balancuar",
+            "description (SQ)": "Nuk duhet të vozni me një dorë, përveç kur jepni sinjal. Nuk duhet të vozni me çanta të mëdha ose ngarkesa të rënda që mund të ndërpresin ekuilibrin tuaj."
         },
         {
             "title (TR)": "Yayalara dikkat",
             "description (TR)": "BinBin'i kullanırken trafik kurallarını unutma! Yaya geçitlerinden BinBin’i yanında sürerek geçmeli ve kaldırımlarda sürmemelisin.",
-            "title (ENG)": "Watch for pedestrians",
-            "description (ENG)": "Don’t forget traffic rules while using BinBin! You should walk your BinBin next to you at crosswalks and not ride on sidewalks.",
+            "title (EN)": "Watch for pedestrians",
+            "description (EN)": "Don’t forget traffic rules while using BinBin! You should walk your BinBin next to you at crosswalks and not ride on sidewalks.",
             "title (BG)": "Внимание към пешеходците",
             "description (BG)": "Не забравяйте правилата за движение, докато използвате BinBin! Трябва да водите BinBin покрай вас на пешеходните преходи и да не карате по тротоарите.",
             "title (BS)": "Pazite na pješake",
@@ -144,16 +144,16 @@
             "description (RU)": "Не забывайте правила дорожного движения при использовании BinBin! На пешеходных переходах вы должны вести BinBin рядом с собой и не ездить по тротуарам.",
             "title (MK)": "Внимание на пешаците",
             "description (MK)": "Не заборавајте ги сообраќајните правила додека го користите BinBin! На пешачките премини треба да го возите BinBin покрај вас и не да возите по тротоарите.",
-            "title (ARN)": "Kujdes për këmbësorët",
-            "description (ARN)": "Mos harroni rregullat e trafikut kur përdorni BinBin! Në vendkalimet për këmbësorë, duhet ta çoni BinBin pranë jush dhe të mos vozni në trotuare."
+            "title (SQ)": "Kujdes për këmbësorët",
+            "description (SQ)": "Mos harroni rregullat e trafikut kur përdorni BinBin! Në vendkalimet për këmbësorë, duhet ta çoni BinBin pranë jush dhe të mos vozni në trotuare."
         }
     ],
     "after": [
         {
             "title (TR)": "Uygun park alanı",
             "description (TR)": "BinBin’i otobüs durağı, yürüyüş yolu ve kaldırıma değil; yola engel olmayacak direklere ve hizmet alanlarına park etmelisin.",
-            "title (ENG)": "Proper parking area",
-            "description (ENG)": "You should park BinBin in designated areas, not on pedestrian paths, roads, or sidewalks; park near poles or service areas without obstructing the path.",
+            "title (EN)": "Proper parking area",
+            "description (EN)": "You should park BinBin in designated areas, not on pedestrian paths, roads, or sidewalks; park near poles or service areas without obstructing the path.",
             "title (BG)": "Подходящо място за паркиране",
             "description (BG)": "Паркирайте BinBin на определени места, а не на пешеходни пътеки, пътища или тротоари; паркирайте близо до стълбове или сервизни зони, без да пречите на пътя.",
             "title (BS)": "Ispravno parkirno mjesto",
@@ -162,14 +162,14 @@
             "description (RU)": "Паркуйте BinBin в предназначенных местах, а не на пешеходных дорожках, дорогах или тротуарах; паркуйтесь рядом со столбами или сервисными зонами, не загромождая путь.",
             "title (MK)": "Правилно паркирање",
             "description (MK)": "Паркирајте го BinBin на назначени места, а не на пешачки патеки, патишта или тротоари; паркирајте близу до столбови или сервисни области без попречување на патот.",
-            "title (ARN)": "Zona e duhur e parkimit",
-            "description (ARN)": "Parkoni BinBin në zona të caktuara, jo në shtigje këmbësorësh, rrugë ose trotuare; parkoni pranë shtyllave ose zonave të shërbimit pa bllokuar rrugën."
+            "title (SQ)": "Zona e duhur e parkimit",
+            "description (SQ)": "Parkoni BinBin në zona të caktuara, jo në shtigje këmbësorësh, rrugë ose trotuare; parkoni pranë shtyllave ose zonave të shërbimit pa bllokuar rrugën."
         },
         {
             "title (TR)": "Ayakçığı kaldırmayı unutma",
             "description (TR)": "BinBin’i ön tekerine yakın alanda bulunan ayakçığı indirerek park et. Böylece, BinBin park halinde dengede kalabilir ve dik durabilir.",
-            "title (ENG)": "Don’t forget to raise the kickstand",
-            "description (ENG)": "Park BinBin by lowering the kickstand near the front wheel. This way, BinBin stays balanced and upright when parked.",
+            "title (EN)": "Don’t forget to raise the kickstand",
+            "description (EN)": "Park BinBin by lowering the kickstand near the front wheel. This way, BinBin stays balanced and upright when parked.",
             "title (BG)": "Не забравяйте да вдигнете стативката",
             "description (BG)": "Паркирайте BinBin, като спуснете стативката близо до предното колело. Така BinBin ще остане балансиран и изправен, когато е паркиран.",
             "title (BS)": "Ne zaboravite podići podupirač",
@@ -178,14 +178,14 @@
             "description (RU)": "Припаркуйте BinBin, опустив подножку рядом с передним колесом. Таким образом, BinBin будет оставаться в равновесии и стоять прямо на стоянке.",
             "title (MK)": "Не заборавајте да ја кренете ножната",
             "description (MK)": "Паркирајте го BinBin со спуштање на ножната близу предното тркало. На овој начин, BinBin останува балансиран и исправен кога е паркиран.",
-            "title (ARN)": "Mos harroni të ngrini mbështetësen",
-            "description (ARN)": "Parkoni BinBin duke ulur mbështetësen pranë rrotës së përparme. Në këtë mënyrë, BinBin qëndron i balancuar dhe i drejtë kur parkohet."
+            "title (SQ)": "Mos harroni të ngrini mbështetësen",
+            "description (SQ)": "Parkoni BinBin duke ulur mbështetësen pranë rrotës së përparme. Në këtë mënyrë, BinBin qëndron i balancuar dhe i drejtë kur parkohet."
         },
         {
             "title (TR)": "Fotoğraf çek ve bitir",
             "description (TR)": "Sürüşü bitirmek için son adım, fotoğraf çekmek! BinBin’i kilidi ile birlikte tamamının göründüğünden emin ol!",
-            "title (ENG)": "Take a photo and finish",
-            "description (ENG)": "The final step to end the ride is to take a photo! Make sure the entire BinBin, including the lock, is visible.",
+            "title (EN)": "Take a photo and finish",
+            "description (EN)": "The final step to end the ride is to take a photo! Make sure the entire BinBin, including the lock, is visible.",
             "title (BG)": "Направете снимка и завършете",
             "description (BG)": "Последната стъпка за завършване на шофирането е да направите снимка! Уверете се, че целият BinBin, включително ключалката, е видим.",
             "title (BS)": "Fotografirajte i završite",
@@ -194,8 +194,8 @@
             "description (RU)": "Последний шаг для завершения поездки — сделать фото! Убедитесь, что весь BinBin, включая замок, виден.",
             "title (MK)": "Фотографирајте и завршете",
             "description (MK)": "Последниот чекор за да го завршите возењето е да фотографирате! Осигурајте се дека целиот BinBin, вклучувајќи ја бравата, е видлив.",
-            "title (ARN)": "Bëni një foto dhe përfundoni",
-            "description (ARN)": "Hapi i fundit për të përfunduar udhëtimin është të bëni një foto! Sigurohuni që i gjithë BinBin, duke përfshirë bllokimin, të jetë i dukshëm."
+            "title (SQ)": "Bëni një foto dhe përfundoni",
+            "description (SQ)": "Hapi i fundit për të përfunduar udhëtimin është të bëni një foto! Sigurohuni që i gjithë BinBin, duke përfshirë bllokimin, të jetë i dukshëm."
         }
     ]
 }

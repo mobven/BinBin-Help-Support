@@ -1,47 +1,47 @@
 {
     "title": {
         "TR": "Yardım ve Destek",
-        "ENG": "Help and Support",
+        "EN": "Help and Support",
         "BG": "Помощ и поддржка",
         "BS": "Pomoć i podrška",
         "RU": "Помощь и поддержка",
         "MK": "Помош и поддршка",
-        "ARN": "Ndihmë dhe Përkrahje"
+        "SQ": "Ndihmë dhe Përkrahje"
     },
     "assistant": {
         "title (TR)": "BinAsistan",
-        "title (ENG)": "BinAssistant",
+        "title (EN)": "BinAssistant",
         "title (BG)": "BinАсистент",
         "title (BS)": "BinAsistent",
         "title (RU)": "BinАссистент",
         "title (MK)": "BinАсистент",
-        "title (ARN)": "BinAsistent"
+        "title (SQ)": "BinAsistent"
     },
     "how-to-use": {
         "title (TR)": "Nasıl Kullanılır?",
-        "title (ENG)": "How to Use?",
+        "title (EN)": "How to Use?",
         "title (BG)": "Как да се използва?",
         "title (BS)": "Kako koristiti?",
         "title (RU)": "Как использовать?",
         "title (MK)": "Како да се користи?",
-        "title (ARN)": "Како да се користи?"
+        "title (SQ)": "Како да се користи?"
     },
     "driving-guide": {
         "title (TR)": "Sürüş Rehberi",
-        "title (ENG)": "Riding Guide",
+        "title (EN)": "Riding Guide",
         "title (BG)": "Ръководство за каране",
         "title (BS)": "Vodič za vožnju",
         "title (RU)": "Руководство по вождению",
         "title (MK)": "Водич за возење",
-        "title (ARN)": "Udhëzuesi i vozitjes"
+        "title (SQ)": "Udhëzuesi i vozitjes"
     },
     "faq": {
         "title (TR)": "Sıkça Sorulan Sorular",
-        "title (ENG)": "Frequently Asked Questions",
+        "title (EN)": "Frequently Asked Questions",
         "title (BG)": "Често задавани въпроси",
         "title (BS)": "Često postavljena pitanja",
         "title (RU)": "Часто задаваемые вопросы",
         "title (MK)": "Најчесто поставувани прашања",
-        "title (ARN)": "Pyetjet e bëra më shpesh"
+        "title (SQ)": "Pyetjet e bëra më shpesh"
     }
 }
