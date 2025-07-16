@@ -8,7 +8,9 @@
             "title (BS)": "Početak vožnje",
             "title (RU)": "Начало Поездки",
             "title (MK)": "Започнување на вожд",
-            "title (SQ)": "Fillimi I Udhëtimit"
+            "title (SQ)": "Fillimi I Udhëtimit",
+            "title (SR)": "Početak vožnje",
+            "title (HR)": "Početak vožnje"
         },
         {
             "id": 2,
@@ -18,7 +20,9 @@
             "title (BS)": "Tokom Vožnje",
             "title (RU)": "Во Время Поездки",
             "title (MK)": "За Време На Возење",
-            "title (SQ)": "Gjatë Udhëtimit"
+            "title (SQ)": "Gjatë Udhëtimit",
+            "title (SR)": "Tokom Vožnje",
+            "title (HR)": "Tokom Vožnje"
         },
         {
             "id": 3,
@@ -28,7 +32,9 @@
             "title (BS)": "Kraj Vožnje & Parkiranje",
             "title (RU)": "Завершение Поездки & Парковка",
             "title (MK)": "Крај На Возење & Паркирање",
-            "title (SQ)": "Fundi I Udhëtimit & Parkimi"
+            "title (SQ)": "Fundi I Udhëtimit & Parkimi",
+            "title (SR)": "Kraj Vožnje & Parkiranje",
+            "title (HR)": "Kraj Vožnje & Parkiranje"
         }
     ],
     "faq": [
@@ -48,7 +54,11 @@
             "Soru (SQ)": "Kush mund ta përdorë biçikletën elektrike?",
             "Cevap (SQ)": "Biçikletat elektrike mund të përdoren nga kushdo mbi moshën 15 vjeç.",
             "Soru (MK)": "Кој може да го користи е-велосипедот?",
-            "Cevap (MK)": "Е-велосипеди може да користи секој што има 15 или повеќе години."
+            "Cevap (MK)": "Е-велосипеди може да користи секој што има 15 или повеќе години.",
+            "Soru (SR)": "Ko može koristiti e-bicikl?",
+            "Cevap (SR)": "E-bicikle može koristiti svako ko ima 15 ili više godina.",
+            "Soru (HR)": "Ko može koristiti e-bicikl?",
+            "Cevap (HR)": "E-bicikle može koristiti svako ko ima 15 ili više godina."
         },
         {
             "Sıra": 2,
@@ -56,23 +66,27 @@
             "Soru (TR)": "QR kod hatası alıyorum ne yapabilirim?",
             "Cevap (TR)": "1. QR kodu doğru şekilde okuttuğundan emin ol. 2. Sorun devam ederse 'Kodu Gir' butonuna tıkla. 3. QR altında yer alan 4 haneli kodu manuel olarak yaz.",
             "Soru (EN)": "I'm getting a QR code error — what should I do?",
-            "Cevap (EN)": "1.Make sure you scanned the QR code correctly.2.If the issue continues, tap the “Enter Code” button.3.Manually enter the 4-digit code located under the QR code.",
+            "Cevap (EN)": "1.Make sure you scanned the QR code correctly.2.If the issue continues, tap the \"Enter Code\" button.3.Manually enter the 4-digit code located under the QR code.",
             "Soru (BG)": "I'm getting a QR code error — what should I do?",
-            "Cevap (BG)": "1.Make sure you scanned the QR code correctly.2.If the issue continues, tap the “Enter Code” button.3.Manually enter the 4-digit code located under the QR code.",
+            "Cevap (BG)": "1.Make sure you scanned the QR code correctly.2.If the issue continues, tap the \"Enter Code\" button.3.Manually enter the 4-digit code located under the QR code.",
             "Soru (BS)": "Dobijam grešku sa QR kodom — šta da radim?",
-            "Cevap (BS)": "1.Uvjeri se da si ispravno skenirao QR kod.2.Ako problem i dalje postoji, klikni na dugme “Unesi Kod”.3.Ručno unesi četvorocifreni kod ispod QR koda.",
+            "Cevap (BS)": "1.Uvjeri se da si ispravno skenirao QR kod.2.Ako problem i dalje postoji, klikni na dugme \"Unesi Kod\".3.Ručno unesi četvorocifreni kod ispod QR koda.",
             "Soru (RU)": "I'm getting a QR code error — what should I do?",
-            "Cevap (RU)": "1.Make sure you scanned the QR code correctly.2.If the issue continues, tap the “Enter Code” button.3.Manually enter the 4-digit code located under the QR code.",
+            "Cevap (RU)": "1.Make sure you scanned the QR code correctly.2.If the issue continues, tap the \"Enter Code\" button.3.Manually enter the 4-digit code located under the QR code.",
             "Soru (SQ)": "Po marr një gabim me kodin QR — çfarë duhet të bëj?",
-            "Cevap (SQ)": "1.Sigurohu që ke skanuar saktë kodin QR.2.Nëse problemi vazhdon, kliko butonin “Shkruaj Kodin”.3.Shkruaj manualisht kodin me 4 shifra që ndodhet poshtë kodit QR.",
+            "Cevap (SQ)": "1.Sigurohu që ke skanuar saktë kodin QR.2.Nëse problemi vazhdon, kliko butonin \"Shkruaj Kodin\".3.Shkruaj manualisht kodin me 4 shifra që ndodhet poshtë kodit QR.",
             "Soru (MK)": "Имам грешка со QR кодот — што да правам?",
-            "Cevap (MK)": "1.Провери дали точно си го скенирал QR кодот.2.Ако проблемот продолжи, кликни на копчето “Внеси Код”.3.Рачно внеси го четирицифрениот код под QR кодот."
+            "Cevap (MK)": "1.Провери дали точно си го скенирал QR кодот.2.Ако проблемот продолжи, кликни на копчето \"Внеси Код\".3.Рачно внеси го четирицифрениот код под QR кодот.",
+            "Soru (SR)": "Dobijam grešku sa QR kodom — šta da radim?",
+            "Cevap (SR)": "1.Uvjeri se da si ispravno skenirao QR kod.2.Ako problem i dalje postoji, klikni na dugme \"Unesi Kod\".3.Ručno unesi četvorocifreni kod ispod QR koda.",
+            "Soru (HR)": "Dobijam grešku sa QR kodom — šta da radim?",
+            "Cevap (HR)": "1.Uvjeri se da si ispravno skenirao QR kod.2.Ako problem i dalje postoji, klikni na dugme \"Unesi Kod\".3.Ručno unesi četvorocifreni kod ispod QR koda."
         },
         {
             "Sıra": 1,
             "TypeId": 2,
             "Soru (TR)": "BinBin'i nerede kullanabilirim?",
-            "Cevap (TR)": "BinBin’i sadece haritada açık renkli (beyaz) alanlar içinde kullanabilirsin.",
+            "Cevap (TR)": "BinBin'i sadece haritada açık renkli (beyaz) alanlar içinde kullanabilirsin.",
             "Soru (EN)": "Where can I use BinBin?",
             "Cevap (EN)": "You can use BinBin only within the light-colored (white) areas on the map.",
             "Soru (BG)": "Where can I use BinBin?",
@@ -84,7 +98,11 @@
             "Soru (SQ)": "Ku mund ta përdor BinBin?",
             "Cevap (SQ)": "Mund ta përdorësh BinBin vetëm brenda zonave me ngjyrë të çelët (të bardha) në hartë.",
             "Soru (MK)": "Каде можам да го користам BinBin?",
-            "Cevap (MK)": "BinBin можеш да го користиш само во светлите (бели) области на мапата."
+            "Cevap (MK)": "BinBin можеш да го користиш само во светлите (бели) области на мапата.",
+            "Soru (SR)": "Gdje mogu koristiti BinBin?",
+            "Cevap (SR)": "BinBin možeš koristiti samo unutar svijetlih (bijelih) područja na mapi.",
+            "Soru (HR)": "Gdje mogu koristiti BinBin?",
+            "Cevap (HR)": "BinBin možeš koristiti samo unutar svijetlih (bijelih) područja na mapi."
         },
         {
             "Sıra": 2,
@@ -102,25 +120,33 @@
             "Soru (SQ)": "Sa skuterë BinBin mund të marr me një llogari?",
             "Cevap (SQ)": "Me një llogari mund të marrësh me qira vetëm një BinBin në të njëjtën kohë.",
             "Soru (MK)": "Колку BinBin скутери можам да изнајмам со еден профил?",
-            "Cevap (MK)": "Со еден кориснички профил може да се изнајми само еден BinBin во исто време."
+            "Cevap (MK)": "Со еден кориснички профил може да се изнајми само еден BinBin во исто време.",
+            "Soru (SR)": "Koliko BinBin skutera mogu iznajmiti s jednim nalogom?",
+            "Cevap (SR)": "Samo jedan BinBin može biti iznajmljen u isto vrijeme putem jednog naloga.",
+            "Soru (HR)": "Koliko BinBin skutera mogu iznajmiti s jednim nalogom?",
+            "Cevap (HR)": "Samo jedan BinBin može biti iznajmljen u isto vrijeme putem jednog naloga."
         },
         {
             "Sıra": 1,
             "TypeId": 3,
             "Soru (TR)": "Sürüşü bitiremiyorum, ne yapmam lazım?",
             "Cevap (TR)": "Bağlantı sorunları olabilir. 1. Uygulamayı yeniden başlat. 2. İnternet bağlantını kontrol et. 3. Sorun devam ederse 'Yardım' butonundan bize ulaş.",
-            "Soru (EN)": "I can’t end my ride — what should I do?",
+            "Soru (EN)": "I can't end my ride — what should I do?",
             "Cevap (EN)": "Connection issues may occur.1.Restart the app.2.Check your internet connection.3.If the problem persists, contact us via the 'Help' button.",
-            "Soru (BG)": "I can’t end my ride — what should I do?",
+            "Soru (BG)": "I can't end my ride — what should I do?",
             "Cevap (BG)": "Connection issues may occur.1.Restart the app.2.Check your internet connection.3.If the problem persists, contact us via the 'Help' button.",
             "Soru (BS)": "Ne mogu završiti vožnju — šta da radim?",
             "Cevap (BS)": "Mogući su problemi s vezom.1.Ponovno pokreni aplikaciju.2.Provjeri svoju internet vezu.3.Ako problem i dalje postoji, kontaktiraj nas putem dugmeta 'Pomoć'.",
-            "Soru (RU)": "I can’t end my ride — what should I do?",
+            "Soru (RU)": "I can't end my ride — what should I do?",
             "Cevap (RU)": "Connection issues may occur.1.Restart the app.2.Check your internet connection.3.If the problem persists, contact us via the 'Help' button.",
             "Soru (SQ)": "Nuk mund ta përfundoj udhëtimin — çfarë duhet të bëj?",
             "Cevap (SQ)": "Mund të ketë probleme me lidhjen.1.Rinis aplikacionin.2.Kontrollo lidhjen tënde të internetit.3.Nëse problemi vazhdon, na kontakto përmes butonit 'Ndihmë'.",
             "Soru (MK)": "Не можам да го завршам возењето — што да правам?",
-            "Cevap (MK)": "Можно е да има проблеми со врската.1.Рестартирај ја апликацијата.2.Провери ја интернет конекцијата.3.Ако проблемот продолжи, контактирај нè преку копчето 'Помош'."
+            "Cevap (MK)": "Можно е да има проблеми со врската.1.Рестартирај ја апликацијата.2.Провери ја интернет конекцијата.3.Ако проблемот продолжи, контактирај нè преку копчето 'Помош'.",
+            "Soru (SR)": "Ne mogu završiti vožnju — šta da radim?",
+            "Cevap (SR)": "Mogući su problemi s vezom.1.Ponovno pokreni aplikaciju.2.Provjeri svoju internet vezu.3.Ako problem i dalje postoji, kontaktiraj nas putem dugmeta 'Pomoć'.",
+            "Soru (HR)": "Ne mogu završiti vožnju — šta da radim?",
+            "Cevap (HR)": "Mogući su problemi s vezom.1.Ponovno pokreni aplikaciju.2.Provjeri svoju internet vezu.3.Ako problem i dalje postoji, kontaktiraj nas putem dugmeta 'Pomoć'."
         },
         {
             "Sıra": 2,
@@ -138,7 +164,11 @@
             "Soru (SQ)": "Ku duhet të parkoj?",
             "Cevap (SQ)": "Mund të parkosh në zonat e bardha në hartë, përveç pronave private. Parkimi në zonat e kuqe është i ndaluar. Zonat e gjelbra ofrojnë zbritje.",
             "Soru (MK)": "Каде треба да паркирам?",
-            "Cevap (MK)": "Можеш да паркираш во белите зони на мапата, освен на приватен имот. Паркирањето во црвените зони е забрането. Зелените зони нудат попусти."
+            "Cevap (MK)": "Можеш да паркираш во белите зони на мапата, освен на приватен имот. Паркирањето во црвените зони е забрането. Зелените зони нудат попусти.",
+            "Soru (SR)": "Gdje trebam parkirati?",
+            "Cevap (SR)": "Možeš parkirati u bijelim zonama na mapi, osim na privatnim posjedima. Parkiranje u crvenim zonama je zabranjeno. Zelene zone nude popuste.",
+            "Soru (HR)": "Gdje trebam parkirati?",
+            "Cevap (HR)": "Možeš parkirati u bijelim zonama na mapi, osim na privatnim posjedima. Parkiranje u crvenim zonama je zabranjeno. Zelene zone nude popuste."
         }
     ]
 }

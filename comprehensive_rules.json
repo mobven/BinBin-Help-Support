@@ -6,7 +6,9 @@
         "BS": "Pune kompletne pravila za vožnju",
         "RU": "Полные правила для вождения",
         "MK": "Полнетни правила за вожд",
-        "SQ": "Pune pravila za vožnju"
+        "SQ": "Pune pravila za vožnju",
+        "SR": "Pune kompletne pravila za vožnju",
+        "HR": "Pune kompletne pravila za vožnju"
     },
     "before": {
         "TR": "Sürüş Öncesi",
@@ -15,7 +17,9 @@
         "BS": "Prije vožnje",
         "RU": "Перед вождением",
         "MK": "Пред вожд",
-        "SQ": "Prije vožnje"
+        "SQ": "Prije vožnje",
+        "SR": "Prije vožnje",
+        "HR": "Prije vožnje"
     },
     "during": {
         "TR": "Sürüş Sırası",
@@ -24,7 +28,9 @@
         "BS": "Vožnja",
         "RU": "Вождение",
         "MK": "Вожд",
-        "SQ": "Vožnja"
+        "SQ": "Vožnja",
+        "SR": "Vožnja",
+        "HR": "Vožnja"
     },
     "after": {
         "TR": "Sürüş Bitimi",
@@ -33,7 +39,9 @@
         "BS": "Završavanje vožnje",
         "RU": "Завершение поездки",
         "MK": "Заврши вожд",
-        "SQ": "Završavanje vožnje"
+        "SQ": "Završavanje vožnje",
+        "SR": "Završavanje vožnje",
+        "HR": "Završavanje vožnje"
     },
     "button": [
         {
@@ -43,7 +51,9 @@
             "BS": "Pravila za vožnju",
             "RU": "Правила для вождения",
             "MK": "Правила за вожд",
-            "SQ": "Pravila za vožnju"
+            "SQ": "Pravila za vožnju",
+            "SR": "Pravila za vožnju",
+            "HR": "Pravila za vožnju"
         },
         {
             "TR": "Sürüş Bitimi Kuralları",
@@ -52,7 +62,9 @@
             "BS": "Pravila za završavanje vožnje",
             "RU": "Правила для завершения поездки",
             "MK": "Правила за заврши вожд",
-            "SQ": "Pravila za završavanje vožnje"
+            "SQ": "Pravila za završavanje vožnje",
+            "SR": "Pravila za završavanje vožnje",
+            "HR": "Pravila za završavanje vožnje"
         },
         {
             "TR": "Tamam",
@@ -61,7 +73,9 @@
             "BS": "Završi",
             "RU": "Завершить",
             "MK": "Заврши",
-            "SQ": "Заврши"
+            "SQ": "Заврши",
+            "SR": "Završi",
+            "HR": "Završi"
         }
     ]
 }

@@ -6,7 +6,9 @@
         "BS": "Često postavljena pitanja",
         "RU": "Часто задаваемые вопросы",
         "MK": "Често поставувани прашања",
-        "SQ": "Često postavljena pitanja"
+        "SQ": "Često postavljena pitanja",
+        "SR": "Često postavljena pitanja",
+        "HR": "Često postavljena pitanja"
     },
     "search-placeholder": {
         "TR": "Sorularda ara...",
@@ -15,7 +17,9 @@
         "BS": "Pretraži u pitanjima",
         "RU": "Поиск в вопросах",
         "MK": "Пребарување во прашања",
-        "SQ": "Pretraži u pitanjima"
+        "SQ": "Pretraži u pitanjima",
+        "SR": "Pretraži u pitanjima",
+        "HR": "Pretraži u pitanjima"
     },
     "common-topics": {
         "TR": "Ortak Konular",
@@ -24,7 +28,9 @@
         "BS": "Često postavljena pitanja",
         "RU": "Часто задаваемые вопросы",
         "MK": "Често поставувани прашања",
-        "SQ": "Često postavljena pitanja"
+        "SQ": "Često postavljena pitanja",
+        "SR": "Često postavljena pitanja",
+        "HR": "Često postavljena pitanja"
     },
     "all": {
         "TR": "Tümü",
@@ -33,6 +39,8 @@
         "BS": "Sve",
         "RU": "Все",
         "MK": "Сите",
-        "SQ": "Sve"
+        "SQ": "Sve",
+        "SR": "Sve",
+        "HR": "Sve"
     }
 }

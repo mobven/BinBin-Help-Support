@@ -6,7 +6,9 @@
         "BS": "Pomoć i podrška",
         "RU": "Помощь и поддержка",
         "MK": "Помош и поддршка",
-        "SQ": "Ndihmë dhe Përkrahje"
+        "SQ": "Ndihmë dhe Përkrahje",
+        "SR": "Pomoć i podrška",
+        "HR": "Pomoć i podrška"
     },
     "assistant": {
         "title (TR)": "BinAsistan",
@@ -15,7 +17,9 @@
         "title (BS)": "BinAsistent",
         "title (RU)": "BinАссистент",
         "title (MK)": "BinАсистент",
-        "title (SQ)": "BinAsistent"
+        "title (SQ)": "BinAsistent",
+        "title (SR)": "BinAsistent",
+        "title (HR)": "BinAsistent"
     },
     "how-to-use": {
         "title (TR)": "Nasıl Kullanılır?",
@@ -24,7 +28,9 @@
         "title (BS)": "Kako koristiti?",
         "title (RU)": "Как использовать?",
         "title (MK)": "Како да се користи?",
-        "title (SQ)": "Како да се користи?"
+        "title (SQ)": "Како да се користи?",
+        "title (SR)": "Kako koristiti?",
+        "title (HR)": "Kako koristiti?"
     },
     "driving-guide": {
         "title (TR)": "Sürüş Rehberi",
@@ -33,7 +39,9 @@
         "title (BS)": "Vodič za vožnju",
         "title (RU)": "Руководство по вождению",
         "title (MK)": "Водич за возење",
-        "title (SQ)": "Udhëzuesi i vozitjes"
+        "title (SQ)": "Udhëzuesi i vozitjes",
+        "title (SR)": "Vodič za vožnju",
+        "title (HR)": "Vodič za vožnju"
     },
     "faq": {
         "title (TR)": "Sıkça Sorulan Sorular",
@@ -42,6 +50,8 @@
         "title (BS)": "Često postavljena pitanja",
         "title (RU)": "Часто задаваемые вопросы",
         "title (MK)": "Најчесто поставувани прашања",
-        "title (SQ)": "Pyetjet e bëra më shpesh"
+        "title (SQ)": "Pyetjet e bëra më shpesh",
+        "title (SR)": "Često postavljena pitanja",
+        "title (HR)": "Često postavljena pitanja"
     }
 }

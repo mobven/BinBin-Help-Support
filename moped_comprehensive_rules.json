@@ -14,7 +14,11 @@
             "title (MK)": "Додатоци за безбедност",
             "description (MK)": "Пред да започнете на патувањето, ви препорачуваме да преземете лични безбедносни мерки. Користењето на кацига, заштитници за лактите и колената ја зголемува вашата безбедност.",
             "title (SQ)": "Aksesore sigurie",
-            "description (SQ)": "Para se të filloni udhëtimin, ju rekomandojmë të merrni masa të sigurisë personale. Përdorimi i kaskës, mbrojtësve të kodosheve dhe gjunjëve rrit sigurinë tuaj."
+            "description (SQ)": "Para se të filloni udhëtimin, ju rekomandojmë të merrni masa të sigurisë personale. Përdorimi i kaskës, mbrojtësve të kodosheve dhe gjunjëve rrit sigurinë tuaj.",
+            "title (SR)": "Sigurnosni dodaci",
+            "description (SR)": "Prije nego što krenete na put, svakako preporučujemo da poduzmete osobne sigurnosne mjere. Nošenje kacige, zaštite za laktove i koljena povećava vašu sigurnost.",
+            "title (HR)": "Sigurnosni dodaci",
+            "description (HR)": "Prije nego što krenete na put, svakako preporučujemo da poduzmete osobne sigurnosne mjere. Nošenje kacige, zaštite za laktove i koljena povećava vašu sigurnost."
         },
         {
             "title (TR)": "Moped ile sürüşe başlamak için QR kodu okut!",
@@ -30,7 +34,11 @@
             "title (MK)": "Скенирајте QR код за да започнете со возење на мопед!",
             "description (MK)": "Можете да го скенирате QR кодот со камерата на вашиот телефон.",
             "title (SQ)": "Skanojeni kodin QR për të filluar udhëtimin me moped!",
-            "description (SQ)": "Mund ta skanoni kodin QR me kamerën e telefonit tuaj."
+            "description (SQ)": "Mund ta skanoni kodin QR me kamerën e telefonit tuaj.",
+            "title (SR)": "Skenirajte QR kod da počnete vožnju mopedom!",
+            "description (SR)": "QR kod možete skenirati pomoću kamere na svom telefonu.",
+            "title (HR)": "Skenirajte QR kod da počnete vožnju mopedom!",
+            "description (HR)": "QR kod možete skenirati pomoću kamere na svom telefonu."
         },
         {
             "title (TR)": "Kask kutusu",
@@ -46,7 +54,11 @@
             "title (MK)": "Кутија за кацига",
             "description (MK)": "За да го отклучите заклучувањето на кутијата за кацига, започнете со возењето и кликнете на копчето за отклучување.",
             "title (SQ)": "Kuti për kaskën",
-            "description (SQ)": "Për të hapur bllokimin e kutisë së kaskës, filloni udhëtimin dhe klikoni në butonin e hapjes."
+            "description (SQ)": "Për të hapur bllokimin e kutisë së kaskës, filloni udhëtimin dhe klikoni në butonin e hapjes.",
+            "title (SR)": "Kutija za kacigu",
+            "description (SR)": "Da biste otključali zaključavanje kutije za kacigu, započnite vožnju i kliknite na dugme za otključavanje.",
+            "title (HR)": "Kutija za kacigu",
+            "description (HR)": "Da biste otključali zaključavanje kutije za kacigu, započnite vožnju i kliknite na dugme za otključavanje."
         },
         {
             "title (TR)": "Kaskını takmayı unutma",
@@ -62,7 +74,11 @@
             "title (MK)": "Не заборавај да ја ставиш кацигата",
             "description (MK)": "Кога ќе го притиснете копчето на кутијата, капакот се отвора. Сега можете да ја ставите кацигата.",
             "title (SQ)": "Mos harroni të vendosni kaskën",
-            "description (SQ)": "Kur të shtypni butonin në kuti, kapa hapet. Tani mund të vishni kaskën tuaj."
+            "description (SQ)": "Kur të shtypni butonin në kuti, kapa hapet. Tani mund të vishni kaskën tuaj.",
+            "title (SR)": "Ne zaboravi staviti kacigu",
+            "description (SR)": "Kada pritisneš dugme na kutiji, poklopac će se otvoriti. Sada možeš staviti svoju kacigu.",
+            "title (HR)": "Ne zaboravi staviti kacigu",
+            "description (HR)": "Kada pritisneš dugme na kutiji, poklopac će se otvoriti. Sada možeš staviti svoju kacigu."
         },
         {
             "title (TR)": "Ayar tuşları sol, araç çalıştırma sağ tarafta.",
@@ -78,7 +94,11 @@
             "title (MK)": "Копчињата за поставување се лево, копчето за стартување на возилото е десно.",
             "description (MK)": "Можете да ги достигнете копчињата за поставување на фаровите, сирената и сигналите од лева страна, а за да го започнете возилото, притиснете го копчето за контакт на долната десна страна.",
             "title (SQ)": "Butonat e rregullimit janë majtas, butoni i ndezjes së mjetit është djathtas.",
-            "description (SQ)": "Mund të arrini butonat e rregullimit të dritave, borisë dhe sinjalit në majtas, dhe shtypni butonin e ndezjes në të djathtën e poshtme për të nisur mjetin."
+            "description (SQ)": "Mund të arrini butonat e rregullimit të dritave, borisë dhe sinjalit në majtas, dhe shtypni butonin e ndezjes në të djathtën e poshtme për të nisur mjetin.",
+            "title (SR)": "Tasteri za podešavanje su sa leve strane, taster za pokretanje vozila je sa desne strane.",
+            "description (SR)": "Možete doći do dugmadi za podešavanje farova, sirene i signala sa leve strane, a za pokretanje vozila pritisnite taster za kontakt sa donje desne strane.",
+            "title (HR)": "Tasteri za podešavanje su sa leve strane, taster za pokretanje vozila je sa desne strane.",
+            "description (HR)": "Možete doći do dugmadi za podešavanje farova, sirene i signala sa leve strane, a za pokretanje vozila pritisnite taster za kontakt sa donje desne strane."
         },
         {
             "title (TR)": "Son kontroller",
@@ -94,7 +114,11 @@
             "title (MK)": "Последни проверки",
             "description (MK)": "Пред вашето возење, не заборавајте да го проверите батеријата на телефонот, батеријата на уредот, кочниците, гасот и светлата! По сите проверки, сте подготвени за возење.",
             "title (SQ)": "Kontrollat e fundit",
-            "description (SQ)": "Para udhëtimit, mos harroni të kontrolloni ngarkesën e telefonit, ngarkesën e pajisjes, frenat, gazin dhe dritat! Pas kontrolleve të gjitha, jeni gati për të udhëtuar."
+            "description (SQ)": "Para udhëtimit, mos harroni të kontrolloni ngarkesën e telefonit, ngarkesën e pajisjes, frenat, gazin dhe dritat! Pas kontrolleve të gjitha, jeni gati për të udhëtuar.",
+            "title (SR)": "Zadnje provjere",
+            "description (SR)": "Prije nego krenete, ne zaboravite provjeriti bateriju vašeg telefona, bateriju uređaja, kočnice, gas i svjetla! Nakon svih provjera, spremni ste za vožnju.",
+            "title (HR)": "Zadnje provjere",
+            "description (HR)": "Prije nego krenete, ne zaboravite provjeriti bateriju vašeg telefona, bateriju uređaja, kočnice, gas i svjetla! Nakon svih provjera, spremni ste za vožnju."
         }
     ],
     "during": [
@@ -112,7 +136,11 @@
             "title (MK)": "Балансирано возење",
             "description (MK)": "Не возете со една рака при маневрирање, освен кога сигнализирате, и избегнувајте носење големи чанти и тешки товари кои ќе влијаат на вашата рамнотежа.",
             "title (SQ)": "Të drejtuarit e ekuilibruar",
-            "description (SQ)": "Mos vozitni me një dorë gjatë manovrimit përveç kur jepni sinjal dhe shmangni mbajtjen e çantave të mëdha dhe ngarkesave të rënda që do të ndikojnë në balancën tuaj."
+            "description (SQ)": "Mos vozitni me një dorë gjatë manovrimit përveç kur jepni sinjal dhe shmangni mbajtjen e çantave të mëdha dhe ngarkesave të rënda që do të ndikojnë në balancën tuaj.",
+            "title (SR)": "Balansirana vožnja",
+            "description (SR)": "Nemojte voziti sa jednom rukom dok manevrišete osim kada signalizirate, i izbegavajte nošenje velikih torbi i teških tereta koji će uticati na vašu ravnotežu.",
+            "title (HR)": "Balansirana vožnja",
+            "description (HR)": "Nemojte voziti sa jednom rukom dok manevrišete osim kada signalizirate, i izbegavajte nošenje velikih torbi i teških tereta koji će uticati na vašu ravnotežu."
         },
         {
             "title (TR)": "Yayalara dikkat",
@@ -128,7 +156,11 @@
             "title (MK)": "Внимавајте на пешаците",
             "description (MK)": "Не ги заборавајте сообраќајните правила додека возите мопед! Внимавајте на пешаците, не возете по тротоарите и почитувајте ги сите правила кои се важни за возилата.",
             "title (SQ)": "Kujdes për këmbësorët",
-            "description (SQ)": "Mos harroni rregullat e trafikut gjatë udhëtimit me moped! Kujdesuni për këmbësorët, mos ngasni në trotuar dhe respektoni të gjitha rregullat që vlejnë për automjetet."
+            "description (SQ)": "Mos harroni rregullat e trafikut gjatë udhëtimit me moped! Kujdesuni për këmbësorët, mos ngasni në trotuar dhe respektoni të gjitha rregullat që vlejnë për automjetet.",
+            "title (SR)": "Pazite na pješake",
+            "description (SR)": "Nemojte zaboraviti prometna pravila dok vozite moped! Pazite na pješake, ne vozite na trotoarima i pridržavajte se svih pravila koja se odnose na vozila.",
+            "title (HR)": "Pazite na pješake",
+            "description (HR)": "Nemojte zaboraviti prometna pravila dok vozite moped! Pazite na pješake, ne vozite na trotoarima i pridržavajte se svih pravila koja se odnose na vozila."
         }
     ],
     "after": [
@@ -146,7 +178,11 @@
             "title (MK)": "Соодветно паркирање",
             "description (MK)": "Мопедот треба да го паркирате во станици, столбови што нема да го блокираат патот и во сервисни области, а не на автобуските постојки, патеките за пешаци или тротоарите.",
             "title (SQ)": "Parkimi i duhur",
-            "description (SQ)": "Parkoni mopedin tuaj në stacione, shtylla që nuk do të bllokojnë rrugën dhe zona shërbimi, jo në stacionet e autobusëve, shtigjet për këmbësorë ose trotuaret."
+            "description (SQ)": "Parkoni mopedin tuaj në stacione, shtylla që nuk do të bllokojnë rrugën dhe zona shërbimi, jo në stacionet e autobusëve, shtigjet për këmbësorë ose trotuaret.",
+            "title (SR)": "Pravilno parkiranje",
+            "description (SR)": "Parkirajte svoj moped u stanicama, stubovima koji neće blokirati put i servisnim područjima, a ne na autobusnim stajalištima, stazama za pješake ili trotoarima.",
+            "title (HR)": "Pravilno parkiranje",
+            "description (HR)": "Parkirajte svoj moped u stanicama, stubovima koji neće blokirati put i servisnim područjima, a ne na autobusnim stajalištima, stazama za pješake ili trotoarima."
         },
         {
             "title (TR)": "Sürüşünü bitirmek için kontak tuşuna basmayı unutma",
@@ -162,7 +198,11 @@
             "title (MK)": "Не заборавај да го притиснеш копчето за контакт за да ја завршиш возењето",
             "description (MK)": "За да ја завршиш возењето, притисни го копчето за контакт во долниот десен агол.",
             "title (SQ)": "Mos harroni të shtypni butonin e ndezjes për të mbaruar udhëtimin",
-            "description (SQ)": "Për të përfunduar udhëtimin tuaj, shtypni butonin e ndezjes në këndin e poshtëm të djathtë."
+            "description (SQ)": "Për të përfunduar udhëtimin tuaj, shtypni butonin e ndezjes në këndin e poshtëm të djathtë.",
+            "title (SR)": "Ne zaboravi pritisnuti taster za kontakt da završiš vožnju",
+            "description (SR)": "Da bi završio vožnju, pritisni taster za kontakt u donjem desnom kutu.",
+            "title (HR)": "Ne zaboravi pritisnuti taster za kontakt da završiš vožnju",
+            "description (HR)": "Da bi završio vožnju, pritisni taster za kontakt u donjem desnom kutu."
         },
         {
             "title (TR)": "Eşyalarını almayı unutma",
@@ -178,7 +218,11 @@
             "title (MK)": "Не заборавај да ги земеш твоите работи",
             "description (MK)": "Отвори кутија за шлем, земи ги работите и врати го шлемот на место.",
             "title (SQ)": "Mos harro të marrësh sendet tua",
-            "description (SQ)": "Hap kutinë e helmetës, merr sendet dhe vendos helmetën në vendin e saj."
+            "description (SQ)": "Hap kutinë e helmetës, merr sendet dhe vendos helmetën në vendin e saj.",
+            "title (SR)": "Ne zaboravi uzeti svoje stvari",
+            "description (SR)": "Otvori kutiju za kacigu, uzmi stvari i vrati kacigu na svoje mjesto.",
+            "title (HR)": "Ne zaboravi uzeti svoje stvari",
+            "description (HR)": "Otvori kutiju za kacigu, uzmi stvari i vrati kacigu na svoje mjesto."
         },
         {
             "title (TR)": "Fotoğraf çek ve bitir",
@@ -194,7 +238,11 @@
             "title (MK)": "Направи фотографија и заврши",
             "description (MK)": "Последниот чекор за завршување на возењето е да направиш фотографија! Мора да го прикажеш целиот мопед.",
             "title (SQ)": "Bëj një foto dhe përfundo",
-            "description (SQ)": "Hapi i fundit për të përfunduar udhëtimin është të bësh një foto! Duhet të bësh një foto ku të duket i gjithë mopedi."
+            "description (SQ)": "Hapi i fundit për të përfunduar udhëtimin është të bësh një foto! Duhet të bësh një foto ku të duket i gjithë mopedi.",
+            "title (SR)": "Snimi fotografiju i završi",
+            "description (SR)": "Posljednji korak za završetak vožnje je fotografisanje! Moraš snimiti cijeli moped.",
+            "title (HR)": "Snimi fotografiju i završi",
+            "description (HR)": "Posljednji korak za završetak vožnje je fotografisanje! Moraš snimiti cijeli moped."
         }
     ]
 }

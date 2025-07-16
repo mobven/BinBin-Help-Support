@@ -14,7 +14,12 @@
         "Soru (SQ)": "Çfarë është BinBin?",
         "Cevap (RU)": "BinBin is an electric scooter, moped, and bicycle rental service that offers eco-friendly alternatives while combining fun and easy transportation in the city.",
         "Cevap (MK)": "BinBin е услуга за изнајмување на електрични скутери, мопеди и велосипеди која нуди еколошки алтернативи, комбинирајќи забавен и лесен превоз низ градот.",
-        "Cevap (SQ)": "BinBin është një shërbim me qira për skuterë elektrikë, mopeda dhe biçikleta që ofron alternativa miqësore me mjedisin duke kombinuar transportin argëtues dhe të lehtë brenda qytetit."
+        "Cevap (SQ)": "BinBin është një shërbim me qira për skuterë elektrikë, mopeda dhe biçikleta që ofron alternativa miqësore me mjedisin duke kombinuar transportin argëtues dhe të lehtë brenda qytetit.",
+        "Soru (HR)": "Šta je BinBin?",
+        "Cevap (HR)": "BinBin je usluga iznajmljivanja električnih skutera, mopeda i bicikala koja nudi ekološki prihvatljive alternative, spajajući zabavan i jednostavan prevoz u gradu.",
+        "Soru (SR)": "Šta je BinBin?",
+        "Cevap (SR)": "BinBin je usluga iznajmljivanja električnih skutera, mopeda i bicikala koja nudi ekološki prihvatljive alternative, spajajući zabavan i jednostavan prevoz u gradu."
+            
     },
     {
         "Sıra": 2,
@@ -31,7 +36,11 @@
         "Soru (SQ)": "Ku mund ta gjej BinBin?",
         "Cevap (RU)": "You can view the BinBins in your area by tapping the map icon.",
         "Cevap (MK)": "Со кликнување на иконата за мапа, можеш да ги видиш BinBin возилата во твојата околина.",
-        "Cevap (SQ)": "Duke klikuar ikonën e hartës, mund të shohësh BinBin-at në zonën ku ndodhesh."
+        "Cevap (SQ)": "Duke klikuar ikonën e hartës, mund të shohësh BinBin-at në zonën ku ndodhesh.",
+        "Soru (HR)": "Gdje mogu pronaći BinBin?",
+        "Cevap (HR)": "Klikom na ikonu mape možeš vidjeti BinBin vozila u svojoj blizini.",
+        "Soru (SR)": "Gdje mogu pronaći BinBin?",
+        "Cevap (SR)": "Klikom na ikonu mape možeš vidjeti BinBin vozila u svojoj blizini."
     },
     {
         "Sıra": 3,
@@ -48,7 +57,11 @@
         "Soru (SQ)": "Si mund të ngarkoj balancë në portofolin tim?",
         "Cevap (RU)": "1.Tap the wallet icon at the bottom of the app. 2.Tap the “+ Add Balance” button to proceed to the payment step.",
         "Cevap (MK)": "1.Допрете ја иконата за паричник на дното од апликацијата. 2.Притиснете на копчето “+ Надополни Средства” за да преминете на чекорот за плаќање",
-        "Cevap (SQ)": "1.Kliko ikonën e portofolit në fund të aplikacionit.2.Kliko butonin “+ Shto Baki” për të kaluar në hapin e pagesës."
+        "Cevap (SQ)": "1.Kliko ikonën e portofolit në fund të aplikacionit.2.Kliko butonin “+ Shto Baki” për të kaluar në hapin e pagesës.",
+        "Soru (HR)": "Kako mogu dopuniti svoj novčanik?",
+        "Cevap (HR)": "1.Dodirni ikonu novčanika na dnu aplikacije. 2.Dodirni dugme “+ Dodaj Sredstva” da pređeš na korak plaćanja.",
+        "Soru (SR)": "Kako mogu dopuniti svoj novčanik?",
+        "Cevap (SR)": "1.Dodirni ikonu novčanika na dnu aplikacije. 2.Dodirni dugme “+ Dodaj Sredstva” da pređeš na korak plaćanja."
     },
     {
         "Sıra": 4,
@@ -65,7 +78,12 @@
         "Soru (SQ)": "A ka përfitime kur ngarkoj portofolin?",
         "Cevap (RU)": "You can earn bonus balance based on the amount you load.To see the benefits:1.Tap the wallet icon at the bottom of the app.2.Tap the “+ Add Balance” button to proceed to",
         "Cevap (MK)": "Можеш да добиеш дополнителен износ во зависност од сумата што ја надополниш.За да ги видиш поволностите:1.Допрете ја иконата за паричник на дното од апликацијата. 2.Притиснете на копчето “+ Надополни Средства” за да преминете на чекорот за плаќање.",
-        "Cevap (SQ)": "Mund të fitosh saldo shtesë në bazë të shumës që ngarkon.Për të parë përfitimet:1.Kliko ikonën e portofolit në fund të aplikacionit.2.Kliko butonin “+ Shto Baki” për të kaluar në hapin e pagesës."
+        "Cevap (SQ)": "Mund të fitosh saldo shtesë në bazë të shumës që ngarkon.Për të parë përfitimet:1.Kliko ikonën e portofolit në fund të aplikacionit.2.Kliko butonin “+ Shto Baki” për të kaluar në hapin e pagesës.",
+        "Soru (HR)": "Postoje li pogodnosti pri dopuni novčanika?",
+        "Cevap (HR)": "Možeš dobiti dodatni iznos u zavisnosti od toga koliko novca uplatiš.Da vidiš pogodnosti:1.Dodirni ikonu novčanika na dnu aplikacije.2.Dodirni dugme “+ Dodaj Sredstva” da pređeš na korak plaćanja.",
+        "Soru (SR)": "Postoje li pogodnosti pri dopuni novčanika?",
+        "Cevap (SR)": "Možeš dobiti dodatni iznos u zavisnosti od toga koliko novca uplatiš.Da vidiš pogodnosti:1.Dodirni ikonu novčanika na dnu aplikacije.2.Dodirni dugme “+ Dodaj Sredstva” da pređeš na korak plaćanja."
+        
     },
     {
         "Sıra": 5,
@@ -82,7 +100,11 @@
         "Soru (SQ)": "Jam shtetas i huaj — a mund të marr me qira një mjet?",
         "Cevap (RU)": "Yes, you can rent.To rent a moped, you need to verify your driver’s license.To rent a bicycle or scooter, just complete the following steps:1.Add your passport number.2.Upload a photo of your foreign ID document.3.Take a selfie.4.Add a valid payment method.After completing these steps, you can rent using the app.",
         "Cevap (MK)": "Да, можеш да изнајмиш.За изнајмување на мопед треба да ја верификуваш твојата возачка дозвола.За велосипед или скутер, доволно е да ги завршиш следниве чекори:1.Додади го бројот од пасошот.2.Прикачи фотографија од твојата странска лична карта.3.Направи селфи.4.Додади важечки начин на плаќање.По завршување на овие чекори, можеш да изнајмиш преку апликацијата.",
-        "Cevap (SQ)": "Po, mund të marrësh me qira.Për të marrë një moped, duhet të verifikosh patentën tënde.Për biçikletë ose skuter, mjafton të përfundosh këto hapa:1.Shto numrin e pasaportës.2.Ngarko një foto të dokumentit tënd të identitetit.3.Bëj një selfie.4.Shto një metodë të vlefshme pagese.Pasi t’i përfundosh këto hapa, mund të përdorësh aplikacionin për të marrë me qira."
+        "Cevap (SQ)": "Po, mund të marrësh me qira.Për të marrë një moped, duhet të verifikosh patentën tënde.Për biçikletë ose skuter, mjafton të përfundosh këto hapa:1.Shto numrin e pasaportës.2.Ngarko një foto të dokumentit tënd të identitetit.3.Bëj një selfie.4.Shto një metodë të vlefshme pagese.Pasi t’i përfundosh këto hapa, mund të përdorësh aplikacionin për të marrë me qira.",
+        "Soru (HR)": "Stranac sam — mogu li iznajmiti vozilo?",
+        "Cevap (HR)": "Da, možeš iznajmiti.Za iznajmljivanje mopeda moraš verifikovati svoju vozačku dozvolu.Za bicikl ili trotinet dovoljno je da završiš sljedeće korake:1.Dodaj broj pasoša.2.Postavi fotografiju svoje strane lične karte.3.Napravi selfie.4.Dodaj važeći način plaćanja.Nakon ovih koraka možeš koristiti aplikaciju za iznajmljivanje.",
+        "Soru (SR)": "Stranac sam — mogu li iznajmiti vozilo?",
+        "Cevap (SR)": "Da, možeš iznajmiti.Za iznajmljivanje mopeda moraš verifikovati svoju vozačku dozvolu.Za bicikl ili trotinet dovoljno je da završiš sljedeće korake:1.Dodaj broj pasoša.2.Postavi fotografiju svoje strane lične karte.3.Napravi selfie.4.Dodaj važeći način plaćanja.Nakon ovih koraka možeš koristiti aplikaciju za iznajmljivanje."
     },
     {
         "Sıra": 6,
@@ -99,7 +121,11 @@
         "Soru (SQ)": "Si mund ta realizoj pagesën?",
         "Cevap (RU)": "You can make your payment in two ways:1.The fare is charged from your default registered card on the “My Wallet” page after the ride ends. If you haven’t added a card yet, you can register one before starting the ride.2.The fare is deducted from the balance you previously loaded into your wallet account.",
         "Cevap (MK)": "Плаќањето можеш да го извршиш на два начина:1.Сумата се наплатува од стандардната регистрирана картичка на страницата “Мој Паричник” по завршувањето на возењето. Ако немаш регистрирана картичка, можеш да ја додадеш пред да започнеш со возење.2.Сумата се одзема од претходно надополнетиот износ во твојата сметка за паричник.",
-        "Cevap (SQ)": "Pagesën mund ta realizosh në dy mënyra:1.Shuma tërhiqet nga karta e regjistruar si parazgjedhje në faqen “Portofoli Im” pas përfundimit të udhëtimit. Nëse nuk ke regjistruar një kartë, mund ta shtosh përpara fillimit të udhëtimit.2.Shuma zbritet nga balanca që ke ngarkuar më parë në llogarinë tënde të portofolit."
+        "Cevap (SQ)": "Pagesën mund ta realizosh në dy mënyra:1.Shuma tërhiqet nga karta e regjistruar si parazgjedhje në faqen “Portofoli Im” pas përfundimit të udhëtimit. Nëse nuk ke regjistruar një kartë, mund ta shtosh përpara fillimit të udhëtimit.2.Shuma zbritet nga balanca që ke ngarkuar më parë në llogarinë tënde të portofolit.",
+        "Soru (HR)": "Kako mogu izvršiti uplatu?",
+        "Cevap (HR)": "Plaćanje možeš izvršiti na dva načina:1.Iznos se naplaćuje s podrazumijevane kartice registrovane na stranici “Moj Novčanik” nakon završetka vožnje. Ako nemaš karticu, možeš je dodati prije početka vožnje.2.Iznos se odbija od salda koji si ranije uplatio na svoj novčanik.",
+        "Soru (SR)": "Kako mogu izvršiti uplatu?",
+        "Cevap (SR)": "Plaćanje možeš izvršiti na dva načina:1.Iznos se naplaćuje s podrazumijevane kartice registrovane na stranici “Moj Novčanik” nakon završetka vožnje. Ako nemaš karticu, možeš je dodati prije početka vožnje.2.Iznos se odbija od salda koji si ranije uplatio na svoj novčanik."
     },
     {
         "Sıra": 7,
@@ -116,7 +142,11 @@
         "Soru (SQ)": "Si mund të krijoj një llogari?",
         "Cevap (RU)": "1.Download and open the app.2.Enter your phone number and tap “Verify via SMS”.3.Enter the 4-digit code you receive and tap “Continue”.4.Fill in your membership details completely (name and surname must match your ID).5.Accept the terms and tap “Confirm and Sign Up” to complete your registration.",
         "Cevap (MK)": "1.Преземи ја и отвори апликацијата.2.Внеси го твојот телефонски број и притисни “Потврди со СМС”.3.Внеси го 4-цифрениот код што ќе го добиеш и притисни “Продолжи”.4.Пополни ги сите податоци за членство (име и презиме како во лична карта).5.Прифати ги условите и притисни “Потврди и Регистрирај се” за да ја завршиш регистрацијата.",
-        "Cevap (SQ)": "1.Shkarko dhe hap aplikacionin.2.Shkruaj numrin tënd të telefonit dhe kliko “Verifiko me SMS”.3.Fut kodin me 4 shifra që merr dhe kliko “Vazhdo”.4.Plotëso të gjitha të dhënat e anëtarësimit (emri dhe mbiemri si në dokumentin e identitetit).5.Prano kushtet dhe kliko “Konfirmo dhe Regjistrohu” për të përfunduar regjistrimin."
+        "Cevap (SQ)": "1.Shkarko dhe hap aplikacionin.2.Shkruaj numrin tënd të telefonit dhe kliko “Verifiko me SMS”.3.Fut kodin me 4 shifra që merr dhe kliko “Vazhdo”.4.Plotëso të gjitha të dhënat e anëtarësimit (emri dhe mbiemri si në dokumentin e identitetit).5.Prano kushtet dhe kliko “Konfirmo dhe Regjistrohu” për të përfunduar regjistrimin.",
+        "Soru (HR)": "Kako mogu kreirati svoj račun?",
+        "Cevap (HR)": "1.Preuzmi i otvori aplikaciju.2.Unesi svoj broj telefona i dodirni “Potvrdi putem SMS-a”.3.Unesi četvorocifreni kod koji dobiješ i dodirni “Nastavi”.4.Ispuni sve podatke za registraciju (ime i prezime kao na ličnoj karti).5.Prihvati uslove i dodirni “Potvrdi i Registruj se” da završiš registraciju.",
+        "Soru (SR)": "Kako mogu kreirati svoj račun?",
+        "Cevap (SR)": "1.Preuzmi i otvori aplikaciju.2.Unesi svoj broj telefona i dodirni “Potvrdi putem SMS-a”.3.Unesi četvorocifreni kod koji dobiješ i dodirni “Nastavi”.4.Ispuni sve podatke za registraciju (ime i prezime kao na ličnoj karti).5.Prihvati uslove i dodirni “Potvrdi i Registruj se” da završiš registraciju."
     },
     {
         "Sıra": 8,
@@ -133,7 +163,11 @@
         "Soru (SQ)": "Si mund ta fshij llogarinë time?",
         "Cevap (RU)": "1After logging into the app, tap the icon in the top right corner that shows the initials of your name and surname.2.From the menu that opens, tap your name to enter the Profile Information page.3.At the bottom of the page, tap the “Delete Account” button to start the process.Note: After deletion, your data will be stored in the system for 30 days. If you don’t log in again within that period, your account will be permanently deleted.",
         "Cevap (MK)": "1.Откако ќе се најавиш во апликацијата, кликни на иконата во горниот десен агол со иницијалите од твоето име и презиме.2.Во менито што ќе се отвори, кликни на твоето име за да влезеш во страницата за Профил Информации.3.На дното од страницата кликни на копчето “Избриши Сметка” за да го започнеш процесот.Забелешка: По бришењето, твоите податоци ќе се чуваат во системот 30 дена. Ако не се најавиш повторно во тој период, сметката ќе биде трајно избришана.",
-        "Cevap (SQ)": "1.Pasi të kesh hyrë në aplikacion, kliko ikonën në këndin e sipërm djathtas që tregon inicialet e emrit dhe mbiemrit tënd.2.Nga menuja që hapet, kliko mbi emrin tënd për të hyrë në faqen e të Dhënave të Profilit.3.Në fund të faqes, kliko butonin “Fshi Llogarinë” për të nisur procesin.Shënim: Pas fshirjes, të dhënat e tua do të ruhen në sistem për 30 ditë. Nëse nuk futesh sërish gjatë kësaj periudhe, llogaria jote do të fshihet përgjithmonë."
+        "Cevap (SQ)": "1.Pasi të kesh hyrë në aplikacion, kliko ikonën në këndin e sipërm djathtas që tregon inicialet e emrit dhe mbiemrit tënd.2.Nga menuja që hapet, kliko mbi emrin tënd për të hyrë në faqen e të Dhënave të Profilit.3.Në fund të faqes, kliko butonin “Fshi Llogarinë” për të nisur procesin.Shënim: Pas fshirjes, të dhënat e tua do të ruhen në sistem për 30 ditë. Nëse nuk futesh sërish gjatë kësaj periudhe, llogaria jote do të fshihet përgjithmonë.",
+        "Soru (HR)": "Kako mogu izbrisati svoj račun?",
+        "Cevap (HR)": "1.Nakon što se prijaviš u aplikaciju, dodirni ikonu u gornjem desnom uglu sa inicijalima tvog imena i prezimena.2.U otvorenom meniju dodirni svoje ime da uđeš na stranicu sa Profil Informacijama.3.Na dnu stranice dodirni dugme “Izbriši Nalog” da započneš postupak.Napomena: Nakon brisanja, tvoji podaci će biti sačuvani 30 dana u sistemu. Ako se ne prijaviš ponovo u tom roku, tvoj nalog će biti trajno izbrisan.",
+        "Soru (SR)": "Kako mogu izbrisati svoj račun?",
+        "Cevap (SR)": "1.Nakon što se prijaviš u aplikaciju, dodirni ikonu u gornjem desnom uglu sa inicijalima tvog imena i prezimena.2.U otvorenom meniju dodirni svoje ime da uđeš na stranicu sa Profil Informacijama.3.Na dnu stranice dodirni dugme “Izbriši Nalog” da započneš postupak.Napomena: Nakon brisanja, tvoji podaci će biti sačuvani 30 dana u sistemu. Ako se ne prijaviš ponovo u tom roku, tvoj nalog će biti trajno izbrisan."
     },
     {
         "Sıra": 9,
@@ -150,7 +184,11 @@
         "Soru (SQ)": "Si tarifohen udhëtimet me BinBin?",
         "Cevap (RU)": "Before starting your ride, you can see the unlock fee and the per-minute rate on the ride information page for the selected vehicle.",
         "Cevap (MK)": "Пред да започнеш со возење, можеш да ја видиш цената за отклучување и цената по минута на страницата со информации за возењето за избраното возило.",
-        "Cevap (SQ)": "Para se të fillosh udhëtimin, mund të shohësh tarifën e hapjes dhe çmimin për minutë në faqen e informacionit të udhëtimit për automjetin e zgjedhur."
+        "Cevap (SQ)": "Para se të fillosh udhëtimin, mund të shohësh tarifën e hapjes dhe çmimin për minutë në faqen e informacionit të udhëtimit për automjetin e zgjedhur.",
+        "Soru (HR)": "Kako se obračunavaju troškovi korištenja BinBin-a?",
+        "Cevap (HR)": "Prije početka vožnje možeš vidjeti cijenu otključavanja i cijenu po minuti na stranici s informacijqama o vožnji za izabrano vozilo.",
+        "Soru (SR)": "Kako se obračunavaju troškovi korištenja BinBin-a?",
+        "Cevap (SR)": "Prije početka vožnje možeš vidjeti cijenu otključavanja i cijenu po minuti na stranici s informacijqama o vožnji za izabrano vozilo."
     },
     {
         "Sıra": 10,
@@ -167,7 +205,11 @@
         "Soru (SQ)": "Процесот на враќање го започнуваме истиот ден.",
         "Cevap (SQ)": "Procesi i rimbursimit fillon nga ne në të njëjtën ditë.Pagesa transferohet në kartën e përdorur.Transaksionet bankare mund të zgjasin 2–7 ditë pune. Nëse karta është jashtë funksioni, duhet të kontaktosh degën përkatëse të bankës.",
         "Soru (MK)": "Кога се врши поврат на средства за грешки од страна на BinBin?",
-        "Cevap (MK)": "Процесот на враќање го започнуваме истиот ден.Средствата се враќаат на користената картичка.Банкарските трансакции може да траат од 2 до 7 работни дена. Ако картичката е неактивна, контактирај ја соодветната банка."
+        "Cevap (MK)": "Процесот на враќање го започнуваме истиот ден.Средствата се враќаат на користената картичка.Банкарските трансакции може да траат од 2 до 7 работни дена. Ако картичката е неактивна, контактирај ја соодветната банка.",
+        "Soru (HR)": "Kada se vrši povrat novca za greške uzrokovane od strane BinBin-a?",
+        "Cevap (HR)": "Povrat novca započinjemo istog dana.Iznos se vraća na korištenu karticu.Bankarske transakcije mogu trajati 2–7 radnih dana. Ako kartica nije aktivna, kontaktiraj odgovarajuću banku.",
+        "Soru (SR)": "Kada se vrši povrat novca za greške uzrokovane od strane BinBin-a?",
+        "Cevap (SR)": "Povrat novca započinjemo istog dana.Iznos se vraća na korištenu karticu.Bankarske transakcije mogu trajati 2–7 radnih dana. Ako kartica nije aktivna, kontaktiraj odgovarajuću banku."
     },
     {
         "Sıra": 11,
@@ -184,7 +226,11 @@
         "Soru (SQ)": "Si mund ta përdor një kod promocional?",
         "Cevap (SQ)": "1.Kliko ikonën “Fushata” në fund të aplikacionit.2.Në faqen e hapur, shkruaj kodin në fushën “Kodi i Fushatës” në krye.3.Kliko “Apliko” për të aktivizuar kodin.Nëse merr një gabim, mund të na kontaktosh lirshëm.",
         "Soru (MK)": "Како да го искористам промотивниот код?",
-        "Cevap (MK)": "1.Допрете ја иконата „Кампањи“ на дното од апликацијата.2.На врвот од отворената страница внесете го кодот во полето „Код за кампања“.3.Притиснете „Примени“ за да го активирате кодот.Доколку добиете грешка, слободно контактирајте нè."
+        "Cevap (MK)": "1.Допрете ја иконата „Кампањи“ на дното од апликацијата.2.На врвот од отворената страница внесете го кодот во полето „Код за кампања“.3.Притиснете „Примени“ за да го активирате кодот.Доколку добиете грешка, слободно контактирајте нè.",
+        "Soru (HR)": "Kako mogu iskoristiti promotivni kod?",
+        "Cevap (HR)": "1.Dodirni ikonu “Kampanje” pri dnu aplikacije.2.Na vrhu otvorene stranice unesi kod u polje “Kod kampanje”.3.Dodirni “Primijeni” da aktiviraš kod.Ako dobiješ grešku, slobodno nas kontaktiraj.",
+        "Soru (SR)": "Kako mogu iskoristiti promotivni kod?",
+        "Cevap (SR)": "1.Dodirni ikonu “Kampanje” pri dnu aplikacije.2.Na vrhu otvorene stranice unesi kod u polje “Kod kampanje”.3.Dodirni “Primijeni” da aktiviraš kod.Ako dobiješ grešku, slobodno nas kontaktiraj."
     },
     {
         "Sıra": 12,
@@ -201,7 +247,11 @@
         "Soru (SQ)": "Po marr një gabim me kodin promocional — çfarë të bëj?",
         "Cevap (SQ)": "Nëse merr një gabim, mund të na kontaktosh:1.Kliko ikonën në këndin e sipërm djathtas me inicialet e emrit dhe mbiemrit tënd.2.Nga menuja që hapet, futu te “Ndihmë & Mbështetje”.3.Mund të na kontaktosh përmes “BinAssistant”.",
         "Soru (MK)": "Добијам грешка со промотивниот код — што да правам?",
-        "Cevap (MK)": "Ако добиеш грешка, можеш да нè контактираш:1.Кликни на иконата во горниот десен агол со иницијалите од твоето име и презиме.2.Во менито што се отвора, влези во “Помош & Поддршка”.3.Можеш да не контактираш преку “BinAssistant”."
+        "Cevap (MK)": "Ако добиеш грешка, можеш да нè контактираш:1.Кликни на иконата во горниот десен агол со иницијалите од твоето име и презиме.2.Во менито што се отвора, влези во “Помош & Поддршка”.3.Можеш да не контактираш преку “BinAssistant”.",
+        "Soru (HR)": "Dobijam grešku pri unosu promotivnog koda — šta da radim?",
+        "Cevap (HR)": "Ako dobiješ grešku, možeš nas kontaktirati:1.Klikni na ikonu u gornjem desnom uglu sa inicijalima tvog imena i prezimena.2.U otvorenom meniju uđi u “Pomoć & Podrška”.3.Možeš nas kontaktirati putem “BinAssistant”.",
+        "Soru (SR)": "Dobijam grešku pri unosu promotivnog koda — šta da radim?",
+        "Cevap (SR)": "Ako dobiješ grešku, možeš nas kontaktirati:1.Klikni na ikonu u gornjem desnom uglu sa inicijalima tvog imena i prezimena.2.U otvorenom meniju uđi u “Pomoć & Podrška”.3.Možeš nas kontaktirati putem “BinAssistant”."
     },
     {
         "Sıra": 13,
@@ -218,7 +268,11 @@
         "Soru (SQ)": "Çfarë është sistemi i referimeve?",
         "Cevap (SQ)": "Sistemi i referimeve është krijuar që si ti ashtu edhe personi që fton në BinBin të përfitoni.Kur miku yt regjistrohet me kodin tënd të referimit, ai fiton kredi dhuratë; kur ai bën udhëtimin e tij të parë, edhe ti përfiton.",
         "Soru (MK)": "Што е системот за препорака?",
-        "Cevap (MK)": "Системот за препораки е направен така што и ти и лицето што ќе го поканиш на BinBin добивате награда.Кога твојот пријател ќе се регистрира со твојот реферален код, добива бонус кредит; откако ќе ја заврши својата прва возење, и ти добиваш награда."
+        "Cevap (MK)": "Системот за препораки е направен така што и ти и лицето што ќе го поканиш на BinBin добивате награда.Кога твојот пријател ќе се регистрира со твојот реферален код, добива бонус кредит; откако ќе ја заврши својата прва возење, и ти добиваш награда.",
+        "Soru (HR)": "Šta je sistem preporuka?",
+        "Cevap (HR)": "Referal sistem je osmišljen tako da i ti i osoba koju pozoveš na BinBin dobijete nagradu.Kada se tvoj prijatelj registruje koristeći tvoj referal kod, on dobija bonus kredit; kada završi svoju prvu vožnju, i ti dobijaš nagradu.",
+        "Soru (SR)": "Šta je sistem preporuka?",
+        "Cevap (SR)": "Referal sistem je osmišljen tako da i ti i osoba koju pozoveš na BinBin dobijete nagradu.Kada se tvoj prijatelj registruje koristeći tvoj referal kod, on dobija bonus kredit; kada završi svoju prvu vožnju, i ti dobijaš nagradu."
     },
     {
         "Sıra": 14,
@@ -235,7 +289,11 @@
         "Soru (SQ)": "Çfarë kuptimi kanë ngjyrat në hartë?",
         "Cevap (SQ)": "Kur klikon mbi një zonë në hartë, mund të shohësh shpjegimet për atë zonë.Në këtë mënyrë mund të mësosh për zonat jashtë shërbimit dhe të zgjedhësh vendet më të përshtatshme për parkim.Kuptimi i ngjyrave:Zona e Bardhë: Zona të hapura ku mund të udhëtosh dhe të parkosh BinBin.Zona e Gjelbër: Zona parkimi me zbritje. Duke parkuar këtu, përfiton zbritje në fund të udhëtimit.Zona Gri: Zona jashtë shërbimit ku ndalohet udhëtimi dhe parkimi. Vazhdo udhëtimin duke kaluar në zonë të bardhë.Zona e Kuqe: Vende ku parkimi është rreptësisht i ndaluar (si trotuaret, stacionet e autobusëve).",
         "Soru (MK)": "Што значат обоените зони на мапата?",
-        "Cevap (MK)": "Кога ќе кликнеш на некоја област на мапата, можеш да ги видиш објаснувањата за таа зона.На овој начин можеш да дознаеш кои се зоните надвор од услуга и да избереш најсоодветни места за паркирање.Значење на боите:Бела зона: Отворени области каде што можеш да возиш и паркираш BinBin.Зелена зона: Паркинг зони со попуст. Паркирајќи овде, добиваш попуст по завршување на возењето.Сива зона: Области надвор од услуга каде што возењето и паркирањето се забранети. Продолжи во бела зона.Црвена зона: Строго забранети места за паркирање (на пр. тротоари, автобуските постојки)."
+        "Cevap (MK)": "Кога ќе кликнеш на некоја област на мапата, можеш да ги видиш објаснувањата за таа зона.На овој начин можеш да дознаеш кои се зоните надвор од услуга и да избереш најсоодветни места за паркирање.Значење на боите:Бела зона: Отворени области каде што можеш да возиш и паркираш BinBin.Зелена зона: Паркинг зони со попуст. Паркирајќи овде, добиваш попуст по завршување на возењето.Сива зона: Области надвор од услуга каде што возењето и паркирањето се забранети. Продолжи во бела зона.Црвена зона: Строго забранети места за паркирање (на пр. тротоари, автобуските постојки).",
+        "Soru (HR)": "Šta znače obojena područja na mapi?",
+        "Cevap (HR)": "Kada klikneš na neko područje na karti, možeš vidjeti objašnjenja o toj zoni.Tako možeš saznati koje su zone van usluge i odabrati najprikladnija mjesta za parkiranje.Značenje boja:Bijela zona: Otvorena područja gdje možeš voziti i parkirati BinBin.Zelena zona: Zone sa popustom za parkiranje. Parkiranjem ovdje dobivaš popust na kraju vožnje.Siva zona: Zone van usluge gdje je vožnja i parkiranje zabranjeno. Pređi u bijelu zonu da nastaviš vožnju.Crvena zona: Strogo zabranjena mjesta za parkiranje (npr. trotoari, autobuske stanice).",
+        "Soru (SR)": "Šta znače obojena područja na mapi?",
+        "Cevap (SR)": "Kada klikneš na neko područje na karti, možeš vidjeti objašnjenja o toj zoni.Tako možeš saznati koje su zone van usluge i odabrati najprikladnija mjesta za parkiranje.Značenje boja:Bijela zona: Otvorena područja gdje možeš voziti i parkirati BinBin.Zelena zona: Zone sa popustom za parkiranje. Parkiranjem ovdje dobivaš popust na kraju vožnje.Siva zona: Zone van usluge gdje je vožnja i parkiranje zabranjeno. Pređi u bijelu zonu da nastaviš vožnju.Crvena zona: Strogo zabranjena mjesta za parkiranje (npr. trotoari, autobuske stanice)."
     },
     {
         "Sıra": 19,
@@ -252,7 +310,11 @@
         "Soru (SQ)": "Nga cilat fushata mund të përfitoj?",
         "Cevap (SQ)": "Mund të shikosh fushatat aktive duke klikuar ikonën “Fushata” në fund të aplikacionit.",
         "Soru (MK)": "Од кои кампањи можам да имам корист?",
-        "Cevap (MK)": "Можеш да ги прегледаш активните кампањи со допирање на иконата „Кампањи“ на дното од апликацијата."
+        "Cevap (MK)": "Можеш да ги прегледаш активните кампањи со допирање на иконата „Кампањи“ на дното од апликацијата.",
+        "Soru (HR)": "Od kojih kampanja mogu imati koristi?",
+        "Cevap (HR)": "Možeš pregledati aktivne kampanje dodirom na ikonu “Kampanje” pri dnu aplikacije.",
+        "Soru (SR)": "Od kojih kampanja mogu imati koristi?",
+        "Cevap (SR)": "Možeš pregledati aktivne kampanje dodirom na ikonu “Kampanje” pri dnu aplikacije."
     },
     {
         "Sıra": 21,
@@ -269,6 +331,10 @@
         "Soru (SQ)": "Si mund të kontaktoj me Qendrën Globale të Mbështetjes?",
         "Cevap (SQ)": "Përmes aplikacionit:Kliko ikonën në këndin e sipërm të djathtë me inicialet e emrit tënd.Hyr në menynë Profili > Ndihmë & Mbështetje.Na kontakto përmes BinAssistant.Nëse ke një problem gjatë udhëtimit:Shtyp butonin Ndihmë në ekranin e udhëtimit.Përdor opsionin Mbështetje e Drejtpërdrejtë ose Qendra e Thirrjeve.Alternativisht:Mund të na kontaktosh në adresën e email-it support@binbinscooters.com.",
         "Soru (MK)": "Како да контактирам со Глобалниот центар за поддршка?",
-        "Cevap (MK)": "Преку апликацијата:Кликни на иконата горе десно каде што се иницијалите од твоето име.Влези во менито Профил > Помош и Поддршка.Контактирај нè преку BinAssistant.Ако имаш проблем за време на возење:Кликни на копчето Помош на екранот за возење.Користи опцијата Поддршка во живо или Центар за повици.Алтернативно:Možeš da ne kontaktiraš na e-mail adresata support@binbinscooters.com."
+        "Cevap (MK)": "Преку апликацијата:Кликни на иконата горе десно каде што се иницијалите од твоето име.Влези во менито Профил > Помош и Поддршка.Контактирај нè преку BinAssistant.Ако имаш проблем за време на возење:Кликни на копчето Помош на екранот за возење.Користи опцијата Поддршка во живо или Центар за повици.Алтернативно:Možeš da ne kontaktiraš na e-mail adresata support@binbinscooters.com.",
+        "Soru (HR)": "Kako mogu kontaktirati Globalni centar podrške?",
+        "Cevap (HR)": "Putem aplikacije:Klikni na ikonu u gornjem desnom uglu sa inicijalima tvog imena.Uđi u meni Profil > Pomoć i Podrška.Kontaktiraj nas putem BinAssistant.Ako imaš problem tokom vožnje:Klikni na dugme Pomoć na ekranu vožnje.Koristi opciju Uživo Podrška ili Pozivni Centar.Alternativno:Možeš nas kontaktirati putem e-mail adrese support@binbinscooters.com.",
+        "Soru (SR)": "Kako mogu kontaktirati Globalni centar podrške?",
+        "Cevap (SR)": "Putem aplikacije:Klikni na ikonu u gornjem desnom uglu sa inicijalima tvog imena.Uđi u meni Profil > Pomoć i Podrška.Kontaktiraj nas putem BinAssistant.Ako imaš problem tokom vožnje:Klikni na dugme Pomoć na ekranu vožnje.Koristi opciju Uživo Podrška ili Pozivni Centar.Alternativno:Možeš nas kontaktirati putem e-mail adrese support@binbinscooters.com."
     }
 ]

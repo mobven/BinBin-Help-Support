@@ -6,7 +6,9 @@
         "BS": "Kako koristiti?",
         "RU": "Как использовать?",
         "MK": "Како да се користи?",
-        "SQ": "Како да се користи?"
+        "SQ": "Како да се користи?",
+        "SR": "Kako koristiti?",
+        "HR": "Kako koristiti?"
     },
     "scooter": [
         {
@@ -23,7 +25,11 @@
             "title (MK)": "Скенирајте QR-код",
             "description (MK)": "Скенирајте QR-код со камерот на телефонот, за да почнете вожња со одбраниот BinBin на картата.",
             "title (SQ)": "Skeniraj QR kod",
-            "description (SQ)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti."
+            "description (SQ)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
+            "title (SR)": "Skeniraj QR kod",
+            "description (SR)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
+            "title (HR)": "Skeniraj QR kod",
+            "description (HR)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti."
         },
         {
             "title (TR)": "Sürüş Modu Seçimi",
@@ -39,7 +45,11 @@
             "title (MK)": "Избор на режим за вожд",
             "description (MK)": "Постојат 3 основни режими за вожд: Eco, Drive и Sport. Пред секое вожд, можете да поставите режим кој одговара на вашите потреби преку апликацијата.",
             "title (SQ)": "Seleksionimi i modit për vozitje",
-            "description (SQ)": "Ka 3 moda vozitje të rëndësishme: Eco, Drive dhe Sport. Përpara çdo vozitje, mund të vendosni modin që i përputhet me nevojat tuaja përmes aplikacionit."
+            "description (SQ)": "Ka 3 moda vozitje të rëndësishme: Eco, Drive dhe Sport. Përpara çdo vozitje, mund të vendosni modin që i përputhet me nevojat tuaja përmes aplikacionit.",
+            "title (SR)": "Izbor moda za vožnju",
+            "description (SR)": "Postoje 3 glavna moda vožnje: Eco, Drive i Sport. Prije svakog vožnje, možeš postaviti mod koji odgovara tvojim potrebama putem aplikacije.",
+            "title (HR)": "Izbor moda za vožnju",
+            "description (HR)": "Postoje 3 glavna moda vožnje: Eco, Drive i Sport. Prije svakog vožnje, možeš postaviti mod koji odgovara tvojim potrebama putem aplikacije."
         },
         {
             "title (TR)": "Sürüşe Başla",
@@ -55,7 +65,11 @@
             "title (MK)": "Почнете вожд",
             "description (MK)": "Користи камерата на BinBin за да почнете вожд.",
             "title (SQ)": "Nishto",
-            "description (SQ)": "Nishto"
+            "description (SQ)": "Nishto",
+            "title (SR)": "Započni vožnju",
+            "description (SR)": "Koristi kameru BinBin-a da počneš vožnju.",
+            "title (HR)": "Započni vožnju",
+            "description (HR)": "Koristi kameru BinBin-a da počneš vožnju."
         },
         {
             "title (TR)": "Gaz-Fren Dengesi",
@@ -71,7 +85,11 @@
             "title (MK)": "Баланс на газа и коцка",
             "description (MK)": "Почнете вожд, контролирајќи го газот и коцката.",
             "title (SQ)": "Balans gasa i kočenja",
-            "description (SQ)": "Započni vožnju kontroliranjem gasa i kočenja."
+            "description (SQ)": "Započni vožnju kontroliranjem gasa i kočenja.",
+            "title (SR)": "Balans gasa i kočenja",
+            "description (SR)": "Započni vožnju kontroliranjem gasa i kočenja.",
+            "title (HR)": "Balans gasa i kočenja",
+            "description (HR)": "Započni vožnju kontroliranjem gasa i kočenja."
         },
         {
             "title (TR)": "Trafik Kuralları",
@@ -87,7 +105,11 @@
             "title (MK)": "Правила на вожд",
             "description (MK)": "Според правилата на вожд, треба да водите по велосипедната улица или на десната страна на течението на движењето. Не треба да водите по пешеходната улица.",
             "title (SQ)": "Pravila vožnje",
-            "description (SQ)": "Prema pravilima vožnje, trebaš da voziš po cesti za bicikle ili na desnoj strani tečenja prometa. Ne smiješ voziti po pešačkom prijelazu."
+            "description (SQ)": "Prema pravilima vožnje, trebaš da voziš po cesti za bicikle ili na desnoj strani tečenja prometa. Ne smiješ voziti po pešačkom prijelazu.",
+            "title (SR)": "Pravila vožnje",
+            "description (SR)": "Prema pravilima vožnje, trebaš da voziš po cesti za bicikle ili na desnoj strani tečenja prometa. Ne smiješ voziti po pešačkom prijelazu.",
+            "title (HR)": "Pravila vožnje",
+            "description (HR)": "Prema pravilima vožnje, trebaš da voziš po cesti za bicikle ili na desnoj strani tečenja prometa. Ne smiješ voziti po pešačkom prijelazu."
         },
         {
             "title (TR)": "Sürüş Bitimi ve Park",
@@ -103,7 +125,11 @@
             "title (MK)": "Завршување на вожд и паркирање",
             "description (MK)": "Можете да завршите вожд и да паркирате во зона за услуга, паркирајќи во зоните и следувајќи со правилата.",
             "title (SQ)": "Završavanje vožnje i parkiranje",
-            "description (SQ)": "Možeš završiti vožnju i parkirati u servisnoj zoni parkiranjem u područjima i slijedeći pravila."
+            "description (SQ)": "Možeš završiti vožnju i parkirati u servisnoj zoni parkiranjem u područjima i slijedeći pravila.",
+            "title (SR)": "Završavanje vožnje i parkiranje",
+            "description (SR)": "Možeš završiti vožnju i parkirati u servisnoj zoni parkiranjem u područjima i slijedeći pravila.",
+            "title (HR)": "Završavanje vožnje i parkiranje",
+            "description (HR)": "Možeš završiti vožnju i parkirati u servisnoj zoni parkiranjem u područjima i slijedeći pravila."
         }
     ],
     "moped": [
@@ -121,7 +147,11 @@
             "title (MK)": "Скенирајте QR-код со камерот на телефонот, за да почнете вожд со одбраниот BinBin на картата.",
             "description (MK)": "Скенирајте QR-код со камерот на телефонот, за да почнете вожд со одбраниот BinBin на картата.",
             "title (SQ)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
-            "description (SQ)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti."
+            "description (SQ)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
+            "title (SR)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
+            "description (SR)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
+            "title (HR)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
+            "description (HR)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti."
         },
         {
             "title (TR)": "Kaskını takmayı unutma",
@@ -137,7 +167,11 @@
             "title (MK)": "Не заборави да набереш капачката",
             "description (MK)": "Кога ќе притиснеш копчето на капачката, капачката се отвора. Сега можеш да набереш капачката.",
             "title (SQ)": "Ne zaboravi da staviš kask",
-            "description (SQ)": "Kada pritisneš dugme na poklopcu, poklopac se otvara. Sada možeš staviti kask."
+            "description (SQ)": "Kada pritisneš dugme na poklopcu, poklopac se otvara. Sada možeš staviti kask.",
+            "title (SR)": "Ne zaboraviš da staviš kask",
+            "description (SR)": "Kada pritisneš dugme na poklopcu, poklopac se otvara. Sada možeš staviti kask.",
+            "title (HR)": "Ne zaboraviš da staviš kask",
+            "description (HR)": "Kada pritisneš dugme na poklopcu, poklopac se otvara. Sada možeš staviti kask."
         },
         {
             "title (TR)": "Ayar tuşları sol, araç çalıştırma sağ tarafa",
@@ -153,7 +187,11 @@
             "title (MK)": "Настройте рулевия колектор и заставете мотор да работи",
             "description (MK)": "Можете да достигнете рулевия колектор и да застанете мотор да работи од левата страна.",
             "title (SQ)": "Podesi kormilo i počni motor",
-            "description (SQ)": "Možeš doći do kormila i početi motor sa desne strane."
+            "description (SQ)": "Možeš doći do kormila i početi motor sa desne strane.",
+            "title (SR)": "Podesi kormilo i počni motor",
+            "description (SR)": "Možeš doći do kormila i početi motor sa desne strane.",
+            "title (HR)": "Podesi kormilo i počni motor",
+            "description (HR)": "Možeš doći do kormila i početi motor sa desne strane."
         },
         {
             "title (TR)": "Yayalara dikkat",
@@ -169,7 +207,11 @@
             "title (MK)": "Внимавайте на пешеходните улици",
             "description (MK)": "Кога користувате мопед, запазете ги правилата за вожд! Треба да внимавате на пешеходните улици, а не на бетонските бордови и да следите сите правила кои се однесуваат кон возилата.",
             "title (SQ)": "Pažljivo na kolovozima",
-            "description (SQ)": "Kada voziš moped, zapamtite pravila vožnje! Trebalo bi da paziš na kolovozima, ne na bermama i da pratiš sva pravila koja se odnose na vozila."
+            "description (SQ)": "Kada voziš moped, zapamtite pravila vožnje! Trebalo bi da paziš na kolovozima, ne na bermama i da pratiš sva pravila koja se odnose na vozila.",
+            "title (SR)": "Pažljivo na kolovozima",
+            "description (SR)": "Kada voziš moped, zapamtite pravila vožnje! Trebalo bi da paziš na kolovozima, ne na bermama i da pratiš sva pravila koja se odnose na vozila.",
+            "title (HR)": "Pažljivo na kolovozima",
+            "description (HR)": "Kada voziš moped, zapamtite pravila vožnje! Trebalo bi da paziš na kolovozima, ne na bermama i da pratiš sva pravila koja se odnose na vozila."
         },
         {
             "title (TR)": "Uygun park alanı",
@@ -185,7 +227,11 @@
             "title (MK)": "Паркируј во одговарачка зона",
             "description (MK)": "Паркируј мопед во одговарачка зона, не на автобусната станица, пешеходната улица или бетонната борда. Паркируј во станцијата, патот кој не блокира патот и во зона за услуга.",
             "title (SQ)": "Parkiraj u odgovarajuću zonu",
-            "description (SQ)": "Parkiraj moped u odgovarajućoj zoni, ne na autobusnoj stanici, pešačkoj stazi ili bermi. Parkiraj u stanici, cesti koja ne blokira cestu i u servisnoj zoni."
+            "description (SQ)": "Parkiraj moped u odgovarajućoj zoni, ne na autobusnoj stanici, pešačkoj stazi ili bermi. Parkiraj u stanici, cesti koja ne blokira cestu i u servisnoj zoni.",
+            "title (SR)": "Parkiraj u odgovarajuću zonu",
+            "description (SR)": "Parkiraj moped u odgovarajućoj zoni, ne na autobusnoj stanici, pešačkoj stazi ili bermi. Parkiraj u stanici, cesti koja ne blokira cestu i u servisnoj zoni.",
+            "title (HR)": "Parkiraj u odgovarajuću zonu",
+            "description (HR)": "Parkiraj moped u odgovarajućoj zoni, ne na autobusnoj stanici, pešačkoj stazi ili bermi. Parkiraj u stanici, cesti koja ne blokira cestu i u servisnoj zoni."
         },
         {
             "title (TR)": "Sürüşünü bitirmek için kontak tuşuna basmayı unutma",
@@ -201,7 +247,11 @@
             "title (MK)": "Не заборави да притиснеш контактната бутона, за да завршиш вожд",
             "description (MK)": "Треба да притиснеш контактната бутона, за да завршиш вожд.",
             "title (SQ)": "Ne zaboravi da pritisneš kontaktnu tipku da završiš vožnju",
-            "description (SQ)": "Morate pritisnuti kontaktnu tipku da završiš vožnju."
+            "description (SQ)": "Morate pritisnuti kontaktnu tipku da završiš vožnju.",
+            "title (SR)": "Ne zaboraviš da pritisneš kontaktnu tipku da završiš vožnju",
+            "description (SR)": "Morate pritisnuti kontaktnu tipku da završiš vožnju.",
+            "title (HR)": "Ne zaboraviš da pritisneš kontaktnu tipku da završiš vožnju",
+            "description (HR)": "Morate pritisnuti kontaktnu tipku da završiš vožnju."
         }
     ],
     "ebike": [
@@ -219,7 +269,11 @@
             "title (MK)": "Скенирајте QR-код со камерот на телефонот, за да почнете вожд со одбраниот BinBin на картата.",
             "description (MK)": "Скенирајте QR-код со камерот на телефонот, за да почнете вожд со одбраниот BinBin на картата.",
             "title (SQ)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
-            "description (SQ)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti."
+            "description (SQ)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
+            "title (SR)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
+            "description (SR)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
+            "title (HR)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti.",
+            "description (HR)": "Skeniraj QR kod s kamerom na telefonu da počneš vožnju sa odabranim BinBinom na karti."
         },
         {
             "title (TR)": "Ayaklığı indir ve yola çık",
@@ -235,7 +289,11 @@
             "title (MK)": "Стави нозе на земјата и почне вожд",
             "description (MK)": "Стави нозе на земјата и почне вожд",
             "title (SQ)": "Stavi noge na zemlju i počni da voziš",
-            "description (SQ)": "Nakon što staviš noge na zemlju, počni da voziš. Možeš usporiti i zaustaviti voznju pritiskom na bremena na desnoj i lijevoj strani kormila."
+            "description (SQ)": "Nakon što staviš noge na zemlju, počni da voziš. Možeš usporiti i zaustaviti voznju pritiskom na bremena na desnoj i lijevoj strani kormila.",
+            "title (SR)": "Stavi noge na zemlju i počni da voziš",
+            "description (SR)": "Nakon što staviš noge na zemlju, počni da voziš. Možeš usporiti i zaustaviti voznju pritiskom na bremena na desnoj i lijevoj strani kormila.",
+            "title (HR)": "Stavi noge na zemlju i počni da voziš",
+            "description (HR)": "Nakon što staviš noge na zemlju, počni da voziš. Možeš usporiti i zaustaviti voznju pritiskom na bremena na desnoj i lijevoj strani kormila."
         },
         {
             "title (TR)": "Doğru yolda yolculuk et",
@@ -251,7 +309,11 @@
             "title (MK)": "Путешествувај на правиот пат",
             "description (MK)": "Треба да путешествуваш по велосипедната улица или на десната страна на течещото трафик. Не треба да путешествуваш по патот со ограничение на брзина од 50 км/ч.",
             "title (SQ)": "Putuj na pravom putu",
-            "description (SQ)": "Morate putovati po biciklističkoj stazi ili na desnoj strani tečenja prometa. Ne smiješ voziti po cesti koja ima ograničenje brzine od 50 km/h."
+            "description (SQ)": "Morate putovati po biciklističkoj stazi ili na desnoj strani tečenja prometa. Ne smiješ voziti po cesti koja ima ograničenje brzine od 50 km/h.",
+            "title (SR)": "Putuj na pravom putu",
+            "description (SR)": "Morate putovati po biciklističkoj stazi ili na desnoj strani tečenja prometa. Ne smiješ voziti po cesti koja ima ograničenje brzine od 50 km/h.",
+            "title (HR)": "Putuj na pravom putu",
+            "description (HR)": "Morate putovati po biciklističkoj stazi ili na desnoj strani tečenja prometa. Ne smiješ voziti po cesti koja ima ograničenje brzine od 50 km/h."
         },
         {
             "title (TR)": "Yayalara dikkat",
@@ -267,7 +329,11 @@
             "title (MK)": "Пази се на бордите",
             "description (MK)": "Кога водите мопед, не заборави правилата за вожњето! Не треба да возиш по бордите.",
             "title (SQ)": "Pažljivo na bermama",
-            "description (SQ)": "Kada voziš moped, ne zaboravi pravila za vožnju! Ne smiješ voziti po bermama."
+            "description (SQ)": "Kada voziš moped, ne zaboravi pravila za vožnju! Ne smiješ voziti po bermama.",
+            "title (SR)": "Pažljivo na bermama",
+            "description (SR)": "Kada voziš moped, ne zaboravi pravila za vožnju! Ne smiješ voziti po bermama.",
+            "title (HR)": "Pažljivo na bermama",
+            "description (HR)": "Kada voziš moped, ne zaboravi pravila za vožnju! Ne smiješ voziti po bermama."
         },
         {
             "title (TR)": "Uygun park alanı",
@@ -283,7 +349,11 @@
             "title (MK)": "Паркирај на правилното место",
             "description (MK)": "Треба да паркираш мопедот во станцијата, патот и бордите. Не треба да паркираш мопедот во станцијата, патот и бордите.",
             "title (SQ)": "Parkiraj na pravom mjestu",
-            "description (SQ)": "Morate parkirati moped u stanici, stazi i bermama. Ne smiješ parkirati moped u stanici, stazi i bermama."
+            "description (SQ)": "Morate parkirati moped u stanici, stazi i bermama. Ne smiješ parkirati moped u stanici, stazi i bermama.",
+            "title (SR)": "Parkiraj na pravom mjestu",
+            "description (SR)": "Morate parkirati moped u stanici, stazi i bermama. Ne smiješ parkirati moped u stanici, stazi i bermama.",
+            "title (HR)": "Parkiraj na pravom mjestu",
+            "description (HR)": "Morate parkirati moped u stanici, stazi i bermama. Ne smiješ parkirati moped u stanici, stazi i bermama."
         },
         {
             "title (TR)": "Fotoğraf çek ve bitir",
@@ -299,7 +369,11 @@
             "title (MK)": "Сними и заврши вожд",
             "description (MK)": "Сними мопедот во правостоподно положение, тако што цело телото да е видливо.",
             "title (SQ)": "Fotografiraj i završi vožnju",
-            "description (SQ)": "Fotografiraj moped u pravom položaju, tako da je cijeli moped vidljiv."
+            "description (SQ)": "Fotografiraj moped u pravom položaju, tako da je cijeli moped vidljiv.",
+            "title (SR)": "Fotografiraj i završi vožnju",
+            "description (SR)": "Fotografiraj moped u pravom položaju, tako da je cijeli moped vidljiv.",
+            "title (HR)": "Fotografiraj i završi vožnju",
+            "description (HR)": "Fotografiraj moped u pravom položaju, tako da je cijeli moped vidljiv."
         }
     ],
     "lastslide": {
@@ -310,6 +384,8 @@
         "title (RU)": "Не забывайте следовать другим правилам безопасности перед началом вождения",
         "title (MK)": "Не заборави да спазуваш другите правила за безбедност пред да почнеш вожд",
         "title (SQ)": "Zapamtite druge sigurnosne pravila prije početka vožnje",
+        "title (SR)": "Zapamtite druge sigurnosne pravila prije početka vožnje",
+        "title (HR)": "Zapamtite druge sigurnosne pravila prije početka vožnje",
         "rules": [
             {
                 "title (TR)": "Koruyucu ekipman kullan!",
@@ -325,7 +401,11 @@
                 "title (MK)": "Користи заштитна опрема!",
                 "description (MK)": "Препорачуваме да се приемеат лични мерки за безбедност пред да започнеш вожд. Надевање на капак, користење на рулевиот колектор и педали зголемува безбедност.",
                 "title (SQ)": "Koristi zaštitno opremu!",
-                "description (SQ)": "Preporučujemo da uzmete lične sigurnosne mere prije početka vožnje. Kask, kormilo i dizlik korištenje povećavaju sigurnost."
+                "description (SQ)": "Preporučujemo da uzmete lične sigurnosne mere prije početka vožnje. Kask, kormilo i dizlik korištenje povećavaju sigurnost.",
+                "title (SR)": "Koristi zaštitno opremu!",
+                "description (SR)": "Preporučujemo da uzmete lične sigurnosne mere prije početka vožnje. Kask, kormilo i dizlik korištenje povećavaju sigurnost.",
+                "title (HR)": "Koristi zaštitno opremu!",
+                "description (HR)": "Preporučujemo da uzmete lične sigurnosne mere prije početka vožnje. Kask, kormilo i dizlik korištenje povećavaju sigurnost."
             },
             {
                 "title (TR)": "BinBin'i tek kişi kullan!",
@@ -341,7 +421,11 @@
                 "title (MK)": "Користи мопед сам!",
                 "description (MK)": "Мопедот е личен. За безбедност, треба да го користиш сам.",
                 "title (SQ)": "Koristi moped sam!",
-                "description (SQ)": "Moped je osobni. Za sigurnost, moraš ga uvijek koristiti sam."
+                "description (SQ)": "Moped je osobni. Za sigurnost, moraš ga uvijek koristiti sam.",
+                "title (SR)": "Koristi moped sam!",
+                "description (SR)": "Moped je osobni. Za sigurnost, moraš ga uvijek koristiti sam.",
+                "title (HR)": "Koristi moped sam!",
+                "description (HR)": "Moped je osobni. Za sigurnost, moraš ga uvijek koristiti sam."
             },
             {
                 "title (TR)": "Trafik kurallarına uy!",
@@ -357,7 +441,11 @@
                 "title (MK)": "Следи правилата за вожд!",
                 "description (MK)": "Препорачуваме да следиш правилата за вожд. Сите правила, важечки за возила, важат и за BinBine.",
                 "title (SQ)": "Slijedi pravila za vožnju!",
-                "description (SQ)": "Vjerujemo da ćeš slijediti pravila za vožnju. Sva pravila koja važe za vozila važe i za BinBine."
+                "description (SQ)": "Vjerujemo da ćeš slijediti pravila za vožnju. Sva pravila koja važe za vozila važe i za BinBine.",
+                "title (SR)": "Slijedi pravila za vožnju!",
+                "description (SR)": "Vjerujemo da ćeš slijediti pravila za vožnju. Sva pravila koja važe za vozila važe i za BinBine.",
+                "title (HR)": "Slijedi pravila za vožnju!",
+                "description (HR)": "Vjerujemo da ćeš slijediti pravila za vožnju. Sva pravila koja važe za vozila važe i za BinBine."
             },
             {
                 "title (TR)": "Alkollü sürüş yapmak yasaktır!",
@@ -373,7 +461,11 @@
                 "title (MK)": "Користење алкохол е забрането!",
                 "description (MK)": "Користење алкохол е забрането!",
                 "title (SQ)": "Alkoholno vožnja je zabranjena!",
-                "description (SQ)": "Alkoholno vožnja je zabranjena!"
+                "description (SQ)": "Alkoholno vožnja je zabranjena!",
+                "title (SR)": "Alkoholno vožnja je zabranjena!",
+                "description (SR)": "Alkoholno vožnja je zabranjena!",
+                "title (HR)": "Alkoholno vožnja je zabranjena!",
+                "description (HR)": "Alkoholno vožnja je zabranjena!"
             }
         ]
     },
@@ -385,7 +477,9 @@
             "title (BS)": "Slijedeći",
             "title (RU)": "Следующий",
             "title (MK)": "Следен",
-            "title (SQ)": "Следен"
+            "title (SQ)": "Следен",
+            "title (SR)": "Slijedeći",
+            "title (HR)": "Slijedeći"
         },
         {
             "title (TR)": "Tamam",
@@ -394,7 +488,9 @@
             "title (BS)": "Završi",
             "title (RU)": "Завершить",
             "title (MK)": "Заврши",
-            "title (SQ)": "Заврши"
+            "title (SQ)": "Заврши",
+            "title (SR)": "Završi",
+            "title (HR)": "Završi"
         }
     ]
 }

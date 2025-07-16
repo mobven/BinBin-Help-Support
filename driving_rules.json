@@ -6,7 +6,9 @@
         "BS": "Pravila za vožnju",
         "RU": "Правила управления",
         "MK": "Правила за вожња",
-        "SQ": "Reglas de conducción"
+        "SQ": "Reglas de conducción",
+        "SR": "Pravila za vožnju",
+        "HR": "Pravila za vožnju"
     },
     "guide": [
         {
@@ -23,7 +25,11 @@
             "title (MK)": "Подробни правила за вожња",
             "description (MK)": "Проверете ги сите, што треба да внимавате пред, во време и по вожњата.",
             "title (SQ)": "Regulë të zgjeruara të drejtëzimit",
-            "description (SQ)": "Kontrolloni gjithçka që duhet të kujdeseni përpara, gjatë dhe pas udhëtimit."
+            "description (SQ)": "Kontrolloni gjithçka që duhet të kujdeseni përpara, gjatë dhe pas udhëtimit.",
+            "title (SR)": "Detaljne pravila za vožnju",
+            "description (SR)": "Pogledajte ove, koje trebate pripaziti prije, tijekom i nakon vožnje.",
+            "title (HR)": "Detaljne pravila za vožnju",
+            "description (HR)": "Pogledajte ove, koje trebate pripaziti prije, tijekom i nakon vožnje."
         },
         {
             "title (TR)": "Mod Seçimi ve Kullanım Alanı",
@@ -39,7 +45,11 @@
             "title (MK)": "Избор на режим и област на употреба",
             "description (MK)": "Ако сакаш да возиш мопед, постави го на режим кој ти одговара за вожњата пред секое вожње.",
             "title (SQ)": "Seleksionimi i modit dhe zonës së përdorimit",
-            "description (SQ)": "Nëse dëshironi të vozoni mopedin, vendosni në modin që ju përputhet për udhëtimin para çdo udhëtimi."
+            "description (SQ)": "Nëse dëshironi të vozoni mopedin, vendosni në modin që ju përputhet për udhëtimin para çdo udhëtimi.",
+            "title (SR)": "Izbor moda i područja upotrebe",
+            "description (SR)": "Ako želiš voziti moped, postavi ga na mod koji ti je odgovara za vožnju prije svakog vožnje.",
+            "title (HR)": "Izbor moda i područja upotrebe",
+            "description (HR)": "Ako želiš voziti moped, postavi ga na mod koji ti je odgovara za vožnju prije svakog vožnje."
         },
         {
             "title (TR)": "Harita Kılavuzu",
@@ -55,7 +65,11 @@
             "title (MK)": "Водич за мапа",
             "description (MK)": "Проверете ги сите, што треба да знаете за паркинзите и мопедите BinBin.",
             "title (SQ)": "Udhëzues i Hartës",
-            "description (SQ)": "Pogledajte ove, koje trebate znati o parkirnim mjestima i mopedima BinBin."
+            "description (SQ)": "Pogledajte ove, koje trebate znati o parkirnim mjestima i mopedima BinBin.",
+            "title (SR)": "Vodič za kartu",
+            "description (SR)": "Pogledajte ove, koje trebate znati o parkirnim mjestima i mopedima BinBin.",
+            "title (HR)": "Vodič za kartu",
+            "description (HR)": "Pogledajte ove, koje trebate znati o parkirnim mjestima i mopedima BinBin."
         }
     ]
 }

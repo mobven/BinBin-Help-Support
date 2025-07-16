@@ -8,7 +8,9 @@
       "title (BS)": "BinPass i plaćanje",
       "title (AZ)": "BinPass və ödəmə",
       "title (MK)": "BinPass и плаќање",
-      "title (SQ)": "BinPass ve Ödeme"
+      "title (SQ)": "BinPass ve Ödeme",
+      "title (SR)": "BinPass i plaćanje",
+      "title (HR)": "BinPass i plaćanje"
     },
     {
       "id": 2,
@@ -18,7 +20,9 @@
       "title (BS)": "Račun i lični podaci",
       "title (AZ)": "Hesab və şəxsi məlumatlar",
       "title (MK)": "Акаунт и лични податоци",
-      "title (SQ)": "Hesap ve Kişisel Detaylar"
+      "title (SQ)": "Hesap ve Kişisel Detaylar",
+      "title (SR)": "Račun i lični podaci",
+      "title (HR)": "Račun i lični podaci"
     },
     {
       "id": 3,
@@ -28,7 +32,9 @@
       "title (BS)": "Кампање",
       "title (AZ)": "Кампании",
       "title (MK)": "Кампании",
-      "title (SQ)": "Kampanyalar"
+      "title (SQ)": "Kampanyalar",
+      "title (SR)": "Кампање",
+      "title (HR)": "Кампање"
     },
     {
       "id": 4,
@@ -38,7 +44,9 @@
       "title (BS)": "Početak vožnje",
       "title (AZ)": "Вожд бастамасы",
       "title (MK)": "Започнување на вожд",
-      "title (SQ)": "Sürüş Başlatma"
+      "title (SQ)": "Sürüş Başlatma",
+      "title (SR)": "Početak vožnje",
+      "title (HR)": "Početak vožnje"
     },
     {
       "id": 5,
@@ -48,7 +56,9 @@
       "title (BS)": "Vožnja",
       "title (AZ)": "Вожд",
       "title (MK)": "Вожд",
-      "title (SQ)": "Sürüş Sırası"
+      "title (SQ)": "Sürüş Sırası",
+      "title (SR)": "Vožnja",
+      "title (HR)": "Vožnja"
     },
     {
       "id": 6,
@@ -58,7 +68,9 @@
       "title (BS)": "Završavanje vožnje",
       "title (AZ)": "Вожд сов",
       "title (MK)": "Заврши вожд",
-      "title (SQ)": "Sürüş Sonu"
+      "title (SQ)": "Sürüş Sonu",
+      "title (SR)": "Završavanje vožnje",
+      "title (HR)": "Završavanje vožnje"
     },
     {
       "id": 7,
@@ -68,7 +80,9 @@
       "title (BS)": "Апликација",
       "title (AZ)": "Апликација",
       "title (MK)": "Апликација",
-      "title (SQ)": "Uygulama"
+      "title (SQ)": "Uygulama",
+      "title (SR)": "Апликација",
+      "title (HR)": "Апликација"
     }
   ],
   "faq": [
@@ -76,9 +90,9 @@
       "Sıra": 30,
       "TypeId": 1,
       "Soru (TR)": "BinPass Paket almak",
-      "Cevap (TR)": "BinBin uygulamasındaki menü üzerinden BinPass’i tıklayarak bölgendeki paketleri görüntüleyebilir ve satın alabilirsin. Uygulamanı güncellemeyi, paket satın almadan önce içeriğini ve kullanım koşullarını okumayı unutma.",
+      "Cevap (TR)": "BinBin uygulamasındaki menü üzerinden BinPass'i tıklayarak bölgendeki paketleri görüntüleyebilir ve satın alabilirsin. Uygulamanı güncellemeyi, paket satın almadan önce içeriğini ve kullanım koşullarını okumayı unutma.",
       "Soru (EN)": "Buying a BinPass",
-      "Cevap (EN)": "Tap on BinPass in the menu to see BinPass packages available at your location. Don’t forget to update your BinBin app to the latest version to see BinPass options. Make sure you've read all information about your chosen package before purchasing as well as Terms & Conditions.",
+      "Cevap (EN)": "Tap on BinPass in the menu to see BinPass packages available at your location. Don't forget to update your BinBin app to the latest version to see BinPass options. Make sure you've read all information about your chosen package before purchasing as well as Terms & Conditions.",
       "Soru (BG)": null,
       "Cevap (BG)": null,
       "Soru (BS)": null,
@@ -89,12 +103,16 @@
       "Soru (ES)": null,
       "Soru (NL)": null,
       "Soru (CA)": null,
+      "Soru (SR)": null,
+      "Soru (HR)": null,
       "Cevap (AZ)": null,
       "Cevap (MK)": null,
       "Cevap (SQ)": null,
       "Cevap (ES)": null,
       "Cevap (NL)": null,
-      "Cevap (CA)": null
+      "Cevap (CA)": null,
+      "Cevap (SR)": null,
+      "Cevap (HR)": null
     },
     {
       "Sıra": 12,
@@ -113,12 +131,16 @@
       "Soru (ES)": null,
       "Soru (NL)": null,
       "Soru (CA)": null,
+      "Soru (SR)": null,
+      "Soru (HR)": null,
       "Cevap (AZ)": null,
       "Cevap (MK)": null,
       "Cevap (SQ)": null,
       "Cevap (ES)": null,
       "Cevap (NL)": null,
-      "Cevap (CA)": null
+      "Cevap (CA)": null,
+      "Cevap (SR)": null,
+      "Cevap (HR)": null
     },
     {
       "Sıra": 37,
@@ -137,12 +159,16 @@
       "Soru (ES)": null,
       "Soru (NL)": null,
       "Soru (CA)": null,
+      "Soru (SR)": null,
+      "Soru (HR)": null,
       "Cevap (AZ)": null,
       "Cevap (MK)": null,
       "Cevap (SQ)": null,
       "Cevap (ES)": null,
       "Cevap (NL)": null,
-      "Cevap (CA)": null
+      "Cevap (CA)": null,
+      "Cevap (SR)": null,
+      "Cevap (HR)": null
     },
     {
       "Sıra": 1,
@@ -161,12 +187,16 @@
       "Soru (ES)": null,
       "Soru (NL)": null,
       "Soru (CA)": null,
+      "Soru (SR)": null,
+      "Soru (HR)": null,
       "Cevap (AZ)": null,
       "Cevap (MK)": null,
       "Cevap (SQ)": null,
       "Cevap (ES)": null,
       "Cevap (NL)": null,
-      "Cevap (CA)": null
+      "Cevap (CA)": null,
+      "Cevap (SR)": null,
+      "Cevap (HR)": null
     },
     {
       "Sıra": 5,
@@ -185,12 +215,16 @@
       "Soru (ES)": null,
       "Soru (NL)": null,
       "Soru (CA)": null,
+      "Soru (SR)": null,
+      "Soru (HR)": null,
       "Cevap (AZ)": null,
       "Cevap (MK)": null,
       "Cevap (SQ)": null,
       "Cevap (ES)": null,
       "Cevap (NL)": null,
-      "Cevap (CA)": null
+      "Cevap (CA)": null,
+      "Cevap (SR)": null,
+      "Cevap (HR)": null
     },
     {
       "Sıra": 21,
@@ -209,12 +243,16 @@
       "Soru (ES)": null,
       "Soru (NL)": null,
       "Soru (CA)": null,
+      "Soru (SR)": null,
+      "Soru (HR)": null,
       "Cevap (AZ)": null,
       "Cevap (MK)": null,
       "Cevap (SQ)": null,
       "Cevap (ES)": null,
       "Cevap (NL)": null,
-      "Cevap (CA)": null
+      "Cevap (CA)": null,
+      "Cevap (SR)": null,
+      "Cevap (HR)": null
     },
     {
       "Sıra": 12,
@@ -233,12 +271,16 @@
       "Soru (ES)": null,
       "Soru (NL)": null,
       "Soru (CA)": null,
+      "Soru (SR)": null,
+      "Soru (HR)": null,
       "Cevap (AZ)": null,
       "Cevap (MK)": null,
       "Cevap (SQ)": null,
       "Cevap (ES)": null,
       "Cevap (NL)": null,
-      "Cevap (CA)": null
+      "Cevap (CA)": null,
+      "Cevap (SR)": null,
+      "Cevap (HR)": null
     }
   ]
 }
