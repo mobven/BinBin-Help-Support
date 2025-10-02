@@ -3,35 +3,35 @@
         "TR": "Harita Kılavuzu",
         "EN": "Map Guide",
         "BG": "Картографическо ръководство",
-        "BS": "Vodič za kartu",
+        "BS": "Vodič za mapu",
         "RU": "Руководство по карте",
         "MK": "Водич за картата",
         "SQ": "Udhëzuesi i kartës",
-        "SR": "Vodič za kartu",
-        "HR": "Vodič za kartu"
+        "SR": "Vodič za mapu",
+        "HR": "Vodič za mapu"
     },
     "tab-buttons": [
         {
             "TR": "Harita Alanları",
             "EN": "Map Areas",
             "BG": "Картографски области",
-            "BS": "Kartografske zone",
+            "BS": "Zone na mapi",
             "RU": "Картографические зоны",
             "MK": "Картографски области",
             "SQ": "Kartografske zone",
-            "SR": "Kartografske zone",
-            "HR": "Kartografske zone"
+            "SR": "Zone na mapi",
+            "HR": "Zone na mapi"
         },
         {
             "TR": "BinBinler",
             "EN": "BinBins",
             "BG": "БинБин",
-            "BS": "BinBin",
+            "BS": "BinBin-ovi",
             "RU": "БинБин",
             "MK": "БинБин",
             "SQ": "BinBin",
-            "SR": "BinBin",
-            "HR": "BinBin"
+            "SR": "BinBin-ovi",
+            "HR": "BinBin-ovi"
         }
     ],
     "tabs": [
@@ -43,18 +43,18 @@
                 "description (EN)": "Park your scooter in areas that are not prohibited and follow the rules to avoid legal issues.",
                 "title (BG)": "Недозволен район",
                 "description (BG)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата.",
-                "title (BS)": "Ne dopuštena zona",
-                "description (BS)": "Parkiraj moped u područjima koja nisu zabranjena i slijedi pravila kako bi se izbjegli pravni problemi.",
+                "title (BS)": "Zona zabrane parkiranja",
+                "description (BS)": "Kako ne biste bili izloženi nekim restriktivnim mjerama, parkirajte na mjesta na kojima nisu zone zabrane parkiranja i u skladu sa pravilima.",
                 "title (RU)": "Недозволен район",
                 "description (RU)": "Чтобы избежать правовых проблем, паркируйте мопед в районах, которые не запрещены, и следуйте правилам.",
                 "title (MK)": "Недозволен район",
                 "description (MK)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата.",
                 "title (SQ)": "Недозволен район",
                 "description (SQ)": "За да избегнете правовни проблеми, паркирайте мопеда в райони, които не са забранени, и следвайте правилата.",
-                "title (SR)": "Ne dopuštena zona",
-                "description (SR)": "Parkiraj moped u područjima koja nisu zabranjena i slijedi pravila kako bi se izbjegli pravni problemi.",
-                "title (HR)": "Ne dopuštena zona",
-                "description (HR)": "Parkiraj moped u područjima koja nisu zabranjena i slijedi pravila kako bi se izbjegli pravni problemi."
+                "title (SR)": "Zona zabrane parkiranja",
+                "description (SR)": "Kako ne biste bili izloženi nekim restriktivnim mjerama, parkirajte na mjesta na kojima nisu zone zabrane parkiranja i u skladu sa pravilima.",
+                "title (HR)": "Zona zabrane parkiranja",
+                "description (HR)": "Kako ne biste bili izloženi nekim restriktivnim mjerama, parkirajte na mjesta na kojima nisu zone zabrane parkiranja i u skladu sa pravilima."
             },
             "discount-area": {
                 "title (TR)": "İndirimli park alanı",
@@ -63,17 +63,17 @@
                 "description (EN)": "Check the discounted parking areas around the map, make your journey more economical.",
                 "title (BG)": "Пониска зона",
                 "description (BG)": "Проверете пониските паркинг зони около картата, направете вашето пътуване по-економно.",
-                "title (BS)": "Popustna zona",
-                "description (BS)": "Provjeri popustne zone oko karte, napravi svoju vožnju ekonomičnijom.",
+                "title (BS)": "Zone parkiranja s popustom",
+                "description (BS)": "Provjerite u Vašoj okolici na mapi zone parkiranja sa popustom, učinite Vaše putovanje još ekonomičnijim.",
                 "title (RU)": "Пониска зона",
                 "description (RU)": "Проверьте пониские паркинг зоны вокруг карты, сделайте ваше путешествие более экономичным.",
                 "title (MK)": "Пониска зона",
                 "description (MK)": "Проверете пониските паркинг зони околу картата, направете вашето вожње по-економски.",
                 "title (SQ)": "Недозволен район",
-                "title (SR)": "Popustna zona",
-                "description (SR)": "Provjeri popustne zone oko karte, napravi svoju vožnju ekonomičnijom.",
-                "title (HR)": "Popustna zona",
-                "description (HR)": "Provjeri popustne zone oko karte, napravi svoju vožnju ekonomičnijom."
+                "title (SR)": "Zone parkiranja s popustom",
+                "description (SR)": "Provjerite u Vašoj okolici na mapi zone parkiranja sa popustom, učinite Vaše putovanje još ekonomičnijim.",
+                "title (HR)": "Zone parkiranja s popustom",
+                "description (HR)": "Provjerite u Vašoj okolici na mapi zone parkiranja sa popustom, učinite Vaše putovanje još ekonomičnijim."
             },
             "no-service-area": {
                 "title (TR)": "Hizmet dışı alanlar",
@@ -82,18 +82,18 @@
                 "description (EN)": "Check the map while riding and make sure you are not in a service area to avoid legal issues.",
                 "title (BG)": "Недозволен район",
                 "description (BG)": "Проверете картата, докато водите, и се уверете, че не сте в зона за обслужване, за да избегнете правовни проблеми.",
-                "title (BS)": "Ne servisna zona",
-                "description (BS)": "Provjeri kartu dok god voziš i budi siguran da niješ u servisnoj zoni kako bi se izbjegli pravni problemi.",
+                "title (BS)": "Područja van zone usluge",
+                "description (BS)": "Kako biste izbjegli neke restriktivne mjere, prilikom i pri završavanju vožnje provjerite mapu i uvjerite se da niste van zone usluge i korištenja BinBin-a.",
                 "title (RU)": "Недозволен район",
                 "description (RU)": "Проверьте карту во время вождения и убедитесь, что вы не находитесь в зоне обслуживания, чтобы избежать правовых проблем.",
                 "title (MK)": "Недозволен район",
                 "description (MK)": "Проверете картата во време на вожње и се уверете дека не сте во зона за услуга, за да избегнете правовни проблеми.",
                 "title (SQ)": "Недозволен район",
                 "description (SQ)": "Проверете картата, докато водите, и се уверете, че не сте в зона за обслужване, за да избегнете правовни проблеми.",
-                "title (SR)": "Ne servisna zona",
-                "description (SR)": "Provjeri kartu dok god voziš i budi siguran da niješ u servisnoj zoni kako bi se izbjegli pravni problemi.",
-                "title (HR)": "Ne servisna zona",
-                "description (HR)": "Provjeri kartu dok god voziš i budi siguran da niješ u servisnoj zoni kako bi se izbjegli pravni problemi."
+                "title (SR)": "Područja van zone usluge",
+                "description (SR)": "Kako biste izbjegli neke restriktivne mjere, prilikom i pri završavanju vožnje provjerite mapu i uvjerite se da niste van zone usluge i korištenja BinBin-a.",
+                "title (HR)": "Područja van zone usluge",
+                "description (HR)": "Kako biste izbjegli neke restriktivne mjere, prilikom i pri završavanju vožnje provjerite mapu i uvjerite se da niste van zone usluge i korištenja BinBin-a."
             }
         },
         {
@@ -105,7 +105,7 @@
                 "title (BG)": "Препоръчан BinBin",
                 "description (BG)": "Не се притеснявайте, ако не виждате BinBin близо до вашето местоположение! \"Препоръчан BinBin\" ви насочва към най-близкия и готов за използване BinBin.",
                 "title (BS)": "Preporučeni BinBin",
-                "description (BS)": "Ne brinite ako ne vidite BinBin u blizini vaše lokacije! \"Preporučeni BinBin\" usmjerava vas na najbliži i spreman za korištenje BinBin.",
+                "description (BS)": "Ukoliko ne možete vidjeti BinBin u blizini lokacije na kojoj se nalazite, ne žalostite se! \"Preporučeni BinBin\" će Vas usmjeriti na Vama najbliži BinBin spreman za korištenje.",
                 "title (RU)": "Рекомендуемый BinBin",
                 "description (RU)": "Не волнуйтесь, если вы не видите BinBin рядом с вашим местоположением! \"Рекомендуемый BinBin\" направит вас к ближайшему и готовому к использованию BinBin.",
                 "title (MK)": "Препорачан BinBin",
@@ -113,9 +113,9 @@
                 "title (SQ)": "BinBin i rekomanduar",
                 "description (SQ)": "Mos u shqetësoni nëse nuk shihni një BinBin afër vendndodhjes tuaj! \"BinBin i rekomanduar\" ju drejton drejt BinBin-it më të afërt dhe të gatshëm për përdorim.",
                 "title (SR)": "Preporučeni BinBin",
-                "description (SR)": "Ne brinite ako ne vidite BinBin u blizini vaše lokacije! \"Preporučeni BinBin\" usmjerava vas na najbliži i spreman za korištenje BinBin.",
+                "description (SR)": "Ukoliko ne možete vidjeti BinBin u blizini lokacije na kojoj se nalazite, ne žalostite se! \"Preporučeni BinBin\" će Vas usmjeriti na Vama najbliži BinBin spreman za korištenje.",
                 "title (HR)": "Preporučeni BinBin",
-                "description (HR)": "Ne brinite ako ne vidite BinBin u blizini vaše lokacije! \"Preporučeni BinBin\" usmjerava vas na najbliži i spreman za korištenje BinBin."
+                "description (HR)": "Ukoliko ne možete vidjeti BinBin u blizini lokacije na kojoj se nalazite, ne žalostite se! \"Preporučeni BinBin\" će Vas usmjeriti na Vama najbliži BinBin spreman za korištenje."
             },
             "discounted-binbin": {
                 "title (TR)": "İndirimli BinBin",
@@ -125,7 +125,7 @@
                 "title (BG)": "BinBin с отстъпка",
                 "description (BG)": "Имате право да използвате BinBin с отстъпка! Ние показваме BinBin с отстъпка близо до вас на картата.",
                 "title (BS)": "BinBin s popustom",
-                "description (BS)": "Imate pravo koristiti BinBin s popustom! Prikazujemo BinBin s popustom u vašoj blizini na karti.",
+                "description (BS)": "I Vaše je pravo da koristite BinBin s popustom! Prikazujemo BinBin-ove s popustom u Vašoj okolici.",
                 "title (RU)": "BinBin со скидкой",
                 "description (RU)": "У вас есть право использовать BinBin со скидкой! Мы показываем BinBin со скидкой рядом с вами на карте.",
                 "title (MK)": "BinBin со попуст",
@@ -133,9 +133,9 @@
                 "title (SQ)": "BinBin me zbritje",
                 "description (SQ)": "Ju keni të drejtë të përdorni BinBin me zbritje! Ne shfaqim BinBin me zbritje afër jush në hartë.",
                 "title (SR)": "BinBin s popustom",
-                "description (SR)": "Imate pravo koristiti BinBin s popustom! Prikazujemo BinBin s popustom u vašoj blizini na karti.",
+                "description (SR)": "I Vaše je pravo da koristite BinBin s popustom! Prikazujemo BinBin-ove s popustom u Vašoj okolici.",
                 "title (HR)": "BinBin s popustom",
-                "description (HR)": "Imate pravo koristiti BinBin s popustom! Prikazujemo BinBin s popustom u vašoj blizini na karti."
+                "description (HR)": "I Vaše je pravo da koristite BinBin s popustom! Prikazujemo BinBin-ove s popustom u Vašoj okolici."
             },
             "recommended-discounted-binbin": {
                 "title (TR)": "Önerilen ve İndirimli BinBin",
@@ -144,18 +144,18 @@
                 "description (EN)": "Win-win! Among the BinBins closest to you, it directs you to the discounted one.",
                 "title (BG)": "Препоръчан и с отстъпка BinBin",
                 "description (BG)": "Печелиш-печелиш! Сред BinBin-ите, които са най-близо до вас, те насочва към този с отстъпка.",
-                "title (BS)": "Preporučeni i BinBin s popustom",
-                "description (BS)": "Pobijedite-pobijedite! Među BinBinovima koji su vam najbliži, usmjerava vas na onaj s popustom.",
+                "title (BS)": "Preporučeni BinBin s popustom",
+                "description (BS)": "Osvojite osvojite! Usmjerava Vas na BinBin s popustom među BinBin-ovima koji su Vama najbliži.",
                 "title (RU)": "Рекомендуемый и со скидкой BinBin",
                 "description (RU)": "Выигрыш-выигрыш! Среди BinBin, ближайших к вам, направит вас к тому, что со скидкой.",
                 "title (MK)": "Препорачан и со попуст BinBin",
                 "description (MK)": "Победи-победи! Меѓу BinBin-ите кои се најблиску до вас, ве насочува кон оној со попуст.",
                 "title (SQ)": "BinBin i rekomanduar dhe me zbritje",
                 "description (SQ)": "Fitim-fitim! Ndër BinBin-at më të afërt me ju, ju drejton drejt atij me zbritje.",
-                "title (SR)": "Preporučeni i BinBin s popustom",
-                "description (SR)": "Pobijedite-pobijedite! Među BinBinovima koji su vam najbliži, usmjerava vas na onaj s popustom.",
-                "title (HR)": "Preporučeni i BinBin s popustom",
-                "description (HR)": "Pobijedite-pobijedite! Među BinBinovima koji su vam najbliži, usmjerava vas na onaj s popustom."
+                "title (SR)": "Preporučeni BinBin s popustom",
+                "description (SR)": "Osvojite osvojite! Usmjerava Vas na BinBin s popustom među BinBin-ovima koji su Vama najbliži.",
+                "title (HR)": "Preporučeni BinBin s popustom",
+                "description (HR)": "Osvojite osvojite! Usmjerava Vas na BinBin s popustom među BinBin-ovima koji su Vama najbliži."
             }
         }
     ]

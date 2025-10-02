@@ -3,12 +3,12 @@
         "TR": "Mod Seçimi ve Kullanım Alanı",
         "EN": "Mode Selection and Usage Area",
         "BG": "Избор на режим и област на използване",
-        "BS": "Izbor moda i područja upotrebe",
+        "BS": "Odabir režima i zona korištenja",
         "RU": "Выбор режима и области использования",
         "MK": "Избор на режим и област на употреба",
         "SQ": "Seleksionimi i modit dhe zonës së përdorimit",
-        "SR": "Izbor moda i područja upotrebe",
-        "HR": "Izbor moda i područja upotrebe"
+        "SR": "Odabir režima i zona korištenja",
+        "HR": "Odabir režima i zona korištenja"
     },
     "tabs": [
         {
@@ -16,45 +16,45 @@
                 "TR": "Mod Seçimi",
                 "EN": "Mode Selection",
                 "BG": "Избор на режим",
-                "BS": "Izbor moda",
+                "BS": "Odabir režima vožnje",
                 "RU": "Выбор режима",
                 "MK": "Избор на режим",
                 "SQ": "Seleksionimi i modit",
-                "SR": "Izbor moda",
-                "HR": "Izbor moda"
+                "SR": "Odabir režima vožnje",
+                "HR": "Odabir režima vožnje"
             },
             "mod-info": {
                 "TR": "Birbirinde 3 sürüş modu bulunur.",
                 "EN": "There are 3 riding modes available.",
                 "BG": "Има 3 режима за водене на мопеда.",
-                "BS": "Postoje 3 moda vožnje mopeda.",
+                "BS": "Postoje 3 režima vožnje",
                 "RU": "Есть 3 режима вождения мопеда.",
                 "MK": "Постојат 3 режими за вожња на мопедот.",
                 "SQ": "Постојат 3 режими за вожња на мопедот.",
-                "SR": "Postoje 3 moda vožnje mopeda.",
-                "HR": "Postoje 3 moda vožnje mopeda."
+                "SR": "Postoje 3 režima vožnje",
+                "HR": "Postoje 3 režima vožnje"
             },
             "mode-description": {
                 "TR": "Scooter direksiyonundaki kapatma tuşuna 2 kez bastığında bu modları görebilirsin.",
                 "EN": "When you press the lock button on the scooter handle twice, you can see these modes.",
                 "BG": "Когато натиснете бутона за заключване на мопеда, можете да видите тези режими.",
-                "BS": "Kada pritisneš gumb za zaključavanje mopeda, možeš vidjeti ove mode.",
+                "BS": "Ove režime možete vidjeti kada pritisnete dvaput na power dugme koje se nalazi na ručkama skutera.",
                 "RU": "Когда нажимаете кнопку за закрытие мопеда, вы можете увидеть эти режимы.",
                 "MK": "Кога ќе притиснете копчето за заклучок на мопедот, можете да видите овие режими.",
                 "SQ": "Кога ќе притиснете копчето за заклучок на мопедот, можете да видите овие режими.",
-                "SR": "Kada pritisneš gumb za zaključavanje mopeda, možeš vidjeti ove mode.",
-                "HR": "Kada pritisneš gumb za zaključavanje mopeda, možeš vidjeti ove mode."
+                "SR": "Ove režime možete vidjeti kada pritisnete dvaput na power dugme koje se nalazi na ručkama skutera.",
+                "HR": "Ove režime možete vidjeti kada pritisnete dvaput na power dugme koje se nalazi na ručkama skutera."
             },
             "mode-tip": {
                 "TR": "Her yeni sürüşe başlarken mod rotana, trafik ve hava durumuna göre karar vererek istersen manuel ya da uygulama üzerinden o sürüşe özel değiştirebilirsin.",
                 "EN": "When you start a new ride, decide on the mode based on the route, traffic, and weather conditions. You can change the mode manually or through the app for that specific ride.",
                 "BG": "Когато започнете нова водна, решете за режима въз основа на маршрута, трафика и времето. Можете да промените режима ръчно или през приложението за тази конкретна водна.",
-                "BS": "Kada počneš novi vožnji, odluči se za mod na osnovi rute, prometa i vremenskih uslova. Možeš da promeniš mod ručno ili putem aplikacije za tu specifičnu vožnju.",
+                "BS": "Kad započinjete svaki put iznova vožnju, možete manuelno ili preko aplikacije podesiti režim vožnje shodno vremenskim prilikama, saobraćaju, ruti te odabrati odgovarajući režim za Vašu vožnju.",
                 "RU": "Когда вы начинаете новую поездку, решите режим на основе маршрута, трафика и погодных условий. Вы можете изменить режим вручную или через приложение для этой конкретной поездки.",
                 "MK": "Кога ќе започнете нова вожна, одлучете се за режим на основу на маршрутот, трафикот и временските услови. Можете да промените режимот ручно или преку апликацијата за таа конкретна вожна.",
                 "SQ": "Кога започнете нов вожд, одлучете се за режим на основу на маршрутот, трафикот и временските услови. Можете да промените режимот ручно или преку апликацијата за таа конкретна вожна.",
-                "SR": "Kada počneš novi vožnji, odluči se za mod na osnovi rute, prometa i vremenskih uslova. Možeš da promeniš mod ručno ili putem aplikacije za tu specifičnu vožnju.",
-                "HR": "Kada počneš novi vožnji, odluči se za mod na osnovi rute, prometa i vremenskih uslova. Možeš da promeniš mod ručno ili putem aplikacije za tu specifičnu vožnju."
+                "SR": "Kad započinjete svaki put iznova vožnju, možete manuelno ili preko aplikacije podesiti režim vožnje shodno vremenskim prilikama, saobraćaju, ruti te odabrati odgovarajući režim za Vašu vožnju.",
+                "HR": "Kad započinjete svaki put iznova vožnju, možete manuelno ili preko aplikacije podesiti režim vožnje shodno vremenskim prilikama, saobraćaju, ruti te odabrati odgovarajući režim za Vašu vožnju."
             }
         },
         {
@@ -62,35 +62,35 @@
                 "TR": "Kullanım Alanları",
                 "EN": "Usage Areas",
                 "BG": "Област на използване",
-                "BS": "Područja upotrebe",
+                "BS": "Zone korištenja",
                 "RU": "Област использования",
                 "MK": "Област на употреба",
                 "SQ": "Zonës së përdorimit",
-                "SR": "Područja upotrebe",
-                "HR": "Područja upotrebe"
+                "SR": "Zone korištenja",
+                "HR": "Zone korištenja"
             },
             "eco-mode": {
                 "title": {
                     "TR": "ECO Mod hangi sürüş için?",
                     "EN": "ECO Mode for which ride?",
                     "BG": "ECO режим за коя водна?",
-                    "BS": "ECO mod za koju vožnju?",
+                    "BS": "Za koju vožnju je ECO režim?",
                     "RU": "Режим ECO для какой поездки?",
                     "MK": "Режим ECO за која вожна?",
                     "SQ": "Режим ECO за кој вожд?",
-                    "SR": "ECO mod za koju vožnju?",
-                    "HR": "ECO mod za koju vožnju?"
+                    "SR": "Za koju vožnju je ECO režim?",
+                    "HR": "Za koju vožnju je ECO režim?"
                 },
                 "description": {
                     "TR": "BinBin kullanmaya yeni başlayanlar, yoğun yağışlı havalarda ya da yoğun trafik esnasında sürüş yapacaklar için uygundur.",
                     "EN": "New users of BinBin, who will ride in heavy rain or heavy traffic, are suitable.",
                     "BG": "Нови потребители на BinBin, които ще водят в тежки дъждове или тежки трафик, са подходящи.",
-                    "BS": "Novi korisnici BinBin-a, koji će voziti u teškim kišama ili teškim prometu, su prikladni.",
+                    "BS": "Predstavlja režim koji odgovara početnicim korisnicima BinBin-a, u vremenskim prilikama obilnih padavina ili za jako gust saobraćaj.",
                     "RU": "Новые пользователи BinBin, которые будут ездить в сильных дождях или в тяжелом трафике, подходят.",
                     "MK": "Нови корисници на BinBin, кои ќе водат во тешки дожди или тешки трафик, се пододговараат.",
                     "SQ": "Нови корисници на BinBin, кои ќе водат во тешки дожди или тешки трафик, се пододговараат.",
-                    "SR": "Novi korisnici BinBin-a, koji će voziti u teškim kišama ili teškim prometu, su prikladni.",
-                    "HR": "Novi korisnici BinBin-a, koji će voziti u teškim kišama ili teškim prometu, su prikladni."
+                    "SR": "Predstavlja režim koji odgovara početnicim korisnicima BinBin-a, u vremenskim prilikama obilnih padavina ili za jako gust saobraćaj.",
+                    "HR": "Predstavlja režim koji odgovara početnicim korisnicima BinBin-a, u vremenskim prilikama obilnih padavina ili za jako gust saobraćaj."
                 }
             },
             "drive-mode": {
@@ -98,23 +98,23 @@
                     "TR": "Drive Mod hangi sürüş için?",
                     "EN": "Drive Mode for which ride?",
                     "BG": "Drive режим за коя водна?",
-                    "BS": "Drive mod za koju vožnju?",
+                    "BS": "Za koju vožnju je Drive režim?",
                     "RU": "Режим Drive для какой поездки?",
                     "MK": "Режим Drive за која вожна?",
                     "SQ": "Режим Drive за кој вожд?",
-                    "SR": "Drive mod za koju vožnju?",
-                    "HR": "Drive mod za koju vožnju?"
+                    "SR": "Za koju vožnju je Drive režim?",
+                    "HR": "Za koju vožnju je Drive režim?"
                 },
                 "description": {
                     "TR": "Orta düzeyde BinBin sürüş deneyimi bulunan kişiler, orta akıcı trafik ve rota içerisinde sürüş yapacaklar için uygundur.",
                     "EN": "Users with moderate BinBin riding experience, who will ride in moderate traffic and route, are suitable.",
                     "BG": "Потребители сmoderate BinBin водна, които ще водят вmoderate трафик и маршрут, са подходящи.",
-                    "BS": "Korisnici sa moderate BinBin vožnje, koji će voziti u moderate prometu i rute, su prikladni.",
+                    "BS": "Ovaj režim je pogodan za one koji imaju srednje iskustvo korištenja BinBin-a, kod srednje gustog saobraćaja i rute koju su kreirali.",
                     "RU": "Пользователи с режимом вождения BinBin, которые будут ездить в умеренном трафике и маршруте, подходят.",
                     "MK": "Корисници со режим вожња BinBin, кои ќе водат во умерен трафик и маршрут, се пододговараат.",
                     "SQ": "Корисници со режим вожња BinBin, кои ќе водат во умерен трафик и маршрут, се пододговараат.",
-                    "SR": "Korisnici sa moderate BinBin vožnje, koji će voziti u moderate prometu i rute, su prikladni.",
-                    "HR": "Korisnici sa moderate BinBin vožnje, koji će voziti u moderate prometu i rute, su prikladni."
+                    "SR": "Ovaj režim je pogodan za one koji imaju srednje iskustvo korištenja BinBin-a, kod srednje gustog saobraćaja i rute koju su kreirali.",
+                    "HR": "Ovaj režim je pogodan za one koji imaju srednje iskustvo korištenja BinBin-a, kod srednje gustog saobraćaja i rute koju su kreirali."
                 }
             },
             "sport-mode": {
@@ -122,23 +122,23 @@
                     "TR": "Sport Mod hangi sürüş için?",
                     "EN": "Sport Mode for which ride?",
                     "BG": "Sport режим за коя водна?",
-                    "BS": "Sport mod za koju vožnju?",
+                    "BS": "Za koju vožnju je Sportski režim?",
                     "RU": "Режим Sport для какой поездки?",
                     "MK": "Режим Sport за која вожна?",
                     "SQ": "Режим Sport за кој вожд?",
-                    "SR": "Sport mod za koju vožnju?",
-                    "HR": "Sport mod za koju vožnju?"
+                    "SR": "Za koju vožnju je Sportski režim?",
+                    "HR": "Za koju vožnju je Sportski režim?"
                 },
                 "description": {
                     "TR": "BinBin kullanmakta tecrübeli olan ve düzenli sürüş gerçekleştiren, akıcı trafik ve yağışsız hava koşullarında sürüş yapacak kullanıcılar için uygundur.",
                     "EN": "Users who have experience using BinBin and regularly ride, who will ride in fast traffic and rain-free weather conditions, are suitable.",
                     "BG": "Потребители сexperienced BinBin водна, които ще водят в бърз трафик и време без дъжд, са подходящи.",
-                    "BS": "Korisnici sa iskustvom korištenja BinBin-a i redovnom vožnjom, koji će voziti u brzom prometu i vremenu bez kiše, su prikladni.",
+                    "BS": "Za one koji imaju iskustvo korištenja BinBin-a, redovno voze, za prohodan saobraćaj bez težih vremenskih prilika.",
                     "RU": "Пользователи с опытом использования BinBin и регулярным вождением, которые будут ездить в быстром трафике и погодных условиях без дождя, подходят.",
                     "MK": "Корисници со искуство на користење на BinBin и редовно вожња, кои ќе водат во брз трафик и временски услови без дожд, се пододговараат.",
                     "SQ": "Корисници со искуство на користење на BinBin и редовно вожња, кои ќе водат во брз трафик и временски услови без дожд, се пододговараат.",
-                    "SR": "Korisnici sa iskustvom korištenja BinBin-a i redovnom vožnjom, koji će voziti u brzom prometu i vremenu bez kiše, su prikladni.",
-                    "HR": "Korisnici sa iskustvom korištenja BinBin-a i redovnom vožnjom, koji će voziti u brzom prometu i vremenu bez kiše, su prikladni."
+                    "SR": "Za one koji imaju iskustvo korištenja BinBin-a, redovno voze, za prohodan saobraćaj bez težih vremenskih prilika.",
+                    "HR": "Za one koji imaju iskustvo korištenja BinBin-a, redovno voze, za prohodan saobraćaj bez težih vremenskih prilika."
                 }
             }
         }

@@ -3,12 +3,12 @@
         "TR": "Sürüş Rehberi",
         "EN": "Driving Rules",
         "BG": "Правила за управление",
-        "BS": "Pravila za vožnju",
+        "BS": "Putni vodič",
         "RU": "Правила управления",
         "MK": "Правила за вожња",
         "SQ": "Reglas de conducción",
-        "SR": "Pravila za vožnju",
-        "HR": "Pravila za vožnju"
+        "SR": "Putni vodič",
+        "HR": "Putni vodič"
     },
     "guide": [
         {
@@ -18,18 +18,18 @@
             "description (EN)": "Check the things you need to pay attention to before, during, and after the ride.",
             "title (BG)": "Подробни правила за управление",
             "description (BG)": "Прегледайте тези, които трябва да внимавате преди, по време и след водене на автомобила.",
-            "title (BS)": "Detaljne pravila za vožnju",
-            "description (BS)": "Pogledajte ove, koje trebate pripaziti prije, tijekom i nakon vožnje.",
+            "title (BS)": "Sveobuhvatna pravila vožnje",
+            "description (BS)": "Obratite pažnju na one stvari na koje morate paziti prije, u toku i pri završetku vožnje.",
             "title (RU)": "Подробные правила управления",
             "description (RU)": "Проверьте все, что вам нужно обратить внимание перед, во время и после поездки.",
             "title (MK)": "Подробни правила за вожња",
             "description (MK)": "Проверете ги сите, што треба да внимавате пред, во време и по вожњата.",
             "title (SQ)": "Regulë të zgjeruara të drejtëzimit",
             "description (SQ)": "Kontrolloni gjithçka që duhet të kujdeseni përpara, gjatë dhe pas udhëtimit.",
-            "title (SR)": "Detaljne pravila za vožnju",
-            "description (SR)": "Pogledajte ove, koje trebate pripaziti prije, tijekom i nakon vožnje.",
-            "title (HR)": "Detaljne pravila za vožnju",
-            "description (HR)": "Pogledajte ove, koje trebate pripaziti prije, tijekom i nakon vožnje."
+            "title (SR)": "Sveobuhvatna pravila vožnje",
+            "description (SR)": "Obratite pažnju na one stvari na koje morate paziti prije, u toku i pri završetku vožnje.",
+            "title (HR)": "Sveobuhvatna pravila vožnje",
+            "description (HR)": "Obratite pažnju na one stvari na koje morate paziti prije, u toku i pri završetku vožnje."
         },
         {
             "title (TR)": "Mod Seçimi ve Kullanım Alanı",
