@@ -25,23 +25,23 @@
         "title (TR)": "Nasıl Kullanılır?",
         "title (EN)": "How to Use?",
         "title (BG)": "Как да се използва?",
-        "title (BS)": "Kako koristiti?",
+        "title (BS)": "Kako se koristi?",
         "title (RU)": "Как использовать?",
         "title (MK)": "Како да се користи?",
         "title (SQ)": "Како да се користи?",
-        "title (SR)": "Kako koristiti?",
-        "title (HR)": "Kako koristiti?"
+        "title (SR)": "Kako se koristi?",
+        "title (HR)": "Kako se koristi?"
     },
     "driving-guide": {
         "title (TR)": "Sürüş Rehberi",
         "title (EN)": "Riding Guide",
         "title (BG)": "Ръководство за каране",
-        "title (BS)": "Vodič za vožnju",
+        "title (BS)": "Putni vodič",
         "title (RU)": "Руководство по вождению",
         "title (MK)": "Водич за возење",
         "title (SQ)": "Udhëzuesi i vozitjes",
-        "title (SR)": "Vodič za vožnju",
-        "title (HR)": "Vodič za vožnju"
+        "title (SR)": "Putni vodič",
+        "title (HR)": "Putni vodič"
     },
     "faq": {
         "title (TR)": "Sıkça Sorulan Sorular",

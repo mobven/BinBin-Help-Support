@@ -38,18 +38,18 @@
             "description (EN)": "If you want to ride the scooter, set it to the mode that suits your journey before each ride.",
             "title (BG)": "Избор на режим и област на използване",
             "description (BG)": "Ако искаш да возиш мопеда, задай режима, който ти е подходящ за пътуването преди всяко водене.",
-            "title (BS)": "Izbor moda i područja upotrebe",
-            "description (BS)": "Ako želiš voziti moped, postavi ga na mod koji ti je odgovara za vožnju prije svakog vožnje.",
+            "title (BS)": "Odabir režima i zona korištenja",
+            "description (BS)": "Ukoliko želite, svaki put prije putovanja podesite režim vožnje koji odgovara Vašem putovanju.",
             "title (RU)": "Выбор режима и области использования",
             "description (RU)": "Если хотите ездить на мопеде, установите режим, который подходит для вашего путешествия перед каждым вождением.",
             "title (MK)": "Избор на режим и област на употреба",
             "description (MK)": "Ако сакаш да возиш мопед, постави го на режим кој ти одговара за вожњата пред секое вожње.",
             "title (SQ)": "Seleksionimi i modit dhe zonës së përdorimit",
             "description (SQ)": "Nëse dëshironi të vozoni mopedin, vendosni në modin që ju përputhet për udhëtimin para çdo udhëtimi.",
-            "title (SR)": "Izbor moda i područja upotrebe",
-            "description (SR)": "Ako želiš voziti moped, postavi ga na mod koji ti je odgovara za vožnju prije svakog vožnje.",
-            "title (HR)": "Izbor moda i područja upotrebe",
-            "description (HR)": "Ako želiš voziti moped, postavi ga na mod koji ti je odgovara za vožnju prije svakog vožnje."
+            "title (SR)": "Odabir režima i zona korištenja",
+            "description (SR)": "Ukoliko želite, svaki put prije putovanja podesite režim vožnje koji odgovara Vašem putovanju.",
+            "title (HR)": "Odabir režima i zona korištenja",
+            "description (HR)": "Ukoliko želite, svaki put prije putovanja podesite režim vožnje koji odgovara Vašem putovanju."
         },
         {
             "title (TR)": "Harita Kılavuzu",
@@ -58,18 +58,18 @@
             "description (EN)": "Check the things you need to know about parking areas and BinBin vehicles.",
             "title (BG)": "Карта водач",
             "description (BG)": "Прегледайте тези, които трябва да знаете за паркинг местата и мопедите BinBin.",
-            "title (BS)": "Vodič za kartu",
-            "description (BS)": "Pogledajte ove, koje trebate znati o parkirnim mjestima i mopedima BinBin.",
+            "title (BS)": "Vodič za mapu",
+            "description (BS)": "Istražite stvari koje trebate znati o BinBin vozilicama i parking zonama.",
             "title (RU)": "Путеводитель по карте",
             "description (RU)": "Проверьте все, что вам нужно знать о парковках и BinBin автомобилях.",
             "title (MK)": "Водич за мапа",
             "description (MK)": "Проверете ги сите, што треба да знаете за паркинзите и мопедите BinBin.",
             "title (SQ)": "Udhëzues i Hartës",
             "description (SQ)": "Pogledajte ove, koje trebate znati o parkirnim mjestima i mopedima BinBin.",
-            "title (SR)": "Vodič za kartu",
-            "description (SR)": "Pogledajte ove, koje trebate znati o parkirnim mjestima i mopedima BinBin.",
-            "title (HR)": "Vodič za kartu",
-            "description (HR)": "Pogledajte ove, koje trebate znati o parkirnim mjestima i mopedima BinBin."
+            "title (SR)": "Vodič za mapu",
+            "description (SR)": "Istražite stvari koje trebate znati o BinBin vozilicama i parking zonama.",
+            "title (HR)": "Vodič za mapu",
+            "description (HR)": "Istražite stvari koje trebate znati o BinBin vozilicama i parking zonama."
         }
     ]
 }

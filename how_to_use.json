@@ -10,6 +10,41 @@
         "SR": "Kako se koristi?",
         "HR": "Kako se koristi?"
     },
+    "tabs": [
+        {
+            "title (TR)": "Scooter",
+            "title (EN)": "Scooter",
+            "title (BG)": "Scooter",
+            "title (BS)": "Skuter",
+            "title (RU)": "Scooter",
+            "title (MK)": "Scooter",
+            "title (SQ)": "Scooter",
+            "title (SR)": "Skuter",
+            "title (HR)": "Skuter"
+        },
+        {
+            "title (TR)": "Moped",
+            "title (EN)": "Moped",
+            "title (BG)": "Moped",
+            "title (BS)": "Moped",
+            "title (RU)": "Moped",
+            "title (MK)": "Moped",
+            "title (SQ)": "Moped",
+            "title (SR)": "Moped",
+            "title (HR)": "Moped"
+        },
+        {
+            "title (TR)": "E-Bike",
+            "title (EN)": "E-Bike",
+            "title (BG)": "E-Bike",
+            "title (BS)": "E-Bike",
+            "title (RU)": "E-Bike",
+            "title (MK)": "E-Bike",
+            "title (SQ)": "E-Bike",
+            "title (SR)": "E-Bike",
+            "title (HR)": "E-Bike"
+        }
+    ],
     "scooter": [
         {
             "title (TR)": "QR Kodu Okut",
@@ -141,7 +176,7 @@
             "title (BG)": "Сканирайте QR кода с камерата на телефона си, за да започнете да водите с избрания БинБин на картата.",
             "description (BG)": "Сканирайте QR кода с камерата на телефона си, за да започнете да водите с избрания БинБин на картата.",
             "title (BS)": "Da biste započeli vožnju sa mopedom, skenirajte QR kod.",
-            "description (BS)": "SQR kod možete skenirati sa telefonskom kamerom.",
+            "description (BS)": "QR kod možete skenirati sa telefonskom kamerom.",
             "title (RU)": "Сканируйте QR-код с камерой на телефоне, чтобы начать езду с выбранным BinBin на карте.",
             "description (RU)": "Сканируйте QR-код с камерой на телефоне, чтобы начать езду с выбранным BinBin на карте.",
             "title (MK)": "Скенирајте QR-код со камерот на телефонот, за да почнете вожд со одбраниот BinBin на картата.",

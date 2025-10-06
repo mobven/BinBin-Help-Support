@@ -11,6 +11,14 @@ function updateContent() {
             document.title = data.title[languageCode];
             document.querySelector('.header h1').textContent = data.title[languageCode];
 
+            // Tab başlıklarını güncelle
+            const tabButtons = document.querySelectorAll('.tab-button');
+            tabButtons.forEach((button, index) => {
+                if (data.tabs[index]) {
+                    button.textContent = data.tabs[index]['title (' + languageCode + ')'];
+                }
+            });
+
             // Scooter slider içeriğini güncelle
             const scooterSlider = document.getElementById('scooter-slider');
             if (scooterSlider && data.scooter) {

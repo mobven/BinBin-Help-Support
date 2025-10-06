@@ -68,7 +68,7 @@
             "title (BG)": "Спусни стойката и потегли",
             "description (BG)": "След като спуснеш стойката, започни да въртиш педалите. Можеш да спираш с лостовете за спирачки от двете страни на кормилото.",
             "title (BS)": "Spustite nogaru i krenite na put",
-            "description (BS)": "Nakon što spustite nogaru, počnite da okrećete pedale. Možete usporiti i stati pritiskanjem ručica kočnica na obe strane upravljača.",
+            "description (BS)": "Nakon što spustite nogaru, počnite pedalati. Stiskajući ručice kočnica koje se nalaze lijevo i desno na upravljaču, možete usporiti i stati.",
             "title (RU)": "Опустите подножку и отправляйтесь",
             "description (RU)": "После опускания подножки начинайте крутить педали. Замедлиться и остановиться можно сжав тормозные рычаги слева и справа на руле.",
             "title (MK)": "Спушти ја подлогата и започни",
@@ -76,9 +76,9 @@
             "title (SQ)": "Ulni mbështetësen dhe nisuni",
             "description (SQ)": "Pasi të ulësh mbështetësen, fillo të pedalosh. Mund të ngadalësosh dhe të ndalosh duke shtrënguar levat e frenave në të dy anët e timonit.",
             "title (SR)": "Spustite nogaru i krenite na put",
-            "description (SR)": "Nakon što spustite nogaru, počnite da okrećete pedale. Možete usporiti i stati pritiskanjem ručica kočnica na obe strane upravljača.",
+            "description (SR)": "Nakon što spustite nogaru, počnite pedalati. Stiskajući ručice kočnica koje se nalaze lijevo i desno na upravljaču, možete usporiti i stati.",
             "title (HR)": "Spustite nogaru i krenite na put",
-            "description (HR)": "Nakon što spustite nogaru, počnite da okrećete pedale. Možete usporiti i stati pritiskanjem ručica kočnica na obe strane upravljača."
+            "description (HR)": "Nakon što spustite nogaru, počnite pedalati. Stiskajući ručice kočnica koje se nalaze lijevo i desno na upravljaču, možete usporiti i stati."
         }
     ],
     "during": [

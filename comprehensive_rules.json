@@ -25,12 +25,12 @@
         "TR": "Sürüş Sırası",
         "EN": "During the Ride",
         "BG": "Водна",
-        "BS": "Vožnja",
+        "BS": "Tokom vožnje",
         "RU": "Вождение",
         "MK": "Вожд",
-        "SQ": "Vožnja",
-        "SR": "Vožnja",
-        "HR": "Vožnja"
+        "SQ": "Tokom vožnje",
+        "SR": "Tokom vožnje",
+        "HR": "Tokom vožnje"
     },
     "after": {
         "TR": "Sürüş Bitimi",
@@ -76,6 +76,41 @@
             "SQ": "Заврши",
             "SR": "Završi",
             "HR": "Završi"
+        }
+    ],
+    "tabs": [
+        {
+            "title (TR)": "Scooter",
+            "title (EN)": "Scooter",
+            "title (BG)": "Scooter",
+            "title (BS)": "Skuter",
+            "title (RU)": "Scooter",
+            "title (MK)": "Scooter",
+            "title (SQ)": "Scooter",
+            "title (SR)": "Skuter",
+            "title (HR)": "Skuter"
+        },
+        {
+            "title (TR)": "Moped",
+            "title (EN)": "Moped",
+            "title (BG)": "Moped",
+            "title (BS)": "Moped",
+            "title (RU)": "Moped",
+            "title (MK)": "Moped",
+            "title (SQ)": "Moped",
+            "title (SR)": "Moped",
+            "title (HR)": "Moped"
+        },
+        {
+            "title (TR)": "E-Bike",
+            "title (EN)": "E-Bike",
+            "title (BG)": "E-Bike",
+            "title (BS)": "E-Bike",
+            "title (RU)": "E-Bike",
+            "title (MK)": "E-Bike",
+            "title (SQ)": "E-Bike",
+            "title (SR)": "E-Bike",
+            "title (HR)": "E-Bike"
         }
     ]
 }

@@ -363,7 +363,7 @@ body {
 
 /* Mod Seçimi Sayfası Stilleri */
 .mode-content {
-    padding: 24px 16px;
+    padding: 24px 16px 100px 16px;
     text-align: left;
 }
 

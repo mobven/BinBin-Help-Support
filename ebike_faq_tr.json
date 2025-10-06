@@ -56,9 +56,9 @@
       "title (BS)": "Vožnja",
       "title (AZ)": "Вожд",
       "title (MK)": "Вожд",
-      "title (SQ)": "Sürüş Sırası",
-      "title (SR)": "Vožnja",
-      "title (HR)": "Vožnja"
+      "title (SQ)": "Tokom vožnje",
+      "title (SR)": "Tokom vožnje",
+      "title (HR)": "Tokom vožnje"
     },
     {
       "id": 6,
@@ -68,7 +68,7 @@
       "title (BS)": "Završavanje vožnje",
       "title (AZ)": "Вожд сов",
       "title (MK)": "Заврши вожд",
-      "title (SQ)": "Sürüş Sonu",
+      "title (SQ)": "Završavanje vožnje",
       "title (SR)": "Završavanje vožnje",
       "title (HR)": "Završavanje vožnje"
     },

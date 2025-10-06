@@ -17,6 +17,13 @@ document.addEventListener('DOMContentLoaded', async function() {
     const nextButton = document.querySelector('.next-button');
     const tabSlider = document.querySelector('.tab-slider');
 
+    // Tab başlıklarını güncelle
+    tabButtons.forEach((button, index) => {
+        if (commonData.tabs[index]) {
+            button.textContent = commonData.tabs[index]['title (' + languageCode + ')'];
+        }
+    });
+
     // İçeriği güncelleme fonksiyonu
     function updateContent(vehicleType, section) {
         const rules = {
