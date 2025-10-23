@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     const scooterOption = document.getElementById('vehicle-scooter');
     const mopedOption = document.getElementById('vehicle-moped');
     const ebikeOption = document.getElementById('vehicle-ebike');
+    const taxiOption = document.getElementById('vehicle-taxi');
     const faqList = document.querySelector('.faq-list');
 
     // URL'den dil ve ülke kodunu al
@@ -71,7 +72,9 @@ document.addEventListener('DOMContentLoaded', async function() {
     if (ebikeOption) {
         ebikeOption.addEventListener('click', () => navigateToDetails('ebike'));
     }
-
+    if (taxiOption) {
+        taxiOption.addEventListener('click', () => navigateToDetails('taxi'));
+    }
     // Ortak konular için akordiyon işlevi (faq-details.js'deki gibi)
     const commonFaqItems = document.querySelectorAll('.common-topics .faq-item');
     commonFaqItems.forEach(item => {

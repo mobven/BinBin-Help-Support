@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     // URL'den araç tipini al
     const urlParams = new URLSearchParams(window.location.search);
     const vehicleType = urlParams.get('vehicle') || 'scooter';
+    console.log(vehicleType);
 
     // JSON dosyalarını yükle
     const [faqResponse, vehicleResponse] = await Promise.all([
@@ -18,7 +19,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     const vehicleNameMap = {
         'scooter': 'Scooter',
         'moped': 'Moped',
-        'ebike': 'E-Bike'
+        'ebike': 'E-Bike',
+        'taxi': 'Taksi',
     };
     document.title = `${vehicleNameMap[vehicleType]} - SSS`;
     document.querySelector('#faq-details-title').textContent = vehicleNameMap[vehicleType];
