@@ -121,10 +121,20 @@ body {
     position: relative;
     flex: 1;
     overflow: hidden;
-    overflow-x: hidden;
     padding-top: 16px;
+    min-height: 0;
+}
+
+/* Son slide aktifken slider-container flex olsun */
+.slider-container.final-slide-active {
     display: flex;
     flex-direction: column;
+}
+
+.slider-container.final-slide-active .slider.active {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     min-height: 0;
 }
 
@@ -234,23 +244,17 @@ body {
 .final-slide {
     padding: 24px;
     text-align: left;
-    overflow: hidden;
-    touch-action: pan-y;
-    position: relative;
 }
 
 /* Son slide içeriğini dikeyde kaydırılabilir yap */
 .final-slide .slide-content {
-    /* Flex container içinde scroll için height gerekli */
-    height: 100%;
+    flex: 1;
     overflow-y: auto;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
-    padding-bottom: 24px;
+    padding-bottom: 100px;
     touch-action: pan-y;
-    position: relative;
-    will-change: scroll-position;
-    /* Mobil tarayıcılar için momentum scrolling */
+    min-height: 0;
     overscroll-behavior: contain;
 }
 
@@ -324,27 +328,27 @@ body {
     animation: slideIn 0.3s ease-in-out;
     touch-action: pan-y;
     flex: 1;
-    overflow: hidden;
     min-height: 0;
-    display: flex;
-    flex-direction: column;
+    overflow: hidden;
 }
 
 .slider.active {
-    display: flex;
+    display: block;
 }
-
 
 .slide {
     display: none;
-    flex: 1;
-    overflow: hidden;
-    min-height: 0;
-    flex-direction: column;
 }
 
 .slide.active {
+    display: block;
+}
+
+/* Sadece son slide için flex yapısı */
+.final-slide.active {
     display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 @keyframes slideIn {
@@ -361,14 +365,6 @@ body {
 .slide-content {
     margin-bottom: 24px;
     padding: 0 16px;
-    flex: 1;
-    overflow: hidden;
-    min-height: 0;
-}
-
-/* Normal slide'larda içerik scroll olmamalı */
-.slide:not(.final-slide) .slide-content {
-    overflow: visible;
 }
 
 .slide-image {
