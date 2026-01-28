@@ -4,20 +4,31 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
 body {
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: #ffffff;
-    height: 100%;
-    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .container {
     max-width: 600px;
     margin: 0 auto;
     background-color: #ffffff;
-    min-height: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     position: relative;
-    padding-bottom: 160px;
+    overflow: hidden;
 }
 
 .header {
@@ -109,10 +120,12 @@ body {
 .slider-container {
     position: relative;
     flex: 1;
-    overflow-y: visible;
+    overflow: hidden;
     overflow-x: hidden;
     padding-top: 16px;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
 }
 
 .slide-dots {
@@ -221,18 +234,17 @@ body {
 .final-slide {
     padding: 24px;
     text-align: left;
-    overflow: visible;
+    overflow: hidden;
     touch-action: pan-y;
     position: relative;
-    /* Mobil tarayıcılarda scroll'u etkinleştir */
-    -webkit-overflow-scrolling: touch;
 }
 
 /* Son slide içeriğini dikeyde kaydırılabilir yap */
 .final-slide .slide-content {
-    /* Ekran yüksekliğinden header, tablar ve alt butonun kapladığı alanı düş */
-    max-height: calc(100vh - 260px);
-    overflow-y: scroll;
+    /* Flex container içinde scroll için height gerekli */
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     padding-bottom: 24px;
     touch-action: pan-y;
@@ -311,19 +323,28 @@ body {
     display: none;
     animation: slideIn 0.3s ease-in-out;
     touch-action: pan-y;
-    min-height: 100%;
+    flex: 1;
+    overflow: hidden;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .slider.active {
-    display: block;
+    display: flex;
 }
 
-.slide.active {
-    display: block;
-}
 
 .slide {
     display: none;
+    flex: 1;
+    overflow: hidden;
+    min-height: 0;
+    flex-direction: column;
+}
+
+.slide.active {
+    display: flex;
 }
 
 @keyframes slideIn {
@@ -340,6 +361,14 @@ body {
 .slide-content {
     margin-bottom: 24px;
     padding: 0 16px;
+    flex: 1;
+    overflow: hidden;
+    min-height: 0;
+}
+
+/* Normal slide'larda içerik scroll olmamalı */
+.slide:not(.final-slide) .slide-content {
+    overflow: visible;
 }
 
 .slide-image {
@@ -371,14 +400,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        padding-bottom: 140px;
-    }
-    
-    .slider-container {
-        padding-bottom: 0;
-    }
-    
     .slide-image {
         max-height: 200px;
     }
@@ -394,27 +415,13 @@ body {
     
     /* Mobilde son slide scroll ayarları */
     .final-slide .slide-content {
-        max-height: calc(100vh - 240px);
-        max-height: calc(100dvh - 240px); /* Dynamic viewport height for mobile */
-        overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
         touch-action: pan-y;
-        position: relative;
         will-change: scroll-position;
         overscroll-behavior: contain;
         /* Mobil tarayıcılarda scroll'u zorla etkinleştir */
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
-    }
-    
-    /* Mobilde slider container scroll'u engellemesin */
-    .slider-container {
-        overflow-y: visible !important;
-    }
-    
-    /* Mobilde final slide için özel ayarlar */
-    .slider .final-slide {
-        overflow: visible !important;
     }
 }
 
