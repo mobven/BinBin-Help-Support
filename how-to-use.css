@@ -221,14 +221,25 @@ body {
 .final-slide {
     padding: 24px;
     text-align: left;
+    overflow: visible;
+    touch-action: pan-y;
+    position: relative;
+    /* Mobil tarayıcılarda scroll'u etkinleştir */
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Son slide içeriğini dikeyde kaydırılabilir yap */
 .final-slide .slide-content {
     /* Ekran yüksekliğinden header, tablar ve alt butonun kapladığı alanı düş */
     max-height: calc(100vh - 260px);
-    overflow-y: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     padding-bottom: 24px;
+    touch-action: pan-y;
+    position: relative;
+    will-change: scroll-position;
+    /* Mobil tarayıcılar için momentum scrolling */
+    overscroll-behavior: contain;
 }
 
 .final-title {
@@ -379,6 +390,31 @@ body {
     
     .slide-content p {
         font-size: 14px;
+    }
+    
+    /* Mobilde son slide scroll ayarları */
+    .final-slide .slide-content {
+        max-height: calc(100vh - 240px);
+        max-height: calc(100dvh - 240px); /* Dynamic viewport height for mobile */
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        touch-action: pan-y;
+        position: relative;
+        will-change: scroll-position;
+        overscroll-behavior: contain;
+        /* Mobil tarayıcılarda scroll'u zorla etkinleştir */
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    
+    /* Mobilde slider container scroll'u engellemesin */
+    .slider-container {
+        overflow-y: visible !important;
+    }
+    
+    /* Mobilde final slide için özel ayarlar */
+    .slider .final-slide {
+        overflow: visible !important;
     }
 }
 

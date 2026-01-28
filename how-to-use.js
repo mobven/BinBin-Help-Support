@@ -215,14 +215,32 @@ document.addEventListener('DOMContentLoaded', function() {
     sliders.forEach(slider => {
         const slides = slider.querySelectorAll('.slide');
         let touchStartX = 0;
+        let touchStartY = 0;
         let touchEndX = 0;
         
         // Touch olayları
         slider.addEventListener('touchstart', (e) => {
             touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
         }, false);
 
         slider.addEventListener('touchmove', (e) => {
+            // Final slide aktifse scroll'a izin ver
+            const activeSlide = slider.querySelector('.slide.active');
+            const isFinalSlide = activeSlide && activeSlide.classList.contains('final-slide');
+            
+            if (isFinalSlide) {
+                const touch = e.touches[0];
+                const deltaX = Math.abs(touch.clientX - touchStartX);
+                const deltaY = Math.abs(touch.clientY - touchStartY);
+                
+                // Dikey scroll yapılıyorsa (yataydan fazla) engelleme
+                if (deltaY > deltaX) {
+                    // Dikey scroll'a izin ver
+                    return;
+                }
+            }
+            
             e.preventDefault(); // Sayfanın kaymasını engelle
         }, false);
 
@@ -232,6 +250,15 @@ document.addEventListener('DOMContentLoaded', function() {
             const currentSlideIndex = Array.from(slides).findIndex(slide => 
                 slide.classList.contains('active')
             );
+            
+            // Final slide'da swipe ile slide geçişini engelle
+            const activeSlide = slides[currentSlideIndex];
+            const isFinalSlide = activeSlide && activeSlide.classList.contains('final-slide');
+            
+            if (isFinalSlide) {
+                // Final slide'da sadece scroll yapılabilir, slide geçişi yok
+                return;
+            }
 
             // Minimum kaydırma mesafesi (piksel)
             const minSwipeDistance = 50;
