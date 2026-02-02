@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-html, body {
+/* Android WebView uyumluluğu: 100vh bazı WebView'larda 0 hesaplanabilir */
+html {
     height: 100%;
-    overflow: hidden;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -14,9 +15,11 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
-    position: fixed;
     width: 100%;
-    height: 100vh;
+    min-height: 100%;
+    height: 100%;
+    /* Android WebView: fill-available viewport'u daha doğru doldurur */
+    min-height: -webkit-fill-available;
     overflow: hidden;
 }
 
@@ -24,7 +27,9 @@ body {
     max-width: 600px;
     margin: 0 auto;
     background-color: #ffffff;
-    height: 100vh;
+    min-height: 100%;
+    height: 100%;
+    min-height: -webkit-fill-available;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -123,6 +128,8 @@ body {
     overflow: hidden;
     padding-top: 16px;
     min-height: 0;
+    /* Android WebView: flex:1 bazen 0 height verir, minimum yükseklik garantisi */
+    min-height: 200px;
 }
 
 /* Son slide aktifken slider-container flex olsun */
