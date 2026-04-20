@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     // İçeriği güncelleme fonksiyonu
     function updateContent(vehicleType, section) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         const rules = {
             'ebike': ebikeRules,
             'moped': mopedRules,
@@ -147,7 +148,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (nextTab) {
             nextTab.click();
         } else {
-            window.location.href = 'driving-guide.html';
+            const languageCode = window.currentLanguage || 'TR';
+            window.location.href = `driving-guide.html?langCode=${languageCode}`;
         }
     });
 

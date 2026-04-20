@@ -289,7 +289,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Eğer son slide'daysa ana sayfaya yönlendir
         if (isLastSlide) {
-            window.location.href = 'help-support.html';
+            const languageCode = window.currentLanguage || 'TR';
+            window.location.href = `help-support.html?langCode=${languageCode}`;
             return;
         }
         
