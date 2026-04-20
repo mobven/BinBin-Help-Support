@@ -241,24 +241,6 @@
             "Cevap (MK)": "1.Паркирај го BinBin на фиксна локација според правилата за паркирање.2.Ако има катанец, закачи го и осигури се дека си го чул звукот на заклучување. Заклучениот BinBin испушта звук бип.3.Кликни на копчето \"Заврши ја возењето\" и сликај го целиот BinBin за да ја завршиш возењето."
         },
         {
-            "Sıra": 2,
-            "TypeId": 3,
-            "Soru (TR)": "Nereye park etmeliyim?",
-            "Cevap (TR)": "Özel mülkler dışında, haritada beyaz alanlara park edebilirsin. Kırmızı alanlara park yasaktır. Yeşil alanlar indirimlidir.",
-            "Soru (EN)": "Where should I park?",
-            "Cevap (EN)": "You can park in white zones on the map, except for private properties. Parking in red zones is prohibited. Green zones offer discounts.",
-            "Soru (BG)": "Where should I park?",
-            "Cevap (BG)": "You can park in white zones on the map, except for private properties. Parking in red zones is prohibited. Green zones offer discounts.",
-            "Soru (BS)": "Gdje trebam parkirati?",
-            "Cevap (BS)": "Možeš parkirati u bijelim zonama na mapi, osim na privatnim posjedima. Parkiranje u crvenim zonama je zabranjeno. Zelene zone nude popuste.",
-            "Soru (RU)": "Where should I park?",
-            "Cevap (RU)": "You can park in white zones on the map, except for private properties. Parking in red zones is prohibited. Green zones offer discounts.",
-            "Soru (SQ)": "Ku duhet të parkoj?",
-            "Cevap (SQ)": "Mund të parkosh në zonat e bardha në hartë, përveç pronave private. Parkimi në zonat e kuqe është i ndaluar. Zonat e gjelbra ofrojnë zbritje.",
-            "Soru (MK)": "Каде треба да паркирам?",
-            "Cevap (MK)": "Можеш да паркираш во белите зони на мапата, освен на приватен имот. Паркирањето во црвените зони е забрането. Зелените зони нудат попусти."
-        },
-        {
             "Sıra": 1,
             "TypeId": 4,
             "Soru (TR)": "Binpass paketi nedir?",
