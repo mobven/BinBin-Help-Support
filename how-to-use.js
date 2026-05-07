@@ -194,18 +194,28 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Tüm slide'ları gizle
                     const slides = slider.querySelectorAll('.slide');
                     slides.forEach(slide => slide.classList.remove('active'));
-                    // Aktif slide'ı göster
-                    if (currentSlideIndex < slides.length) {
-                        slides[currentSlideIndex].classList.add('active');
-                        // Dots'ları güncelle
-                        dots.forEach((dot, index) => {
-                            if (index === currentSlideIndex) {
-                                dot.classList.add('active');
-                            } else {
-                                dot.classList.remove('active');
-                            }
+                    // İlk slide'ı aktif yap (tab değiştiğinde ilk slide'a dön)
+                    currentSlideIndex = 0;
+                    slides[0].classList.add('active');
+                    
+                    // Dots'ları güncelle (ilk dot aktif)
+                    dots.forEach((dot, index) => {
+                        dot.classList.toggle('active', index === 0);
+                    });
+                    
+                    // Final slide sınıflarını kaldır
+                    const fixedBottom = document.querySelector('.fixed-bottom');
+                    const sliderContainer = document.querySelector('.slider-container');
+                    fixedBottom.classList.remove('final-slide-active');
+                    sliderContainer.classList.remove('final-slide-active');
+                    
+                    // Buton metnini "İlerle" olarak güncelle
+                    fetch('how_to_use.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            const languageCode = window.currentLanguage || 'TR';
+                            nextButton.textContent = data['next-button'][0]['title (' + languageCode + ')'];
                         });
-                    }
                 }
             });
         });
